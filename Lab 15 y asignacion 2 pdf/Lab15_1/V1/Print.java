@@ -1,3 +1,8 @@
+/***
+ * @autor: Brayan Puyol, Ashly Mendieta
+ * @date: 23/09/2024
+ * @version: 1.0
+ */
 public class Print
 {
 	public static void main(String [] args)
