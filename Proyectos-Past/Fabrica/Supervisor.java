@@ -1,28 +1,29 @@
 
 import javax.swing.JTextArea;
 
-
 public class Supervisor extends Thread {
 
     private Caja caja;
     private int id;
     private int i = 0;
-    JTextArea consola;
+    private JTextArea texto; //nuevo
 
-    public Supervisor(Caja caja, int id, JTextArea csl) {
+    public Supervisor(Caja caja, int id, JTextArea texto) {
         this.caja = caja;
         this.id = id;
-        consola = csl;
+        this.texto = texto;
     }
 
+    @Override
     public void run() {
-        int tiempo = 0;
+        int tiempo;
+        
         while (true) {
             synchronized (caja) {
                 while (caja.isNoTengo()) {
                     if (caja.getCantCajaActual() != caja.getMaxCantCajas()) {
                         try {
-                            consola.append("\nSupervisor: " + id + " is waiting...");
+                            texto.append("\nSupervisor: " + id + " is waiting...");//nuevo
                             System.out.println("Supervisor: " + id + " is waiting...");
                             caja.wait(100);
                         } catch (InterruptedException e) {
@@ -30,10 +31,11 @@ public class Supervisor extends Thread {
                     }
                     break;
                 }
-            }
+            } 
             
             //El consumidor intenta tomar la caja.
             try {
+                // System.out.println("Supervisor Verify if the box full");
                 tiempo = (int) (Math.random() * 1 + 1);
                 Thread.sleep(tiempo);
             } catch (InterruptedException e) {}
@@ -44,7 +46,7 @@ public class Supervisor extends Thread {
                 synchronized (caja) {
                     if (caja.getCantCajaActual() != caja.getMaxCantCajas()) {
                         quitarCaja();
-                        consola.append("\nSupervisor: " + id + " Quita la Cajeta:" + caja.getCantCajaActual());
+                        texto.append("\nSupervisor: " + id + " Quita la Cajeta:" + caja.getCantCajaActual());//nuevo
                         System.out.println("Supervisor: " + id + " Quita la Cajeta:" + caja.getCantCajaActual());
                         caja.notifyAll();
                         caja.setNoTengo(true);

@@ -1,10 +1,11 @@
-package Fabrica_Papel;
 
-import *;
+import javax.swing.*;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import text.DefaultCaret;
+
+import javax.swing.text.DefaultCaret;
 
 public class FabricaPapelGui extends JFrame {
     private JLabel labelCajas;

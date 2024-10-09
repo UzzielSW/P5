@@ -1,9 +1,9 @@
 import java.awt.Color;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import JButton;
-import JProgressBar;
-import JTextField;
+
+import javax.swing.*;
+
 
 public class HiloToyota implements Runnable {
 

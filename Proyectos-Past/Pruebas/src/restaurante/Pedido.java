@@ -1,5 +1,4 @@
 
-package restaurante;
 
 import java.io.Serializable;
 

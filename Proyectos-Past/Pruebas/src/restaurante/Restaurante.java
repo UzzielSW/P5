@@ -1,8 +1,6 @@
-package restaurante;
-
-import Banco.CuentaBancaria;
-import *;
 import java.awt.*;
+
+import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;

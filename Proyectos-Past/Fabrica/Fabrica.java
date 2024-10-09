@@ -1,9 +1,9 @@
-package com.mycompany.fabrica_de_papel;
 
 import java.awt.Color;
 import static java.lang.Thread.sleep;
 
 import javax.swing.*;
+import javax.swing.text.DefaultCaret;
 
 public class Fabrica extends JFrame {
 
@@ -45,6 +45,8 @@ public class Fabrica extends JFrame {
             }
         });
 
+        cajas.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+
         GroupLayout panel_opcionLayout = new GroupLayout(panel_opcion);
         panel_opcion.setLayout(panel_opcionLayout);
         panel_opcionLayout.setHorizontalGroup(
@@ -79,6 +81,7 @@ public class Fabrica extends JFrame {
 
         texto.setColumns(20);
         texto.setRows(5);
+        texto.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         jScrollPane1.setViewportView(texto);
 
         GroupLayout panelMainLayout = new GroupLayout(panelMain);
@@ -127,13 +130,16 @@ public class Fabrica extends JFrame {
     private void btnStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStartActionPerformed
 
         this.texto.setText("");
+        
         Thread aux = new Thread(() -> {
+            btnStart.setEnabled(false);
+            
             Fabrica2 fMain = new Fabrica2(texto, (Integer) cajas.getValue(), (Integer) papel.getValue());
 
-            // fMain.start();
+            fMain.start();
 
             try {
-                sleep(500 * Math.max(fMain.cantPapel, fMain.cantCajas));
+                sleep(1000 * Math.max(fMain.cantPapel, fMain.cantCajas));
                 fMain.join();
             } catch (InterruptedException e) {
             }
@@ -149,18 +155,14 @@ public class Fabrica extends JFrame {
             while (!fMain.done) {
                 if (fMain.g1.activeGroupCount() == 0) {
                     fMain.done = true;
+                    btnStart.setEnabled(true);
                 }
             }
-
         });
 
         aux.start();
     }//GEN-LAST:event_btnStartActionPerformed
 
-    /**
-     * @param args the command line arguments
-     *
-     */
     public static void main(String args[]) {
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -184,7 +186,6 @@ public class Fabrica extends JFrame {
         }
         //</editor-fold>
 
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {

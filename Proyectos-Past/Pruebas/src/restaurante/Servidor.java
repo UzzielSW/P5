@@ -1,9 +1,9 @@
-package restaurante;
 
 import Banco.AdministradorServer;
 import Banco.CuentaBancaria;
 import Banco.OperacionesCliente;
 import Banco.RegistroCuentas;
+
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.GridBagLayout;
@@ -16,15 +16,9 @@ import java.net.Socket;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import BoxLayout;
-import JFrame;
-import JPanel;
-import JScrollPane;
-import JTextArea;
-import ScrollPaneConstants;
-import static WindowConstants.EXIT_ON_CLOSE;
-import text.DefaultCaret;
 
+import javax.swing.*;
+import javax.swing.text.DefaultCaret;
 public class Servidor extends JFrame {
 
     public static void main(String[] args) {

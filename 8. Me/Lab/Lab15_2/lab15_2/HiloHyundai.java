@@ -1,9 +1,11 @@
 import java.awt.Color;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import JButton;
-import JProgressBar;
-import JTextField;
+
+import javax.swing.JButton;
+import javax.swing.JProgressBar;
+import javax.swing.JTextField;
+
 
 public class HiloHyundai implements Runnable {
 

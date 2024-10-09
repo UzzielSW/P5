@@ -1,7 +1,6 @@
-package Fabrica_Papel;
 
-import JTextArea;
 
+import javax.swing.JTextArea;
 public class Fabrica extends Thread {
 
     boolean done;

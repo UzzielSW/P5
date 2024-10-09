@@ -1,13 +1,22 @@
-package Fabrica_Papel;
-
+//my
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.GridLayout;
 import static java.lang.Thread.sleep;
-import *;
-import border.EmptyBorder;
-import text.DefaultCaret;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.ScrollPaneConstants;
+import javax.swing.SwingConstants;
+import javax.swing.border.EmptyBorder;
+import javax.swing.text.DefaultCaret;
 
 public class GUI extends JFrame {
 

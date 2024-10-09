@@ -1,2 +1,0 @@
-com.mycompany.fabrica_de_papel.Fabrica2
-com.mycompany.fabrica_de_papel.MayorQueCeroException

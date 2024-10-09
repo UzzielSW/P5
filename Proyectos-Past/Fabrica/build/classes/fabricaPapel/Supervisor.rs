@@ -1,1 +1,0 @@
-com.mycompany.fabrica_de_papel.Supervisor
