@@ -1,0 +1,6 @@
+
+            socket = new Socket(ip, puerto);
+            mostrarTexto("Conectado a :" + socket.getInetAddress().getHostName());
+
+                mostrarTexto("Conexión establecida con: " + socketCliente.getRemoteSocketAddress() + "\n\n");
+           sincronizar metodos del banco 

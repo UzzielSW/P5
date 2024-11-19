@@ -1,60 +1,27 @@
-/**
- * @(#)Consumidor.java
- *
- *
- * @author
- * @version 1.00 2010/10/5
- */
+class Consumidor extends Thread {
 
-/******************************************************************************
-C:\Documents and Settings\Administrador\Mis documentos\Java 2010\Thread\
-Sitios Concurrencia\N 8\Buffer de Mensajes
-Clase Consumidor
+    private final Buffer buffer;
+    private final int id;
 
-******************************************************************************/
+    public Consumidor(Buffer b, int n) {
+        buffer = b;
+        this.id = n;
+    }
 
-public class Consumidor extends Thread {
-
-         private Buffer buffer;
-
-         private int num;
-
-
-
-         public Consumidor(Buffer b,int n) {
-
-                 buffer = b;
-
-                 this.num = n;
-
-         }
-
-
-
-         public void run() {
-
-                 for (int i=1; i<=25; i++) {
-
-                          int val=buffer.lee();
-
-                          System.out.println(" - Consumidor "+this.num+" toma: "+val);
-
-                          try {
-
-                                    sleep((int)(Math.random()*1000));
-
-                          } catch (InterruptedException e) {
-
-                                    System.out.println("Interrupción del hilo..." );
-
-                          }
-
-                 }
-
-         }
-
+    /**
+     * El metodo run() es el que se encarga de consumir los elementos del
+     * buffer. El consumidor consume 25 elementos que van desde el 1 hasta
+     * el 25. Despues de cada consumo, el consumidor duerme un tiempo
+     * aleatorio entre 0 y 1000 milisegundos.
+     */
+    public void run() {
+        for (int i = 1; i <= 25; i++) {
+            System.out.println("\n Consumidor " + this.id + " | Quito: " + buffer.lee());
+            try {
+                sleep((int) (Math.random() * 1000));
+            } catch (InterruptedException e) {
+                System.out.println("Interrupcion del hilo... ");
+            }
+        }
+    }
 }
-
-
-
-

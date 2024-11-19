@@ -1,5 +1,7 @@
 *.class
-*.tmp
-*.rar
+*.jar
 .vscode
-FUNDAMENTOS
+# *.txt
+*.MF
+*.ini
+*.rar

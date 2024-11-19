@@ -1,58 +1,34 @@
 /**
- * @(#)Productor.java
- *
- *
- * @author
- * @version 1.00 2010/10/5
+ * Clase Productor: Esta clase representa el hilo que se encarga de producir
+ * elementos y colocarlos en un buffer. El buffer es compartido con un
+ * consumidor que se encarga de extraer los elementos del buffer y procesarlos.
  */
 
-/******************************************************************************
-C:\Documents and Settings\Administrador\Mis documentos\Java 2010\Thread\
-Sitios Concurrencia\N 8\Buffer de Mensajes
-Clase Productor
-
-******************************************************************************/
-
 class Productor extends Thread {
+    private final Buffer buffer;
+    private final int id;
 
-         private Buffer buffer;
+    public Productor(Buffer b, int n) {
+        buffer = b;
+        this.id = n;
+    }
 
-         private int num;
-
-         public Productor(Buffer b,int n) {
-
-                 buffer = b;
-
-                 this.num = n;
-
-         }
-
-
-
-         public void run() {
-
-                 for (int i=1; i<=25; i++) {
-
-                          buffer.escribe(i);
-
-                          System.out.println(" - Productor " + this.num + " pone: " + i);
-
-                          try {
-
-                                    sleep((int)(Math.random()*700));
-
-                          } catch (InterruptedException e) {
-
-                                    System.out.println("Interrupción del hilo..." );
-
-                          }
-
-                 }
-
-         }
-
+    /**
+     * El metodo run() es el que se encarga de producir los elementos y
+     * colocarlos en el buffer. El productor produce 25 elementos que van
+     * desde el 1 hasta el 25. Despues de cada produccion, el productor
+     * duerme un tiempo aleatorio entre 0 y 700 milisegundos.
+     */
+    @Override
+    public void run() {
+        for (int i = 1; i <= 25; i++) {
+            System.out.println("\n Productor " + this.id + " | Pone: " + i);
+            buffer.escribe(i);
+            try {
+                sleep((int) (Math.random() * 700));
+            } catch (InterruptedException e) {
+                System.out.println("Interrupcion del hilo...");
+            }
+        }
+    }
 }
-
-
-
-
