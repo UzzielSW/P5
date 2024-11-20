@@ -78,6 +78,8 @@ public class Servidor extends JFrame {
         private ObjectOutputStream out;
 
         public PendienteThread(Factura factura, Socket socket, JTextArea txArea) {
+          //no es necesario esta factura porque
+          //luego el cliente la envia
             this.factura = factura;
             this.socket = socket;
             this.txArea = txArea;
