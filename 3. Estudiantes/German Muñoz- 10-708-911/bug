@@ -1,0 +1,1 @@
+bug: al intentar retirar una cantidad mayor a la disponible, se congela ventana del banco

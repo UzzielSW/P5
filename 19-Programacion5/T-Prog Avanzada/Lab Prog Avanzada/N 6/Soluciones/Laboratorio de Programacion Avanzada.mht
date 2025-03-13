@@ -1,0 +1,906 @@
+From: <Guardado por Windows Internet Explorer 8>
+Subject: Laboratorio de Programacion Avanzada
+Date: Sun, 26 Sep 2010 11:02:26 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cc.uah.es/lpa/Sesiones/LPA-Sesion6-Sol.htm
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3664
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word"><HEAD><TITLE>Laboratorio de =
+Programacion Avanzada</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18928">
+<META name=3DOriginator content=3D"Microsoft Word 11"><LINK =
+rel=3DFile-List=20
+href=3D"LPA-Sesion6-Sol_archivos/filelist.xml"><LINK =
+rel=3DEdit-Time-Data=20
+href=3D"LPA-Sesion6-Sol_archivos/editdata.mso"><!--[if !mso]>
+<STYLE>v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+w\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+</STYLE>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>YO</o:Author>
+  <o:LastAuthor>a</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>144</o:TotalTime>
+  <o:Created>2007-02-13T10:49:00Z</o:Created>
+  <o:LastSaved>2007-02-13T10:49:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>621</o:Words>
+  <o:Characters>3420</o:Characters>
+  <o:Company>MICASA</o:Company>
+  <o:Lines>28</o:Lines>
+  <o:Paragraphs>8</o:Paragraphs>
+  <o:CharactersWithSpaces>4033</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" LatentStyleCount=3D"156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<STYLE>@page Section1 {size: 595.3pt 841.9pt; margin: 70.85pt 3.0cm =
+70.85pt 3.0cm; mso-header-margin: 35.4pt; mso-footer-margin: 35.4pt; =
+mso-paper-source: 0; }
+P.MsoNormal {
+	TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"
+}
+LI.MsoNormal {
+	TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"
+}
+DIV.MsoNormal {
+	TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"
+}
+P.MsoFooter {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: justify; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0cm; MARGIN: 6pt 0cm 0pt 18pt; PADDING-LEFT: 0cm; =
+PADDING-RIGHT: 0cm; FONT-FAMILY: Arial; FONT-SIZE: 12pt; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0cm; =
+mso-padding-alt: 1.0pt 4.0pt 1.0pt 4.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-border-alt: solid windowtext .5pt; =
+mso-bidi-font-family: "Times New Roman"; mso-ansi-language: EN-GB
+}
+LI.MsoFooter {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: justify; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0cm; MARGIN: 6pt 0cm 0pt 18pt; PADDING-LEFT: 0cm; =
+PADDING-RIGHT: 0cm; FONT-FAMILY: Arial; FONT-SIZE: 12pt; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0cm; =
+mso-padding-alt: 1.0pt 4.0pt 1.0pt 4.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-border-alt: solid windowtext .5pt; =
+mso-bidi-font-family: "Times New Roman"; mso-ansi-language: EN-GB
+}
+DIV.MsoFooter {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: justify; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0cm; MARGIN: 6pt 0cm 0pt 18pt; PADDING-LEFT: 0cm; =
+PADDING-RIGHT: 0cm; FONT-FAMILY: Arial; FONT-SIZE: 12pt; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0cm; =
+mso-padding-alt: 1.0pt 4.0pt 1.0pt 4.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-border-alt: solid windowtext .5pt; =
+mso-bidi-font-family: "Times New Roman"; mso-ansi-language: EN-GB
+}
+P.MsoTitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 18pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+LI.MsoTitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 18pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+DIV.MsoTitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 18pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+P.MsoSubtitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 14pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+LI.MsoSubtitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 14pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+DIV.MsoSubtitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 14pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+SPAN.MsoHyperlink {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+A:visited {
+	COLOR: purple; TEXT-DECORATION: underline; text-underline: single
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: purple; TEXT-DECORATION: underline; text-underline: single
+}
+PRE {
+	MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Courier New"; FONT-SIZE: 10pt; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New Roman"
+}
+P.Piedefigura {
+	TEXT-ALIGN: center; FONT-STYLE: italic; MARGIN: 6pt 0cm 0pt 18pt; =
+FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-style-parent: "Pie de =
+p=C3=A1gina"; mso-pagination: widow-orphan; mso-bidi-font-size: 12.0pt; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-bidi-font-family: "Times New Roman"; =
+mso-ansi-language: ES-TRAD; mso-style-name: "Pie de figura"
+}
+LI.Piedefigura {
+	TEXT-ALIGN: center; FONT-STYLE: italic; MARGIN: 6pt 0cm 0pt 18pt; =
+FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-style-parent: "Pie de =
+p=C3=A1gina"; mso-pagination: widow-orphan; mso-bidi-font-size: 12.0pt; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-bidi-font-family: "Times New Roman"; =
+mso-ansi-language: ES-TRAD; mso-style-name: "Pie de figura"
+}
+DIV.Piedefigura {
+	TEXT-ALIGN: center; FONT-STYLE: italic; MARGIN: 6pt 0cm 0pt 18pt; =
+FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-style-parent: "Pie de =
+p=C3=A1gina"; mso-pagination: widow-orphan; mso-bidi-font-size: 12.0pt; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-bidi-font-family: "Times New Roman"; =
+mso-ansi-language: ES-TRAD; mso-style-name: "Pie de figura"
+}
+P.Bolita {
+	TEXT-ALIGN: justify; TEXT-INDENT: -18pt; MARGIN: 0cm 0cm 0pt 18pt; =
+FONT-FAMILY: "Times New Roman"; FONT-SIZE: 14pt; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: list 18.0pt; mso-ansi-language: ES-TRAD; =
+mso-style-name: Bolita; mso-list: l1 level1 lfo2
+}
+LI.Bolita {
+	TEXT-ALIGN: justify; TEXT-INDENT: -18pt; MARGIN: 0cm 0cm 0pt 18pt; =
+FONT-FAMILY: "Times New Roman"; FONT-SIZE: 14pt; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: list 18.0pt; mso-ansi-language: ES-TRAD; =
+mso-style-name: Bolita; mso-list: l1 level1 lfo2
+}
+DIV.Bolita {
+	TEXT-ALIGN: justify; TEXT-INDENT: -18pt; MARGIN: 0cm 0cm 0pt 18pt; =
+FONT-FAMILY: "Times New Roman"; FONT-SIZE: 14pt; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: list 18.0pt; mso-ansi-language: ES-TRAD; =
+mso-style-name: Bolita; mso-list: l1 level1 lfo2
+}
+DIV.Section1 {
+	page: Section1
+}
+OL {
+	MARGIN-BOTTOM: 0cm
+}
+UL {
+	MARGIN-BOTTOM: 0cm
+}
+</STYLE>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabla normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableGrid
+	{mso-style-name:"Tabla con cuadr\00EDcula";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"35842">
+  <o:colormru v:ext=3D"edit" colors=3D"#ffc"/>
+  <o:colormenu v:ext=3D"edit" fillcolor=3D"#cff"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1"/>
+ </o:shapelayout></xml><![endif]--></HEAD>
+<BODY style=3D"tab-interval: 35.4pt" lang=3DES link=3Dblue =
+bgColor=3D#ffffcc=20
+vLink=3Dpurple>
+<DIV class=3DSection1>
+<TABLE=20
+style=3D"WIDTH: 737.6pt; BORDER-COLLAPSE: collapse; mso-yfti-tbllook: =
+480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt"=20
+class=3DMsoTableGrid border=3D0 cellSpacing=3D0 cellPadding=3D0 =
+width=3D983>
+  <TBODY>
+  <TR style=3D"mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 80.55pt; =
+PADDING-RIGHT: 5.4pt; BACKGROUND: #ccffff; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D107>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy"><A=20
+      =
+href=3D"http://www.cc.uah.es/lpa/LPA-Presentacion_de_la_asignatura.htm">P=
+resentaci=C3=B3n</A><o:p></o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 54pt; =
+PADDING-RIGHT: 5.4pt; BACKGROUND: #ccffff; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D72>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy"><A=20
+      =
+href=3D"http://www.cc.uah.es/lpa/LPA-Agenda.htm">Agenda</A><o:p></o:p></S=
+PAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 54pt; =
+PADDING-RIGHT: 5.4pt; BACKGROUND: #ccffff; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D72>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy"><A=20
+      =
+href=3D"http://www.cc.uah.es/lpa/LPA-Sesiones.htm">Sesiones</A><o:p></o:p=
+></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 55.15pt; =
+PADDING-RIGHT: 5.4pt; BACKGROUND: #ccffff; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D74>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy"><A=20
+      =
+href=3D"http://www.cc.uah.es/lpa/LPA-Recursos.htm">Recursos</A><o:p></o:p=
+></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 63pt; =
+PADDING-RIGHT: 5.4pt; BACKGROUND: #ccffff; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D84>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy"><A=20
+      =
+href=3D"http://www.cc.uah.es/lpa/LPA-Examenes.htm">Ex=C3=A1menes</A><o:p>=
+</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 430.9pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D575>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy">Universidad=20
+      de Alcal=C3=A1 - Escuela T=C3=A9cnica Superior de Ingenier=C3=ADa =
+Inform=C3=A1tica=20
+      <o:p></o:p></SPAN></I></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 1; mso-yfti-lastrow: yes">
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 80.55pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D107>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 54pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D72>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 54pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D72>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 55.15pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D74>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 63pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D84>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 430.9pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D575>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy">Departamento=20
+      de Ciencias de la=20
+Computaci=C3=B3n<o:p></o:p></SPAN></I></P></TD></TR></TBODY></TABLE>
+<P style=3D"TEXT-ALIGN: center; tab-stops: 35.4pt center 212.6pt right =
+425.2pt"=20
+class=3DMsoNormal align=3Dcenter><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+style=3D"COLOR: teal; FONT-SIZE: 18pt; mso-bidi-font-size: =
+10.0pt">LABORATORIO=20
+DE<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: teal; FONT-SIZE: 18pt; mso-bidi-font-size: =
+10.0pt">PROGRAMACI=C3=93N=20
+AVANZADA<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN style=3D"COLOR: =
+teal">Titulaciones de=20
+Ingenier=C3=ADa T=C3=A9cnica en Inform=C3=A1tica de Gesti=C3=B3n y en =
+Inform=C3=A1tica de=20
+Sistemas</SPAN></B><SPAN=20
+style=3D"COLOR: teal; mso-bidi-font-size: 12.0pt"><o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-bidi-font-size: =
+10.0pt">Curso=20
+2009-2010<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-bidi-font-size: =
+10.0pt">Sesi=C3=B3n 6=20
+Introducci=C3=B3n a la Programaci=C3=B3n Concurrente usando =
+JAVA.</SPAN></B><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-bidi-font-size: =
+12.0pt"><o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-ansi-language: ES-TRAD"=20
+lang=3DES-TRAD>(Soluciones a los ejercicios)</SPAN></B></P>
+<P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft>
+<SCRIPT type=3Dtext/javascript>
+var ua =3D window.navigator.userAgent;
+var tag =3D "MSIE ";
+var uai =3D ua.indexOf(tag);
+window.IExplorer =3D true;
+window.IEVersion =3D =
+parseInt(ua.substring(uai+tag.length,ua.indexOf(".", uai)));
+
+function showSolution(form) {
+    // IExplorer code:
+    if ( form.solution.style.display =3D=3D "" ) {
+      if ( ! form.alreadyRead ) {form.alreadyRead =3D true;}
+      form.solution.style.display =3D "none";
+    } else {form.solution.style.display =3D "";}
+}
+</SCRIPT>
+<o:p>&nbsp;</o:p></P>
+<FORM>
+<P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft>1. Realizar =
+un programa=20
+en Java que ejecute tres threads de forma concurrente, uno de ellos debe =
+sumar=20
+los n=C3=BAmeros pares del 1 al 1000, otro los impares y otro que sume =
+los n=C3=BAmeros=20
+que terminan en 2 o en 3. </P><INPUT onclick=3DshowSolution(this.form) =
+value=3D" Solucion " type=3Dbutton name=3Dbutton>=20
+<PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN =
+style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy">class ParesThread extends Thread<SPAN style=3D"mso-spacerun: =
+yes">&nbsp; </SPAN>{<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>public =
+ParesThread (String nombre) {<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>super(nombre);<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>public =
+void run () {<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>int x=3D0,i;<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>for(i=3D0; i<o:p></o:p></SPAN>&lt;1000; i++) {    if =
+(i%2=3D=3D0) x=3Dx+i;    System.out.println("pares " + x);   }   =
+System.out.println("Fin pares, resultado: " + x);  }  }  class =
+ImparesThread extends Thread {  public ImparesThread (String nombre) {   =
+super(nombre);  }  public void run () {   int x=3D0;   for(int i=3D0; =
+i&gt;&lt;1000; i++) {    if (i%2!=3D0) x=3Dx+i;    =
+System.out.println("impares " + x);   }   System.out.println("Fin =
+impares, resultado: " + x);  }  }  class Termina23Thread extends Thread =
+{  public Termina23Thread (String nombre) {   super(nombre);  }  public =
+void run () {   int x=3D0;   for(int i=3D0; i&gt;&lt;1000; i++) {    if =
+(((i-2)%10 =3D=3D 0) || ((i-3)%10 =3D=3D 0)) x=3Dx+i;    =
+System.out.println("termina23 " + x);   }   System.out.println("Fin =
+termina23, resultado: " + x);   } }  public class Sesion1Ej1 {  public =
+static void main (String [] args) {   ParesThread pares =3D new =
+ParesThread ("pares");   ImparesThread impares =3D new ImparesThread =
+("impares");   Termina23Thread termina23 =3D new Termina23Thread =
+("pares");   pares.start();   impares.start();   termina23.start();    } =
+} &gt;</PRE></FORM>
+<P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><SPAN=20
+style=3D"DISPLAY: none; COLOR: navy; mso-hide: all">
+<SCRIPT type=3Dtext/javascript>
+  document.form1.alreadyRead =3D false;
+  document.form1.solution =3D div1;
+  div1.style.display =3D "none";
+</SCRIPT>
+</SPAN><o:p>&nbsp;</o:p></P>
+<FORM>
+<P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft>2. Realizar =
+un programa=20
+Java que cree un hilo que a su vez cree otro hilo y as=C3=AD =
+consecutivamente hasta=20
+crear 5 hilos. Cada hilo debe presentar su nombre indicando que ha =
+comenzado su=20
+hilo, crear su hilo hijo y presentar de nuevo su nombre 10 veces =
+indicando que=20
+est=C3=A1 procesando, esperando un tiempo aleatorio entre 100 y 600 mseg =
+entre cada=20
+presentaci=C3=B3n. Cada hilo deber=C3=A1 esperar a que su hijo termine =
+antes de presentar=20
+un =C3=BAltimo mensaje indicando su nombre y que ha terminado. =
+</P><INPUT onclick=3DshowSolution(this.form) value=3D" Solucion " =
+type=3Dbutton name=3Dbutton>=20
+<PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN =
+style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy">import java.util.*;<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><o:p>&nbsp;</o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy">class HiloHijo extends =
+Thread {<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>private =
+int numHijo;<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>private =
+HiloHijo hiloCreado;<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>private =
+Random aleat =3D new Random(45);<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><o:p>&nbsp;</o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>public =
+HiloHijo(int nH) {<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>super();<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>numHijo =3D nH;<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><o:p>&nbsp;</o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>public =
+void run() {<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>System.out.println("Soy el hilo n=C3=BAmero: "+ numHijo + " - =
+Inicio.");<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><o:p>&nbsp;</o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>if (numHijo&gt;1) {<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>hiloCreado =3D =
+new HiloHijo(numHijo - 1);<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>hiloCreado.start();<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>try {<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>for (int =
+i=3D0; i&lt;10; i++) {     System.out.println("Soy el hilo n?mero: "+ =
+numHijo  + " - Procesando...");     this.sleep(aleat.nextInt(500) + =
+100);    }    if (numHijo&gt;1) =
+hiloCreado.join();<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>catch (InterruptedException e) {<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>System.out.println("Error: "+e.toString());<SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN><o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>System.out.println("Soy el hilo n=C3=BAmero: "+ numHijo + " - =
+Fin.");<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy">}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><o:p>&nbsp;</o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy">public class Sesion1Ej2 =
+{<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: =
+12pt"><SPAN style=3D"COLOR: navy"><SPAN style=3D"mso-tab-count: =
+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>public static void =
+main(String[] argumentos) throws InterruptedException =
+{<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: =
+12pt"><SPAN style=3D"COLOR: navy"><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>HiloHijo hij =3D new HiloHijo(5);<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>hij.start();<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>hij.join();<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy">}<o:p></o:p></SPAN></PRE></FORM>
+<P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><SPAN=20
+style=3D"DISPLAY: none; mso-hide: all">
+<SCRIPT type=3Dtext/javascript>
+  document.form2.alreadyRead =3D false;
+  document.form2.solution =3D div2;
+  div2.style.display =3D "none";
+</SCRIPT>
+</SPAN><o:p>&nbsp;</o:p></P>
+<FORM>
+<P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft>3. Escribir =
+un programa=20
+que cree 20 hilos cada uno con un n=C3=BAmero asignado (del 1 al 20) y =
+una prioridad=20
+aleatoria y esperar a que terminen. La prioridad deber=C3=A1 ser 6 o 7. =
+La=20
+probabilidad de asignar prioridad alta (7) debe ser un 10% y de asignar=20
+prioridad baja (6) del 90%. Cada hilo presentar=C3=A1 10 veces en =
+pantalla una l=C3=ADnea=20
+compuesta por tantos guiones como sea su n=C3=BAmero de hilo. </P><INPUT =
+onclick=3DshowSolution(this.form) value=3D" Solucion " type=3Dbutton =
+name=3Dbutton>=20
+<PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN =
+style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy">import java.util.Random;<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><o:p>&nbsp;</o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy">public class Sesion1Ej3 =
+{<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: =
+12pt"><SPAN style=3D"COLOR: navy"><SPAN style=3D"mso-tab-count: =
+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>static final int =
+MAX_HILOS=3D20;<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>protected CadaHilo hilos[];<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><o:p>&nbsp;</o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>public =
+Sesion1Ej3() {<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>// objeto para generaci=C3=B3n de n=C3=BAmeros =
+aleatorios<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB>Random ra =3D new Random();<SPAN style=3D"mso-spacerun: =
+yes">&nbsp; </SPAN><o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; =
+mso-ansi-language: EN-GB" lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>hilos<SPAN style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>=3D new =
+CadaHilo[MAX_HILOS];<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; =
+mso-ansi-language: EN-GB" lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN></SPAN><SPAN style=3D"COLOR: =
+navy">System.out.println("PRINCIPAL: =
+Inicio");<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>// creo los hilos y les asigno =
+prioridad<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN></SPAN><SPAN style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB>for (int i=3D0; i &lt; MAX_HILOS; i++) =
+{<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: =
+12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>hilos[i] =3D =
+new CadaHilo(i+1);<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; =
+mso-ansi-language: EN-GB" lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN></SPAN><SPAN =
+style=3D"COLOR: navy">// c=C3=A1lculo y asignaci=C3=B3n de la =
+prioridad<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN></SPAN><SPAN =
+style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB>hilos[i].setPriority(ra.nextInt(10) =3D=3D 9 ? </SPAN><SPAN =
+style=3D"COLOR: navy; mso-ansi-language: PT-BR" lang=3DPT-BR>7 : =
+6);<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: PT-BR" =
+lang=3DPT-BR><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: PT-BR" =
+lang=3DPT-BR><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>// inicio los hilos<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy; mso-ansi-language: PT-BR" lang=3DPT-BR><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>for (int i=3D0; i &lt; MAX_HILOS; i++) =
+{<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: =
+12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: PT-BR" =
+lang=3DPT-BR><SPAN style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN></SPAN><SPAN =
+style=3D"COLOR: navy">hilos[i].start();<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>// Espero a que terminen los hilos<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN></SPAN><SPAN style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB>for (int i=3D0; i &lt; MAX_HILOS; i++) =
+{<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: =
+12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>try { =
+<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: =
+12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>hilos[i].join(); =
+<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: =
+12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>} catch =
+(InterruptedException e) { <o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy; mso-ansi-language: EN-GB" lang=3DEN-GB><SPAN =
+style=3D"mso-tab-count: =
+4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>System.out.println("Join =
+Interrumpido"); <o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; =
+mso-ansi-language: EN-GB" lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>System.out.println("PRINCIPAL: Hilos =
+Terminados");<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>}<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB><o:p>&nbsp;</o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; =
+mso-ansi-language: EN-GB" lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>public static void main (String =
+args[]) {<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy; mso-ansi-language: EN-GB" =
+lang=3DEN-GB><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN></SPAN><SPAN style=3D"COLOR: navy">Sesion1Ej3 ej3 =3D new =
+Sesion1Ej3();<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy">}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><o:p>&nbsp;</o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy">class CadaHilo extends =
+Thread {<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>protected int num;<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>public CadaHilo(int n) {<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>num =3D n;<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>public =
+void run() {<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>for (int i=3D0; i &lt; 10; i++) {<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>synchronized =
+(System.out){//bloque de acceso a recurso =
+compartido<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>System.out.print("[");<o:p></o:p></SPAN></PRE><PRE =
+style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy"><SPAN style=3D"mso-tab-count: =
+4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>for (j=3D0; j &lt; num; j++) =
+System.out.print("-");<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: =
+#ccffcc; MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>System.out.println("]"+this.getPriority());<o:p></o:p></SPAN></PRE=
+><PRE style=3D"BACKGROUND: #ccffcc; MARGIN-LEFT: 12pt"><SPAN =
+style=3D"COLOR: navy"><SPAN style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; </SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: navy"><SPAN =
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>}<o:p></o:p></SPAN></PRE><PRE style=3D"BACKGROUND: #ccffcc; =
+MARGIN-LEFT: 12pt"><SPAN style=3D"COLOR: =
+navy">}<o:p></o:p></SPAN></PRE></FORM>
+<P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><SPAN=20
+style=3D"DISPLAY: none; mso-hide: all">
+<SCRIPT type=3Dtext/javascript>
+  document.form3.alreadyRead =3D false;
+  document.form3.solution =3D div3;
+  div3.style.display =3D "none";
+</SCRIPT>
+</SPAN><o:p>&nbsp;</o:p></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-bidi-font-size: =
+10.0pt"><o:p>&nbsp;</o:p></SPAN></B></P></DIV></BODY></HTML>

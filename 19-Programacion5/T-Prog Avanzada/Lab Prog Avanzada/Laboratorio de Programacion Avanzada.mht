@@ -1,0 +1,2384 @@
+From: <Guardado por Windows Internet Explorer 8>
+Subject: Laboratorio de Programacion Avanzada
+Date: Sun, 26 Sep 2010 10:54:26 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cc.uah.es/lpa/Sesiones/LPA-Sesion11.htm
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3664
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word"><HEAD><TITLE>Laboratorio de =
+Programacion Avanzada</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18928">
+<META name=3DOriginator content=3D"Microsoft Word 11"><LINK =
+rel=3DFile-List=20
+href=3D"LPA-Sesion11_archivos/filelist.xml"><LINK rel=3DEdit-Time-Data=20
+href=3D"LPA-Sesion11_archivos/editdata.mso"><!--[if !mso]>
+<STYLE>v\:* {
+	BEHAVIOR: url(#default#VML)
+}
+o\:* {
+	BEHAVIOR: url(#default#VML)
+}
+w\:* {
+	BEHAVIOR: url(#default#VML)
+}
+.shape {
+	BEHAVIOR: url(#default#VML)
+}
+</STYLE>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>YO</o:Author>
+  <o:LastAuthor>a</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>148</o:TotalTime>
+  <o:Created>2007-02-13T10:45:00Z</o:Created>
+  <o:LastSaved>2007-02-13T10:45:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1722</o:Words>
+  <o:Characters>9474</o:Characters>
+  <o:Company>MICASA</o:Company>
+  <o:Lines>78</o:Lines>
+  <o:Paragraphs>22</o:Paragraphs>
+  <o:CharactersWithSpaces>11174</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" LatentStyleCount=3D"156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<STYLE>@page Section1 {size: 595.3pt 841.9pt; margin: 70.85pt 3.0cm =
+70.85pt 3.0cm; mso-header-margin: 35.4pt; mso-footer-margin: 35.4pt; =
+mso-paper-source: 0; }
+P.MsoNormal {
+	TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"
+}
+LI.MsoNormal {
+	TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"
+}
+DIV.MsoNormal {
+	TEXT-ALIGN: justify; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 12pt; mso-style-parent: ""; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"
+}
+P.MsoFooter {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: justify; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0cm; MARGIN: 6pt 0cm 0pt 18pt; PADDING-LEFT: 0cm; =
+PADDING-RIGHT: 0cm; FONT-FAMILY: Arial; FONT-SIZE: 12pt; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0cm; =
+mso-padding-alt: 1.0pt 4.0pt 1.0pt 4.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-border-alt: solid windowtext .5pt; =
+mso-bidi-font-family: "Times New Roman"; mso-ansi-language: EN-GB
+}
+LI.MsoFooter {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: justify; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0cm; MARGIN: 6pt 0cm 0pt 18pt; PADDING-LEFT: 0cm; =
+PADDING-RIGHT: 0cm; FONT-FAMILY: Arial; FONT-SIZE: 12pt; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0cm; =
+mso-padding-alt: 1.0pt 4.0pt 1.0pt 4.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-border-alt: solid windowtext .5pt; =
+mso-bidi-font-family: "Times New Roman"; mso-ansi-language: EN-GB
+}
+DIV.MsoFooter {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: justify; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0cm; MARGIN: 6pt 0cm 0pt 18pt; PADDING-LEFT: 0cm; =
+PADDING-RIGHT: 0cm; FONT-FAMILY: Arial; FONT-SIZE: 12pt; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0cm; =
+mso-padding-alt: 1.0pt 4.0pt 1.0pt 4.0pt; mso-pagination: widow-orphan; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-border-alt: solid windowtext .5pt; =
+mso-bidi-font-family: "Times New Roman"; mso-ansi-language: EN-GB
+}
+P.MsoTitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 18pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+LI.MsoTitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 18pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+DIV.MsoTitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 18pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+P.MsoSubtitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 14pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+LI.MsoSubtitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 14pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+DIV.MsoSubtitle {
+	TEXT-ALIGN: center; MARGIN: 0cm 0cm 0pt; FONT-FAMILY: "Times New =
+Roman"; FONT-SIZE: 14pt; FONT-WEIGHT: bold; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: =
+"Times New Roman"; mso-bidi-font-weight: normal
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+SPAN.MsoHyperlink {
+	COLOR: blue; TEXT-DECORATION: underline; text-underline: single
+}
+A:visited {
+	COLOR: purple; TEXT-DECORATION: underline; text-underline: single
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: purple; TEXT-DECORATION: underline; text-underline: single
+}
+CODE {
+	FONT-FAMILY: "Courier New"; mso-fareast-font-family: "Times New Roman"; =
+mso-bidi-font-family: "Courier New"; mso-ascii-font-family: "Courier =
+New"; mso-hansi-font-family: "Courier New"
+}
+TT {
+	FONT-FAMILY: "Courier New"; mso-fareast-font-family: "Times New Roman"; =
+mso-bidi-font-family: "Courier New"; mso-ascii-font-family: "Courier =
+New"; mso-hansi-font-family: "Courier New"
+}
+P.Piedefigura {
+	TEXT-ALIGN: center; FONT-STYLE: italic; MARGIN: 6pt 0cm 0pt 18pt; =
+FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-style-parent: "Pie de =
+p=C3=A1gina"; mso-pagination: widow-orphan; mso-bidi-font-size: 12.0pt; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-bidi-font-family: "Times New Roman"; =
+mso-ansi-language: ES-TRAD; mso-style-name: "Pie de figura"
+}
+LI.Piedefigura {
+	TEXT-ALIGN: center; FONT-STYLE: italic; MARGIN: 6pt 0cm 0pt 18pt; =
+FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-style-parent: "Pie de =
+p=C3=A1gina"; mso-pagination: widow-orphan; mso-bidi-font-size: 12.0pt; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-bidi-font-family: "Times New Roman"; =
+mso-ansi-language: ES-TRAD; mso-style-name: "Pie de figura"
+}
+DIV.Piedefigura {
+	TEXT-ALIGN: center; FONT-STYLE: italic; MARGIN: 6pt 0cm 0pt 18pt; =
+FONT-FAMILY: Arial; FONT-SIZE: 10pt; mso-style-parent: "Pie de =
+p=C3=A1gina"; mso-pagination: widow-orphan; mso-bidi-font-size: 12.0pt; =
+mso-fareast-font-family: "Times New Roman"; tab-stops: 70.9pt 117.0pt =
+171.0pt 234.0pt right 425.2pt; mso-bidi-font-family: "Times New Roman"; =
+mso-ansi-language: ES-TRAD; mso-style-name: "Pie de figura"
+}
+P.Bolita {
+	TEXT-ALIGN: justify; TEXT-INDENT: -18pt; MARGIN: 0cm 0cm 0pt 18pt; =
+FONT-FAMILY: "Times New Roman"; FONT-SIZE: 14pt; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: list 18.0pt; mso-ansi-language: ES-TRAD; =
+mso-style-name: Bolita; mso-list: l1 level1 lfo1
+}
+LI.Bolita {
+	TEXT-ALIGN: justify; TEXT-INDENT: -18pt; MARGIN: 0cm 0cm 0pt 18pt; =
+FONT-FAMILY: "Times New Roman"; FONT-SIZE: 14pt; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: list 18.0pt; mso-ansi-language: ES-TRAD; =
+mso-style-name: Bolita; mso-list: l1 level1 lfo1
+}
+DIV.Bolita {
+	TEXT-ALIGN: justify; TEXT-INDENT: -18pt; MARGIN: 0cm 0cm 0pt 18pt; =
+FONT-FAMILY: "Times New Roman"; FONT-SIZE: 14pt; mso-pagination: =
+widow-orphan; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: =
+"Times New Roman"; tab-stops: list 18.0pt; mso-ansi-language: ES-TRAD; =
+mso-style-name: Bolita; mso-list: l1 level1 lfo1
+}
+P.EstiloPiedepginaCourierNew10ptAzuloscuroIzquierda {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: justify; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0cm; MARGIN: 0cm 0cm 0pt 17.85pt; PADDING-LEFT: =
+0cm; PADDING-RIGHT: 0cm; FONT-FAMILY: "Courier New"; BACKGROUND: =
+#ccffcc; COLOR: navy; FONT-SIZE: 10pt; BORDER-TOP: medium none; =
+BORDER-RIGHT: medium none; PADDING-TOP: 0cm; mso-padding-alt: 1.0pt =
+4.0pt 1.0pt 4.0pt; mso-style-parent: "Pie de p=C3=A1gina"; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; tab-stops: 70.9pt 117.0pt 171.0pt 234.0pt right 425.2pt; =
+mso-border-alt: solid windowtext .5pt; mso-bidi-font-family: "Times New =
+Roman"; mso-ansi-language: EN-GB; mso-style-name: "Estilo Pie de =
+p=C3=A1gina + Courier New 10 pt Azul oscuro Izquierda:  ..."
+}
+LI.EstiloPiedepginaCourierNew10ptAzuloscuroIzquierda {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: justify; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0cm; MARGIN: 0cm 0cm 0pt 17.85pt; PADDING-LEFT: =
+0cm; PADDING-RIGHT: 0cm; FONT-FAMILY: "Courier New"; BACKGROUND: =
+#ccffcc; COLOR: navy; FONT-SIZE: 10pt; BORDER-TOP: medium none; =
+BORDER-RIGHT: medium none; PADDING-TOP: 0cm; mso-padding-alt: 1.0pt =
+4.0pt 1.0pt 4.0pt; mso-style-parent: "Pie de p=C3=A1gina"; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; tab-stops: 70.9pt 117.0pt 171.0pt 234.0pt right 425.2pt; =
+mso-border-alt: solid windowtext .5pt; mso-bidi-font-family: "Times New =
+Roman"; mso-ansi-language: EN-GB; mso-style-name: "Estilo Pie de =
+p=C3=A1gina + Courier New 10 pt Azul oscuro Izquierda:  ..."
+}
+DIV.EstiloPiedepginaCourierNew10ptAzuloscuroIzquierda {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: justify; BORDER-LEFT: medium =
+none; PADDING-BOTTOM: 0cm; MARGIN: 0cm 0cm 0pt 17.85pt; PADDING-LEFT: =
+0cm; PADDING-RIGHT: 0cm; FONT-FAMILY: "Courier New"; BACKGROUND: =
+#ccffcc; COLOR: navy; FONT-SIZE: 10pt; BORDER-TOP: medium none; =
+BORDER-RIGHT: medium none; PADDING-TOP: 0cm; mso-padding-alt: 1.0pt =
+4.0pt 1.0pt 4.0pt; mso-style-parent: "Pie de p=C3=A1gina"; =
+mso-pagination: widow-orphan; mso-fareast-font-family: "Times New =
+Roman"; tab-stops: 70.9pt 117.0pt 171.0pt 234.0pt right 425.2pt; =
+mso-border-alt: solid windowtext .5pt; mso-bidi-font-family: "Times New =
+Roman"; mso-ansi-language: EN-GB; mso-style-name: "Estilo Pie de =
+p=C3=A1gina + Courier New 10 pt Azul oscuro Izquierda:  ..."
+}
+SPAN.CODE {
+	FONT-FAMILY: "Courier New"; mso-style-parent: ""; mso-bidi-font-family: =
+"Courier New"; mso-ascii-font-family: "Courier New"; =
+mso-hansi-font-family: "Courier New"; mso-style-name: CODE; =
+mso-ansi-font-size: 10.0pt
+}
+DIV.Section1 {
+	page: Section1
+}
+OL {
+	MARGIN-BOTTOM: 0cm
+}
+UL {
+	MARGIN-BOTTOM: 0cm
+}
+</STYLE>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabla normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableGrid
+	{mso-style-name:"Tabla con cuadr\00EDcula";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	text-align:justify;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"35842">
+  <o:colormru v:ext=3D"edit" colors=3D"#ffc"/>
+  <o:colormenu v:ext=3D"edit" fillcolor=3D"#cff"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1"/>
+ </o:shapelayout></xml><![endif]--></HEAD>
+<BODY style=3D"tab-interval: 35.4pt" lang=3DES link=3Dblue =
+bgColor=3D#ffffcc=20
+vLink=3Dpurple>
+<DIV class=3DSection1>
+<TABLE=20
+style=3D"WIDTH: 737.6pt; BORDER-COLLAPSE: collapse; mso-yfti-tbllook: =
+480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt"=20
+class=3DMsoTableGrid border=3D0 cellSpacing=3D0 cellPadding=3D0 =
+width=3D983>
+  <TBODY>
+  <TR style=3D"mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 80.55pt; =
+PADDING-RIGHT: 5.4pt; BACKGROUND: #ccffff; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D107>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy"><A=20
+      =
+href=3D"http://www.cc.uah.es/lpa/LPA-Presentacion_de_la_asignatura.htm">P=
+resentaci=C3=B3n</A><o:p></o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 54pt; =
+PADDING-RIGHT: 5.4pt; BACKGROUND: #ccffff; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D72>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy"><A=20
+      =
+href=3D"http://www.cc.uah.es/lpa/LPA-Agenda.htm">Agenda</A><o:p></o:p></S=
+PAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 54pt; =
+PADDING-RIGHT: 5.4pt; BACKGROUND: #ccffff; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D72>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy"><A=20
+      =
+href=3D"http://www.cc.uah.es/lpa/LPA-Sesiones.htm">Sesiones</A><o:p></o:p=
+></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 55.15pt; =
+PADDING-RIGHT: 5.4pt; BACKGROUND: #ccffff; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D74>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy"><A=20
+      =
+href=3D"http://www.cc.uah.es/lpa/LPA-Recursos.htm">Recursos</A><o:p></o:p=
+></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 63pt; =
+PADDING-RIGHT: 5.4pt; BACKGROUND: #ccffff; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D84>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy"><A=20
+      =
+href=3D"http://www.cc.uah.es/lpa/LPA-Examenes.htm">Ex=C3=A1menes</A><o:p>=
+</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 430.9pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D575>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy">Universidad=20
+      de Alcal=C3=A1 - Escuela T=C3=A9cnica Superior de Ingenier=C3=ADa =
+Inform=C3=A1tica=20
+      <o:p></o:p></SPAN></I></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 1; mso-yfti-lastrow: yes">
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 80.55pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D107>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 54pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D72>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 54pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D72>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 55.15pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D74>
+      <P style=3D"TEXT-ALIGN: left" class=3DMsoNormal align=3Dleft><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 63pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D84>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: navy"><o:p>&nbsp;</o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 430.9pt; =
+PADDING-RIGHT: 5.4pt; PADDING-TOP: 0cm"=20
+    vAlign=3Dtop width=3D575>
+      <P style=3D"TEXT-ALIGN: right" class=3DMsoNormal align=3Dright><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN style=3D"COLOR: =
+navy">Departamento=20
+      de Ciencias de la=20
+Computaci=C3=B3n<o:p></o:p></SPAN></I></P></TD></TR></TBODY></TABLE>
+<P style=3D"TEXT-ALIGN: center; tab-stops: 35.4pt center 212.6pt right =
+425.2pt"=20
+class=3DMsoNormal align=3Dcenter><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+style=3D"COLOR: teal; FONT-SIZE: 18pt; mso-bidi-font-size: =
+10.0pt">LABORATORIO=20
+DE<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: teal; FONT-SIZE: 18pt; mso-bidi-font-size: =
+10.0pt">PROGRAMACI=C3=93N=20
+AVANZADA<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN style=3D"COLOR: =
+teal">Titulaciones de=20
+Ingenier=C3=ADa T=C3=A9cnica en Inform=C3=A1tica de Gesti=C3=B3n y en =
+Inform=C3=A1tica de=20
+Sistemas</SPAN></B><SPAN=20
+style=3D"COLOR: teal; mso-bidi-font-size: 12.0pt"><o:p></o:p></SPAN></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-bidi-font-size: =
+10.0pt">Curso=20
+2009-2010<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-bidi-font-size: =
+10.0pt">Sesi=C3=B3n=20
+11<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-ansi-language: ES-TRAD"=20
+lang=3DES-TRAD>Programaci=C3=B3n Distribuida con RMI: Conceptos=20
+avanzados<o:p></o:p></SPAN></B></P>
+<P style=3D"MARGIN-LEFT: 18pt" class=3DMsoNormal><o:p>&nbsp;</o:p></P>
+<P style=3D"MARGIN-LEFT: 18pt" class=3DMsoNormal><o:p>&nbsp;</o:p></P>
+<P style=3D"MARGIN-LEFT: 18pt" class=3DMsoNormal>En esta segunda =
+sesi=C3=B3n vamos a=20
+tratar conceptos avanzados de programaci=C3=B3n distribuida con RMI en =
+Java.<SPAN=20
+style=3D"mso-spacerun: yes">&nbsp; </SPAN></P>
+<P style=3D"MARGIN-LEFT: 18pt" class=3DMsoNormal><o:p>&nbsp;</o:p></P>
+<P=20
+style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+BORDER-TOP: medium none; BORDER-RIGHT: medium none; mso-padding-alt: 0cm =
+0cm 0cm 0cm"=20
+class=3DMsoFooter><B><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-ansi-language: ES-TRAD"=20
+lang=3DES-TRAD>Ejemplo:<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN lang=3DES-TRAD><o:p>&nbsp;</o:p></SPAN></P>
+<P class=3DBolita><![if !supportLists]><SPAN=20
+style=3D"FONT-FAMILY: Symbol; FONT-SIZE: 12pt; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"=20
+lang=3DES-TRAD><SPAN style=3D"mso-list: Ignore">=C2=B7<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><![endif]><SPAN style=3D"FONT-SIZE: 12pt" =
+lang=3DES-TRAD>Para=20
+presentar los nuevos conceptos, desarrollaremos una aplicaci=C3=B3n =
+distribuida=20
+completa. La aplicaci=C3=B3n consiste en la gesti=C3=B3n de los salarios =
+de los empleados=20
+de una empresa.<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; tab-stops: 35.4pt; mso-list: none"=20
+class=3DBolita><SPAN style=3D"FONT-SIZE: 12pt" lang=3DES-TRAD>La =
+aplicaci=C3=B3n constar=C3=A1=20
+de un m=C3=B3dulo <B style=3D"mso-bidi-font-weight: normal">Servidor</B> =
+y otro m=C3=B3dulo=20
+<B style=3D"mso-bidi-font-weight: normal">Cliente</B>. En la parte =
+servidora se=20
+podr=C3=A1n dar de alta los empleados de la empresa (generados como =
+objetos remotos)=20
+y en la parte cliente se podr=C3=A1n modificar los salarios de los =
+empleados dados de=20
+alta. <o:p></o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN style=3D"FONT-SIZE: 12pt"=20
+lang=3DES-TRAD><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; tab-stops: 35.4pt; mso-list: none"=20
+class=3DBolita><SPAN style=3D"FONT-SIZE: 12pt" lang=3DES-TRAD>En el =
+programa Servidor=20
+se introducir=C3=A1n los siguientes datos de cada uno de los empleados: =
+el DNI, el=20
+nombre y el departamento al que pertenecen; el sueldo se establece a 0, =
+ya que=20
+ser=C3=A1 la parte cliente la encargada de rellenar este =
+dato.<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; tab-stops: 35.4pt; mso-list: none"=20
+class=3DBolita><SPAN style=3D"FONT-SIZE: 12pt"=20
+lang=3DES-TRAD><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; tab-stops: 35.4pt; mso-list: none"=20
+class=3DBolita><SPAN style=3D"FONT-SIZE: 12pt" lang=3DES-TRAD>En la =
+parte cliente, nos=20
+encargaremos de establecer el sueldo de cada uno de los empleados =
+registrados en=20
+el servidor, para ello haremos uso de los m=C3=A9todos remotos que nos =
+proporciona=20
+cada objeto empleado remoto.</SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN lang=3DES-TRAD><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; tab-stops: 35.4pt; mso-list: none" =
+class=3DBolita><I=20
+style=3D"mso-bidi-font-style: normal"><SPAN lang=3DES-TRAD>Interfaz =
+donde se=20
+declaran los m=C3=A9todos remotos.<o:p></o:p></SPAN></I></P>
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext =
+1pt solid; PADDING-BOTTOM: 1pt; PADDING-LEFT: 4pt; PADDING-RIGHT: 4pt; =
+BACKGROUND: #ccffcc; MARGIN-LEFT: 17.85pt; BORDER-TOP: windowtext 1pt =
+solid; MARGIN-RIGHT: 0cm; BORDER-RIGHT: windowtext 1pt solid; =
+PADDING-TOP: 1pt; mso-border-alt: solid windowtext .5pt; mso-element: =
+para-border-div">
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>package empleados;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>import java.rmi.*;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>public interface InterfaceEmp {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>String=20
+getDNI() throws RemoteException;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>String=20
+getNombre() throws RemoteException;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>String=20
+getDepartamento() throws RemoteException;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>double=20
+getSueldo() throws RemoteException;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp; </SPAN><SPAN =
+
+style=3D"mso-spacerun: yes">&nbsp;</SPAN>void setSueldo(double s) throws =
+
+RemoteException;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">String=20
+info() throws RemoteException;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">}<o:p></o:p></SPAN></P></DIV>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-ansi-language: =
+ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; tab-stops: 35.4pt; mso-list: none" =
+class=3DBolita><I=20
+style=3D"mso-bidi-font-style: normal"><SPAN lang=3DES-TRAD>Clase que =
+implementa la=20
+interfaz y donde se define el m=C3=A9todo =
+remoto.<o:p></o:p></SPAN></I></P>
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext =
+1pt solid; PADDING-BOTTOM: 1pt; PADDING-LEFT: 4pt; PADDING-RIGHT: 4pt; =
+BACKGROUND: #ccffcc; MARGIN-LEFT: 17.85pt; BORDER-TOP: windowtext 1pt =
+solid; MARGIN-RIGHT: 0cm; BORDER-RIGHT: windowtext 1pt solid; =
+PADDING-TOP: 1pt; mso-border-alt: solid windowtext .5pt; mso-element: =
+para-border-div">
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>package empleados;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>import java.rmi.*;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>import java.rmi.server.*;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>public class EmpleadoImpl extends UnicastRemoteObject =
+implements=20
+InterfaceEmp {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>private=20
+String DNI;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>private=20
+String nombre;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>private=20
+String departamento;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">private=20
+double sueldo;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>/** Create una =
+nueva=20
+instancia de EmpleadoImpl */<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>public EmpleadoImpl( String DNI, String nombre, String =
+departamento,=20
+double sueldo ) throws RemoteException {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">super();<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>this.DNI =3D DNI;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>this.nombre =3D nombre;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>this.departamento =3D departamento;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>this.sueldo =3D sueldo;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN>}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;</SPAN><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp; </SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>public=20
+String getDNI() throws RemoteException { return this.DNI;=20
+}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>public=20
+String getNombre() throws RemoteException { return this.nombre;=20
+}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>public=20
+String getDepartamento() throws RemoteException { return=20
+this.departamento;}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;</SPAN><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp; </SPAN>public double =
+getSueldo() throws=20
+RemoteException { return this.sueldo;}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>public void=20
+setSueldo(double s) throws RemoteException { this.sueldo=3Ds;=20
+}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">//=20
+Imprimir informaci=C3=B3n del Empleado<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>public String =
+info() throws=20
+RemoteException { return getDNI() + " - " + getNombre(); =
+}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">}<o:p></o:p></SPAN></P></DIV>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-ansi-language: =
+ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-ansi-language: =
+ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; tab-stops: 35.4pt; mso-list: none" =
+class=3DBolita><I=20
+style=3D"mso-bidi-font-style: normal"><SPAN lang=3DES-TRAD>Programa =
+Servidor que=20
+genera los<SPAN style=3D"mso-spacerun: yes">&nbsp; </SPAN>objetos =
+remotos y los=20
+ofrece a trav=C3=A9s de RMI.<o:p></o:p></SPAN></I></P>
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext =
+1pt solid; PADDING-BOTTOM: 1pt; PADDING-LEFT: 4pt; PADDING-RIGHT: 4pt; =
+BACKGROUND: #ccffcc; MARGIN-LEFT: 17.85pt; BORDER-TOP: windowtext 1pt =
+solid; MARGIN-RIGHT: 0cm; BORDER-RIGHT: windowtext 1pt solid; =
+PADDING-TOP: 1pt; mso-border-alt: solid windowtext .5pt; mso-element: =
+para-border-div">
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>package empleados;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>import java.rmi.*;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>import java.rmi.server.*;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>import java.io.*;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>public class ServidorEmpleados {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>public=20
+static void main(String[] args) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>//=20
+TODO code application logic here<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>BufferedReader entrada=3D<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>new BufferedReader(new=20
+InputStreamReader(System.in));<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">String=20
+dni, nombre, dept, res;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>while (true) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>try=20
+{<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>do {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("\n\n--- Servidor ---");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">System.out.println("=20
+1 - Alta de empleados. ");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println(" 2 - Salir. ");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.print(" Seleccione la operaci=C3=B3n: (1,2):=20
+");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>res=3Dentrada.readLine();<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>} while ( !res.equals("1") &amp;&amp; !res.equals("2")=20
+);<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">//=20
+alta de empleados<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>if (res.equals("1")) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>System.out.pr=
+intln("\n=20
+-- Alta de empleados en el servidor -- ");<SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.print("\nIntroduzca el DNI: ");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>dni=3Dentrada.readLine();<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.print("\nIntroduzca nombre: ");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>nombre=3Dentrada.readLine();<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.print("\nIntroduzca departamento: =
+");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>dept=3Dentrada.readLine();<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>//Registramos cada objeto remoto...<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>E=
+mpleadoImpl=20
+emp =3D new EmpleadoImpl(dni, nombre, dept, 0);<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">Naming.rebind("//127.0.0.1/"=20
++ emp.getDNI(),emp);<o:p></o:p></SPAN></B></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("\nEmpleado: "+emp.info()+" =
+registrado.");<SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+</SPAN><SPAN style=3D"mso-spacerun: =
+yes">&nbsp;</SPAN>}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>// salir<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt" =
+lang=3DEN-GB>else=20
+if (res.equals("2")) System.exit(0);<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>} catch (Exception e) { System.out.println("Error:=20
+"+e.toString());<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">}<o:p></o:p></SPAN></P></DIV>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-ansi-language: =
+ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-ansi-language: =
+ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; tab-stops: 35.4pt; mso-list: none" =
+class=3DBolita><I=20
+style=3D"mso-bidi-font-style: normal"><SPAN lang=3DES-TRAD>Programa =
+Cliente donde se=20
+invoca el m=C3=A9todo remoto.<o:p></o:p></SPAN></I></P>
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext =
+1pt solid; PADDING-BOTTOM: 1pt; PADDING-LEFT: 4pt; PADDING-RIGHT: 4pt; =
+BACKGROUND: #ccffcc; MARGIN-LEFT: 17.85pt; BORDER-TOP: windowtext 1pt =
+solid; MARGIN-RIGHT: 0cm; BORDER-RIGHT: windowtext 1pt solid; =
+PADDING-TOP: 1pt; mso-border-alt: solid windowtext .5pt; mso-element: =
+para-border-div">
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">package=20
+empleados;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">import=20
+java.rmi.*;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>import java.io.*;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>public class ClienteEmpleados {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">static=20
+InterfaceEmp emp;<SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>//*****=20
+referencia al empleado remoto<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>static String=20
+empleados[];<SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>//***** array con todos los empleados =
+remotos<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>static String dni, nombre, fcont;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>static=20
+BufferedReader entrada =3D new BufferedReader(new=20
+InputStreamReader(System.in));<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>public=20
+static void main(String[] args) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>String res;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>int=20
+num;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>while (true) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>try {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN>do=20
+{<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("\n\n--- Cliente ---");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">System.out.println("=20
+1 - Sueldo empleados. ");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println(" 2 - Salir. ");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.print(" Seleccione la operaci=C3=B3n: (1,2):=20
+");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>res=3Dentrada.readLine();<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>} while ( !res.equals("1") &amp;&amp; !res.equals("2")=20
+);<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">//=20
+sueldo de empleados<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>if (res.equals("1")) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("\n -- Establecer sueldo de empleados desde el =
+cliente=20
+-- ");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("\nEmpleados: ");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>//presentamos todos los empleados<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>consultarTodo();<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><SPAN style=3D"mso-spacerun: =
+yes">&nbsp;</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.print("\nIntroduzca el n=C3=BAmero del empleado:=20
+");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: DE"=20
+lang=3DDE>num=3DInteger.parseInt(entrada.readLine());<o:p></o:p></SPAN></=
+P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: DE"=20
+lang=3DDE><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: DE"=20
+lang=3DDE><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">//Presentamos=20
+el empleado <o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>emp =3D (InterfaceEmp) </SPAN><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">Naming.lookup(empleados[num]);</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>if (emp !=3D null) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>//presenta la informaci=C3=B3n del empleado<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>presenta(emp);<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>} else {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("\nEl empleado no =
+existe.");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>// salir<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>else if (res.equals("2")) System.exit(0);<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">}=20
+catch (Exception e) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("Error en Cliente:=20
+"+e.toString());<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN>}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>//presenta todos =
+los=20
+empleados<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>public static void =
+
+consultarTodo() {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>try=20
+{<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>//Cargamos todas las referencias de objetos de empleados remotos =
+en un=20
+array<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>empleados =3D </SPAN><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">Naming.list("//127.0.0.1")</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>//Si no hay empleados...<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt" =
+lang=3DEN-GB>if=20
+(empleados.length&lt;1) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("\nNo hay =
+empleados...");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>return;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>} else {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>for (int i =3D 0; i&lt;empleados.length; i++) =
+{<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>emp =3D (InterfaceEmp) </SPAN><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>Naming.lookup(empleados[i])</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("Empleado "+i+": =
+"+emp.info());<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>}=20
+catch (Exception e) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("Error en consulta:=20
+"+e.toString());<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>return;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>}//fin=20
+consultarTodo<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>//presenta la =
+informaci=C3=B3n=20
+del empleado<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>public static void presenta(InterfaceEmp emp) =
+{<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">try=20
+{<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("\nDatos del =
+empleado:");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>//invocaci=C3=B3n de m=C3=A9todos remotos<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("DNI: "+emp.getDNI());<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("Nombre: =
+"+emp.getNombre());<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("Departamento:=20
+"+emp.getDepartamento());<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("Sueldo: =
+"+emp.getSueldo());<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.print("\nIntroduce el nuevo sueldo: =
+");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB>double sueldo =3D=20
+Double.parseDouble(entrada.readLine());<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">//Comprobar=20
+si el sueldo es mayor que 0<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt" =
+lang=3DEN-GB>if (=20
+sueldo &lt;=3D 0 ) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("Sueldo incorrecto.");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>return;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt"=20
+lang=3DEN-GB><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">}<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>//Registramos el sueldo en el objeto =
+remoto...<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>emp.setSueldo(sueldo);<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("Sueldo actualizado.");<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><SPAN style=3D"mso-spacerun: =
+yes">&nbsp;</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>}=20
+catch (Exception e) {<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>System.out.println("Error en presenta:=20
+"+e.toString());<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>return;<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>}<SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; </SPAN>}//fin=20
+presenta<o:p></o:p></SPAN></P>
+<P style=3D"MARGIN: 0cm 0cm 0pt; BACKGROUND: #ccffcc" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">}<o:p></o:p></SPAN></P></DIV>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-ansi-language: =
+ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-ansi-language: =
+ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P class=3DMsoNormal><B><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-ansi-language: ES-TRAD"=20
+lang=3DES-TRAD>Ejecuci=C3=B3n de la aplicaci=C3=B3n =
+RMI:<o:p></o:p></SPAN></B></P>
+<P class=3DMsoNormal><SPAN=20
+style=3D"mso-ansi-language: ES-TRAD; mso-bidi-font-weight: bold" =
+lang=3DES-TRAD>Una=20
+aplicaci=C3=B3n distribuida en Java se ejecuta mediante la arquitectura=20
+cliente/servidor de forma que se puede ejecutar bien en un =C3=BAnico =
+ordenador que=20
+hace las funciones de cliente y de servidor a la vez, o bien en dos =
+ordenadores=20
+distintos, uno que har=C3=ADa de cliente y otro que har=C3=ADa de=20
+servidor.<o:p></o:p></SPAN></P>
+<P class=3DMsoNormal><SPAN=20
+style=3D"mso-ansi-language: ES-TRAD; mso-bidi-font-weight: bold"=20
+lang=3DES-TRAD><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; tab-stops: 35.4pt; mso-list: none" =
+class=3DBolita><I=20
+style=3D"mso-bidi-font-style: normal"><SPAN lang=3DES-TRAD>Si ejecutamos =
+la=20
+aplicaci=C3=B3n en un solo ordenador debemos realizar los siguientes=20
+pasos:<o:p></o:p></SPAN></I></P>
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext =
+1pt solid; PADDING-BOTTOM: 1pt; PADDING-LEFT: 4pt; PADDING-RIGHT: 4pt; =
+BACKGROUND: #ffff99; MARGIN-LEFT: 17.85pt; BORDER-TOP: windowtext 1pt =
+solid; MARGIN-RIGHT: 0cm; BORDER-RIGHT: windowtext 1pt solid; =
+PADDING-TOP: 1pt; mso-border-alt: solid windowtext .5pt; mso-element: =
+para-border-div">
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">1.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Compilamos=20
+todas las clases y abrimos una ventana de consola.<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">2.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Nos=20
+situamos en el directorio </SPAN><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">...\SaludaRMI\build\classes</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">.=20
+(Donde NetBeans ha compilado la interfaz y las =
+clases)<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">3.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Con el=20
+classpath apuntando al directorio de trabajo (</SPAN><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">&gt;=20
+set classpath=3D.</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">)=20
+poner en marcha el rmiregistry<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-tab-count: =
+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><SPAN style=3D"mso-spacerun: yes">&nbsp;</SPAN>(</SPAN><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">&gt;=20
+start rmiregistry</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">).=20
+<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">4.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Ejecutamos=20
+el programa servidor (</SPAN><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">&gt;=20
+start java saluda/Servidor</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">).<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">5.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Ejecutar el=20
+programa cliente (</SPAN><B style=3D"mso-bidi-font-weight: normal"><SPAN =
+
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">&gt;=20
+java saluda/Cliente</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">).<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">(Para=20
+cerrar el rmiregistry se debe pulsar CTRL+c. o cerrar la ventana de =
+s=C3=ADmbolo del=20
+sistema)<o:p></o:p></SPAN></P></DIV>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-ansi-language: =
+ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-INDENT: 0cm; tab-stops: 35.4pt; mso-list: none" =
+class=3DBolita><I=20
+style=3D"mso-bidi-font-style: normal"><SPAN lang=3DES-TRAD>Si ejecutamos =
+la=20
+aplicaci=C3=B3n en dos ordenadores debemos realizar los siguientes=20
+pasos:<o:p></o:p></SPAN></I></P>
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext =
+1pt solid; PADDING-BOTTOM: 1pt; PADDING-LEFT: 4pt; PADDING-RIGHT: 4pt; =
+BACKGROUND: #ffff99; MARGIN-LEFT: 17.85pt; BORDER-TOP: windowtext 1pt =
+solid; MARGIN-RIGHT: 0cm; BORDER-RIGHT: windowtext 1pt solid; =
+PADDING-TOP: 1pt; mso-border-alt: solid windowtext .5pt; mso-element: =
+para-border-div">
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" class=3DMsoFooter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">Preparaci=C3=B3n=20
+del servidor:<o:p></o:p></SPAN></B></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">1.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Compilamos=20
+todas las clases y abrimos una ventana de consola.<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">2.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Nos=20
+situamos en el directorio </SPAN><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">...\SaludaRMI\build\classes</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">.=20
+<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">3.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Con el=20
+classpath apuntando al directorio de trabajo (</SPAN><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">&gt;=20
+set classpath=3D.</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">)=20
+poner en marcha el rmiregistry <o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><SPAN=20
+style=3D"mso-tab-count: =
+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>(</SPAN><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">&gt;=20
+start rmiregistry</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">).=20
+<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">4.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Ejecutar el=20
+servidor (</SPAN><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">&gt;=20
+start java saluda/Servidor</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">).<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" class=3DMsoFooter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">Preparaci=C3=B3n=20
+del cliente:<o:p></o:p></SPAN></B></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">1.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Compilamos=20
+todas las clases y abrimos una ventana de consola.<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">2.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Nos=20
+situamos en el directorio </SPAN><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">...\SaludaRMI\build\classes</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">.=20
+<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">3.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Poner el=20
+classpath apuntando al directorio de trabajo (</SPAN><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">&gt;=20
+set classpath=3D.</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">).=20
+<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">4.<SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN>Ejecutar el=20
+cliente (</SPAN><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: red; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">&gt;=20
+java saluda/Cliente</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">).<o:p></o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"BACKGROUND: #ffff99; MARGIN-LEFT: 0cm" =
+class=3DMsoFooter><SPAN=20
+style=3D"FONT-FAMILY: 'Courier New'; COLOR: navy; FONT-SIZE: 10pt; =
+mso-ansi-language: ES">Nota:=20
+Hay que tener en cuenta que debemos modificar el c=C3=B3digo del =
+programa Cliente con=20
+la direcci=C3=B3n IP del ordenador donde se ejecuta el programa=20
+Servidor.<o:p></o:p></SPAN></P></DIV>
+<P style=3D"TEXT-INDENT: 0cm; MARGIN-LEFT: 0cm; tab-stops: 35.4pt; =
+mso-list: none"=20
+class=3DBolita><SPAN=20
+style=3D"FONT-SIZE: 12pt; mso-ansi-language: =
+ES"><o:p>&nbsp;</o:p></SPAN></P>
+<P class=3DMsoNormal><B><o:p>&nbsp;</o:p></B></P>
+<P class=3DMsoNormal><B><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-ansi-language: ES-TRAD"=20
+lang=3DES-TRAD>Ejercicio:<o:p></o:p></SPAN></B></P>
+<P class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt; mso-ansi-language: ES-TRAD"=20
+lang=3DES-TRAD><o:p>&nbsp;</o:p></SPAN></P>
+<OL style=3D"MARGIN-TOP: 0cm" type=3D1>
+  <LI style=3D"tab-stops: list 36.0pt; mso-list: l2 level1 lfo3"=20
+  class=3DMsoNormal>Realizar la misma aplicaci=C3=B3n Cliente/Servidor =
+de gesti=C3=B3n de=20
+  salarios de empleados, utilizando ventanas gr=C3=A1ficas como las que =
+se muestran a=20
+  continuaci=C3=B3n: </LI></OL>
+<P style=3D"MARGIN-LEFT: 18pt" class=3DMsoNormal><o:p>&nbsp;</o:p></P>
+<P style=3D"TEXT-ALIGN: center; MARGIN-LEFT: 18pt" class=3DMsoNormal =
+align=3Dcenter><!--[if gte vml 1]><v:shapetype id=3D_x0000_t75 coordsize =
+=3D=20
+"21600,21600" o:preferrelative =3D "t" o:spt =3D "75" filled =3D "f" =
+stroked =3D "f"=20
+path =3D " m@4@5 l@4@11@9@11@9@5 xe"><v:stroke joinstyle =3D=20
+"miter"></v:stroke><v:formulas><v:f eqn =3D=20
+"if lineDrawn pixelLineWidth 0 "></v:f><v:f eqn =3D "sum @0 1 0 =
+"></v:f><v:f eqn =3D=20
+"sum 0 0 @1 "></v:f><v:f eqn =3D "prod @2 1 2 "></v:f><v:f eqn =3D=20
+"prod @3 21600 pixelWidth "></v:f><v:f eqn =3D=20
+"prod @3 21600 pixelHeight "></v:f><v:f eqn =3D "sum @0 0 1 "></v:f><v:f =
+eqn =3D=20
+"prod @6 1 2 "></v:f><v:f eqn =3D "prod @7 21600 pixelWidth "></v:f><v:f =
+eqn =3D=20
+"sum @8 21600 0 "></v:f><v:f eqn =3D "prod @7 21600 pixelHeight =
+"></v:f><v:f eqn =3D=20
+"sum @10 21600 0 "></v:f></v:formulas><v:path o:extrusionok =3D "f"=20
+gradientshapeok =3D "t" o:connecttype =3D "rect"></v:path><o:lock =
+aspectratio=3D"t"=20
+v:ext=3D"edit"></o:lock></v:shapetype><v:shape=20
+style=3D"WIDTH: 345.75pt; HEIGHT: 228.75pt" id=3D_x0000_i1025 type =3D =
+"#_x0000_t75"=20
+coordsize =3D "21600,21600"><v:imagedata o:title=3D"" src =3D=20
+"LPA-Sesion11_archivos/image001.png"></v:imagedata></v:shape><![endif]-->=
+<![if !vml]><img border=3D0 width=3D461 height=3D305
+src=3D"LPA-Sesion11_archivos/image002.jpg" =
+v:shapes=3D"_x0000_i1025"><![endif]></P>
+<P style=3D"TEXT-ALIGN: center; MARGIN-LEFT: 18pt" class=3DMsoNormal=20
+align=3Dcenter><o:p>&nbsp;</o:p></P>
+<P style=3D"TEXT-ALIGN: center; MARGIN-LEFT: 18pt" class=3DMsoNormal =
+align=3Dcenter><!--[if gte vml 1]><v:shape style=3D"WIDTH: 351pt; =
+HEIGHT: 201pt"=20
+id=3D_x0000_i1026 type =3D "#_x0000_t75" coordsize =3D =
+"21600,21600"><v:imagedata=20
+o:title=3D"" src =3D =
+"LPA-Sesion11_archivos/image003.png"></v:imagedata></v:shape><![endif]-->=
+<![if !vml]><img border=3D0 width=3D468 height=3D268
+src=3D"LPA-Sesion11_archivos/image004.jpg" =
+v:shapes=3D"_x0000_i1026"><![endif]></P>
+<P style=3D"TEXT-ALIGN: center; MARGIN-LEFT: 18pt" class=3DMsoNormal=20
+align=3Dcenter><o:p>&nbsp;</o:p></P>
+<P style=3D"TEXT-ALIGN: center" class=3DMsoNormal align=3Dcenter><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"COLOR: maroon; FONT-SIZE: 16pt; mso-bidi-font-size: =
+10.0pt"><o:p>&nbsp;</o:p></SPAN></B></P></DIV></BODY></HTML>

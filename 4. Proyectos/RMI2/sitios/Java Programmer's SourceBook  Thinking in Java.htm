@@ -1,0 +1,1065 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0046)http://www.codeguru.com/java/tij/tij0170.shtml -->
+<HTML><HEAD><TITLE>Java Programmer's SourceBook : Thinking in Java</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="Zafir Anjum" name=Author>
+<META content=developer.com name=Author>
+<META 
+content="visual c++ java vb source code software downloads freeware shareware visual basic c++ web development general internet internet security news articles directory reference sample example guide tutorial help resource developer discussion earthweb developer.com" 
+name=Keywords>
+<META 
+content="Developer.com offers dedicated downloads for the IT professional developer. Features include visual c++, java, visual basic, vb, source code and more." 
+name=description>
+<META content=global name=distribution>
+<META content=document name=resource-type>
+<META content=en name=language>
+<SCRIPT language=JavaScript>
+<!--
+OAS_url = 'http://mjxads.internet.com/RealMedia/ads/';
+OAS_build = document.location.toString().replace(/http:\/\//,"").split("/");
+OAS_build_str = "";
+for(i=1;i<OAS_build.length;i++) {
+        OAS_build_str += OAS_build[i] + "/";
+}
+OAS_sitepage = "intm/webdev/www.codeguru.com/" + OAS_build_str;
+OAS_listpos = 'house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9';
+OAS_query = '';
+OAS_target = '_top';
+OAS_version = 10;
+OAS_rn = '001234567890'; OAS_rns = '1234567890';
+OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+function OAS_NORMAL(pos) {
+var_a=('<A HREF=\"' + OAS_url + 'click_nx.cgi/' + OAS_sitepage );
+var_b=(var_a + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' );
+var_c=(var_b+ OAS_query + '\" TARGET=' + OAS_target + '>');
+document.write(var_c);
+var_aa=('<IMG SRC=\"' + OAS_url + 'adstream_nx.cgi/' + OAS_sitepage );
+var_bb=( var_aa + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?');
+var_cc=( var_bb + OAS_query + '\" BORDER=0></A>');
+document.write(var_cc);
+}
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript1.1>
+<!--
+OAS_version = 11;
+if (navigator.userAgent.indexOf('Mozilla/3') != -1 )
+OAS_version = 10;
+if (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1)
+OAS_version = 10;
+if (OAS_version >= 11) {
+var_aaa=('<SCRIPT LANGUAGE=JavaScript1.1 SRC=\"' + OAS_url);
+var_bbb=(var_aaa + 'adstream_mjx.ads/' + OAS_sitepage + '/1');
+var_ccc=(var_bbb + OAS_rns + '@' + OAS_listpos + '?' + OAS_query );
+var_ddd=(var_ccc + '\"><\/SCRIPT>');
+document.write(var_ddd);
+}
+//-->
+
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+<!--
+document.write('');
+
+function OAS_AD(pos) {
+if (OAS_version >= 11)
+OAS_RICH(pos);
+else
+OAS_NORMAL(pos);
+}
+//-->
+</SCRIPT>
+
+<META content="MSHTML 6.00.2800.1613" name=GENERATOR></HEAD>
+<BODY text=#000000 vLink=#999999 aLink=#ff0000 link=#dd0000 bgColor=#ffffff 
+background="" ALT="wave"><!-- begin logo and top banner ad table -->
+<TABLE cellSpacing=0 cellPadding=0 width=640>
+  <TBODY>
+  <TR COLSPAN="3">
+    <TD vAlign=top width=640 colSpan=3><A href="http://www.earthweb.com/" 
+      target=_top><IMG height=25 alt=EarthWeb src="" width=640 border=0></A> 
+  <TR>
+    <TD vAlign=top align=left width=150><A 
+      href="http://www.codeguru.com/"><IMG height=100 alt=Developer.com src="" 
+      width=110 border=0></A></TD>
+    <TD><IMG height=1 src="" width=40></TD>
+    <TD><!-- ======= start MJX - 468x60-1 ======= -->
+      <SCRIPT language=JavaScript>
+<!--
+OAS_AD('468x60-1');
+//-->
+</SCRIPT>
+      <NOSCRIPT><A 
+      href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!468x60-1"><IMG 
+      src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - 468x60-1 ======= --><!-- Counter Position Eliminated --></TD></TR></TBODY></TABLE><!-- end logo and top banner ad table --><!-- begin lower outer table -->
+<TABLE cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=130><!--navbar info -->
+      <TABLE cellSpacing=0 cellPadding=0 width=130 border=0>
+        <TBODY>
+        <TR>
+          <TD><!-- SEARCH FORM-->
+            <FORM action=http://search.internet.com/codeguru.earthweb.com 
+            method=post><INPUT type=hidden value=0 name=IC_StartNumber> <INPUT 
+            type=hidden value=10 name=IC_BatchSize> <INPUT type=hidden value=30 
+            name=IC_RelevanceThreshold> <INPUT type=hidden 
+            value=codeguru.earthweb.com name=IC_QueryDatabase> <INPUT size=10 
+            name=IC_QueryText> <INPUT type=submit value=Search> </FORM><!-- END OF SEARCH FORM --><!--		<IMG src="http://codeguru.developer.com/images/rule.gif" width="105" vspace=3 height="2" ALT="-----">--><!-- Removed a </form> tag from here. - Brad!--></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width=150 border=0>
+        <TBODY>
+        <TR>
+          <TD><FONT face="verdana, helvetica" size=2><B>Site</B> </FONT></TD></TR>
+        <TR>
+          <TD><SMALL><A href="http://www.codeguru.com/w2k_central/index.shtml" 
+            target=_top><FONT face="verdana, helvetica" color=#000000>windows 
+            2000</A></FONT><BR><A href="http://www.codeguru.com/" 
+            target=_top><FONT face="verdana, helvetica" color=#000000>visual 
+            c++</A></FONT><BR><A href="http://www.codeguru.com/java" 
+            target=_top><FONT face="verdana, helvetica" 
+            color=#dd0000>java</A></FONT><BR><A 
+            href="http://www.codeguru.com/vb" target=_top><FONT 
+            face="verdana, helvetica" color=#000000>visual 
+            basic</A></FONT><BR><A 
+            href="http://www.developer.com/downloads/code/javascripts.html" 
+            target=_top><FONT face="verdana, helvetica" 
+            color=#000000>javascripts</A></FONT><BR><A 
+            href="http://www.codeguru.com/cgi-bin/recommend.cgi" 
+            target=_top><FONT face="verdana, helvetica" color=#000000>recommend 
+            it</A><BR></FONT></SMALL></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD><FONT face="verdana, helvetica" size=2><STRONG>Book</STRONG> 
+            </FONT></TD></TR>
+        <TR>
+          <TD><SMALL><A href="http://www.codeguru.com/java/tij/" 
+            target=_top><FONT face="verdana, helvetica" color=#000000>thinking 
+            in java</A><BR></SMALL></FONT></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD><FONT face="verdana, helvetica" size=2><STRONG>Interact</STRONG> 
+            </FONT></TD></TR>
+        <TR>
+          <TD><SMALL><A 
+            href="http://www.codeguru.com/cgi-bin/bbs/wt/wwwthreads.pl" 
+            target=_top><FONT face="verdana, helvetica" 
+            color=#000000>forum</A></FONT><BR><A 
+            href="http://www.codeguru.com/Guestbook/guestbook.shtml" 
+            target=_top><FONT face="verdana, helvetica" color=#000000>guest 
+            book</A></FONT><BR><A href="http://www.dice.com/" target=_top><FONT 
+            face="verdana, helvetica" color=#000000>jobs</A></FONT><BR><A 
+            href="http://www.codeguru.com/jokes/jokes.shtml"><FONT 
+            face="verdana, helvetica" color=#000000>jokes</A></FONT><BR><!--            <a  href="/java/openfaq/open_faq.shtml"><strong>open faq</strong></a><br> --><A 
+            href="http://www.codeguru.com/java/new"><FONT 
+            face="verdana, helvetica" color=#000000>what's 
+            new</A></FONT><BR><BR><A 
+            href="http://www.codeguru.com/java/sharecode.shtml"><FONT 
+            face="verdana, helvetica" color=#000000>share 
+            code</A></FONT><BR></SMALL></FONT></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD><FONT face="verdana, helvetica" size=2><STRONG>Resource</STRONG> 
+            </FONT></TD></TR>
+        <TR>
+          <TD><SMALL><A 
+            href="http://www.codeguru.com/java/links/add.cgi"><FONT 
+            face="verdana, helvetica" color=#000000>add 
+            resource</A></FONT><BR><A 
+            href="http://www.codeguru.com/java/links/modify.cgi"><FONT 
+            face="verdana, helvetica" color=#000000>modify 
+            resource</A></FONT><BR><!--<a  href="http://www.developer.com/search/"><font face="verdana, helvetica" color="#000000">search resource</a></font><br>--><A 
+            href="http://www.codeguru.com/java/new"><FONT 
+            face="verdana, helvetica" color=#000000>new resource</A></FONT><BR><!--<a  href="/cgi-bin/mailinglist/mlist.cgi?action=join&list=java"><font face="verdana, helvetica" color="#000000">mailing list</a><br>
+                        </font>--></SMALL></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE>
+      <P><!-- JOB BUTTON -->
+      <TABLE cellSpacing=0 cellPadding=5 width=150 border=0>
+        <TBODY>
+        <TR>
+          <TD align=left><A href="http://jobs.internet.com/" target=new><IMG 
+            alt="[Internet Jobs]" src=""> </A></TD></TR></TBODY></TABLE>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD>
+            <FORM action=/java/cgi-bin/list_java.cgi method=post><IMG height=2 
+            alt=----- src="" width=105 vspace=4><BR><B><FONT 
+            face="verdana, helvetica" size=1>Java by 
+            E-mail:</B><BR></FONT><INPUT size=11 value="your e-mail" name=email> 
+            <INPUT type=hidden value=Subscribe name=state></TD></TR>
+        <TR>
+          <TD><INPUT type=submit value=Subscribe><BR><FONT 
+            face="verdana, helvetica" size=1>Get the weekly e-mail highlights on 
+            Java!<BR></FONT><IMG height=2 alt=----- src="" width=105 
+            vspace=4></FORM></TD></TR></TBODY></TABLE><!--/navbar>
+
+
+<!-- blank column for spacing --></P>
+    <TD vAlign=top width=20><FONT color=#ffffff>-</FONT></TD><!-- end blank column for spacing --><!-- begin content column -->
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=0>
+        <TBODY>
+        <TR><!-- begin main content column -->
+          <TD vAlign=top width=468>
+            <TABLE width="100%">
+              <TBODY>
+              <TR>
+                <TD><A href="http://www.bruceeckel.com/javabook.html">Bruce 
+                  Eckel's Thinking in Java</A> </TD>
+                <TD align=right><A 
+                  href="http://www.codeguru.com/java/tij/tij_c.shtml">Contents</A> 
+                  | <A 
+                  href="http://www.codeguru.com/java/tij/tij0169.shtml">Prev</A> 
+                  | <A 
+                  href="http://www.codeguru.com/java/tij/tij0171.shtml">Next</A> 
+                </TD></TR></TBODY></TABLE>
+            <HR>
+
+            <H2 align=left>Remote methods </H2>
+            <DIV align=left><FONT face="Carmina Md BT" color=black 
+            size=3>Traditional approaches to executing code on other machines 
+            across a network have been confusing as well as tedious and 
+            error-prone to implement. The nicest way to think about this problem 
+            is that some object happens to live on another machine, and you can 
+            send a message to that object and get a result as if the object 
+            lived on your local machine. This simplification is exactly what 
+            Java 1.1<A name=Index2865></A> <A name=Index2866></A><A 
+            name=Index2867></A></FONT><FONT face="Carmina Md BT" color=black 
+            size=3><I>Remote Method Invocation </I></FONT><FONT 
+            face="Carmina Md BT" color=black size=3>(RMI) allows you to do. This 
+            section walks you through the steps necessary to create your own RMI 
+            objects. </FONT><A name=_Toc408018786></A>
+            <P></P></DIV><A name=Heading543></A>
+            <H3 align=left>Remote interfaces </H3>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>RMI 
+            makes heavy use of interfaces. When you want to create a remote 
+            object, you mask the underlying implementation by passing around an 
+            interface. Thus, when the client gets a handle to a remote object, 
+            what they really get is an interface handle, which </FONT><FONT 
+            face="Carmina Md BT" color=black size=3><I>happens</I></FONT><FONT 
+            face="Carmina Md BT" color=black size=3> to connect to some local 
+            stub code that talks across the network. But you don’t think about 
+            this, you just send messages via your interface handle. </FONT>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>When 
+            you create a <A name=Index2868></A>remote interface, you must follow 
+            these guidelines: </FONT>
+            <P></P></DIV>
+            <OL>
+              <LI><FONT face="Carmina Md BT" color=black size=3>The remote 
+              interface must be </FONT><FONT face="Carmina Md BT" color=black 
+              size=3><B>public</B></FONT><FONT face="Carmina Md BT" color=black 
+              size=3> (it cannot have “package access,” that is, it cannot be 
+              “friendly”). Otherwise, a client will get an error when attempting 
+              to load a remote object that implements the remote interface. 
+              </FONT>
+              <LI><FONT face="Carmina Md BT" color=black size=3>The remote 
+              interface must extend the interface <A 
+              name=Index2869></A></FONT><FONT face="Carmina Md BT" color=black 
+              size=3><B>java.rmi.Remote</B></FONT><FONT face="Carmina Md BT" 
+              color=black size=3>. </FONT>
+              <LI><FONT face="Carmina Md BT" color=black size=3>Each method in 
+              the remote interface must declare <A 
+              name=Index2870></A></FONT><FONT face="Carmina Md BT" color=black 
+              size=3><B>java.rmi.RemoteException</B></FONT><FONT 
+              face="Carmina Md BT" color=black size=3> in its </FONT><FONT 
+              face="Carmina Md BT" color=black size=3><B>throws</B></FONT><FONT 
+              face="Carmina Md BT" color=black size=3> clause in addition to any 
+              application-specific exceptions. </FONT>
+              <LI><FONT face="Carmina Md BT" color=black size=3>A remote object 
+              passed as an argument or return value (either directly or embedded 
+              within a local object) must be declared as the remote interface, 
+              not the implementation class. </FONT></LI></OL>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>Here’s 
+            a simple remote interface that represents an accurate time service: 
+            </FONT>
+            <P></P></DIV><FONT color=#990000><PRE><FONT color=#009900>//: PerfectTimeI.java</FONT>
+<FONT color=#009900>// The PerfectTime remote interface</FONT>
+<FONT color=#0000ff>package</FONT> c15.ptime;
+<FONT color=#0000ff>import</FONT> java.rmi.*;
+
+<FONT color=#0000ff>interface</FONT> PerfectTimeI <FONT color=#0000ff>extends</FONT> Remote {
+  <FONT color=#0000ff>long</FONT> getPerfectTime() <FONT color=#0000ff>throws</FONT> RemoteException;
+} <FONT color=#009900>///:~ </PRE></FONT></FONT>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>It 
+            looks like any other interface except that it extends </FONT><FONT 
+            face="Carmina Md BT" color=black size=3><B>Remote</B></FONT><FONT 
+            face="Carmina Md BT" color=black size=3> and all of its methods 
+            throw </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>RemoteException</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3>. Remember that an </FONT><FONT 
+            face="Carmina Md BT" color=black size=3><B>interface</B></FONT><FONT 
+            face="Carmina Md BT" color=black size=3> and all of its methods are 
+            automatically </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>public</B></FONT><FONT face="Carmina Md BT" color=black 
+            size=3>.</FONT><A name=_Toc408018787></A>
+            <P></P></DIV><A name=Heading544></A>
+            <H3 align=left>Implementing the remote interface </H3>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>The 
+            server must contain a class that extends <A name=Index2871></A><A 
+            name=Index2872></A></FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>UnicastRemoteObject</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> and implements the remote interface. This class 
+            can also have additional methods, but only the methods in the remote 
+            interface will be available to the client, of course, since the 
+            client will get only a handle to the interface, not the class that 
+            implements it. </FONT>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>You 
+            must explicitly define the constructor for the remote object even if 
+            you’re only defining a default constructor that calls the base-class 
+            constructor. You must write it out since it must throw </FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>RemoteException</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3>.</FONT>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>Here’s 
+            the implementation of the remote interface </FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>PerfectTimeI</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3>:</FONT>
+            <P></P></DIV><FONT color=#990000><PRE><FONT color=#009900>//: PerfectTime.java</FONT>
+<FONT color=#009900>// The implementation of the PerfectTime </FONT>
+<FONT color=#009900>// remote object</FONT>
+<FONT color=#0000ff>package</FONT> c15.ptime;
+<FONT color=#0000ff>import</FONT> java.rmi.*;
+<FONT color=#0000ff>import</FONT> java.rmi.server.*;
+<FONT color=#0000ff>import</FONT> java.rmi.registry.*;
+<FONT color=#0000ff>import</FONT> java.net.*;
+
+<FONT color=#0000ff>public</FONT> <FONT color=#0000ff>class</FONT> PerfectTime 
+    <FONT color=#0000ff>extends</FONT> UnicastRemoteObject
+    <FONT color=#0000ff>implements</FONT> PerfectTimeI {
+  <FONT color=#009900>// Implementation of the interface:</FONT>
+  <FONT color=#0000ff>public</FONT> <FONT color=#0000ff>long</FONT> getPerfectTime() 
+      <FONT color=#0000ff>throws</FONT> RemoteException {
+    <FONT color=#0000ff>return</FONT> System.currentTimeMillis();
+  }
+  <FONT color=#009900>// Must implement constructor to throw</FONT>
+  <FONT color=#009900>// RemoteException:</FONT>
+  <FONT color=#0000ff>public</FONT> PerfectTime() <FONT color=#0000ff>throws</FONT> RemoteException {
+    <FONT color=#009900>// super(); // Called automatically</FONT>
+  }
+  <FONT color=#009900>// Registration for RMI serving:</FONT>
+  <FONT color=#0000ff>public</FONT> <FONT color=#0000ff>static</FONT> <FONT color=#0000ff>void</FONT> main(String[] args) {
+    System.setSecurityManager(
+      <FONT color=#0000ff>new</FONT> RMISecurityManager());
+    <FONT color=#0000ff>try</FONT> {
+      PerfectTime pt = <FONT color=#0000ff>new</FONT> PerfectTime();
+      Naming.bind(
+        "<FONT color=#009900>//colossus:2005/PerfectTime", pt);</FONT>
+      System.out.println("Ready to <FONT color=#0000ff>do</FONT> time");
+    } <FONT color=#0000ff>catch</FONT>(Exception e) {
+      e.printStackTrace();
+    }
+  }
+} <FONT color=#009900>///:~ </PRE></FONT></FONT>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>Here, 
+            </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>main(&nbsp;)</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> handles all the details of setting up the 
+            server. When you’re serving RMI objects, at some point in your 
+            program you must: </FONT>
+            <P></P></DIV>
+            <OL>
+              <LI><FONT face="Carmina Md BT" color=black size=3>Create and 
+              install a security manager that supports RMI. The only one 
+              available for RMI as part of the Java distribution is <A 
+              name=Index2873></A><A name=Index2874></A></FONT><FONT 
+              face="Carmina Md BT" color=black 
+              size=3><B>RMISecurityManager</B></FONT><FONT face="Carmina Md BT" 
+              color=black size=3>.</FONT>
+              <LI><FONT face="Carmina Md BT" color=black size=3>Create one or 
+              more instances of a remote object. Here, you can see the creation 
+              of the </FONT><FONT face="Carmina Md BT" color=black 
+              size=3><B>PerfectTime</B></FONT><FONT face="Carmina Md BT" 
+              color=black size=3> object. </FONT>
+              <LI><FONT face="Carmina Md BT" color=black size=3>Register at 
+              least one of the remote objects with the RMI <A 
+              name=Index2875></A><A name=Index2876></A>remote object registry 
+              for bootstrapping purposes. One remote object can have methods 
+              that produce handles to other remote objects. This allows you to 
+              set it up so the client must go to the registry only once, to get 
+              the first remote object. </FONT></LI></OL><A name=Heading545></A>
+            <H4 align=left>Setting up the registry </H4>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>Here, 
+            you see a call to the </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>static</B></FONT><FONT face="Carmina Md BT" color=black 
+            size=3> method <A name=Index2877></A><A name=Index2878></A><A 
+            name=Index2879></A></FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>Naming.bind(&nbsp;)</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3>. However, this call requires that the registry 
+            be running as a separate process on the computer. The name of the 
+            registry server is <A name=Index2880></A><A 
+            name=Index2881></A></FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>rmiregistry</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3>, and under 32-bit Windows you say: </FONT>
+            <P></P></DIV>
+            <DIV align=left><TT><FONT face="Courier New" color=black 
+            size=3>start rmiregistry </FONT></TT>
+            <P></P></DIV>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>to 
+            start it in the background. On Unix, it is: </FONT>
+            <P></P></DIV>
+            <DIV align=left><TT><FONT face="Courier New" color=black 
+            size=3>rmiregistry &amp; </FONT></TT>
+            <P></P></DIV>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>Like 
+            many network programs, the </FONT><FONT face="Carmina Md BT" 
+            color=black size=3><B>rmiregistry</B></FONT><FONT 
+            face="Carmina Md BT" color=black size=3> is located at the IP 
+            address of whatever machine started it up, but it must also be 
+            listening at a port. If you invoke the </FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>rmiregistry</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> as above, with no argument, the registry’s port 
+            will default to 1099. If you want it to be at some other port, you 
+            add an argument on the command line to specify the port. For this 
+            example, the port will be located at 2005, so the </FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>rmiregistry</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> should be started like this under 32-bit 
+            Windows: </FONT>
+            <P></P></DIV>
+            <DIV align=left><TT><FONT face="Courier New" color=black 
+            size=3>start rmiregistry 2005 </FONT></TT>
+            <P></P></DIV>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>or for 
+            Unix: </FONT>
+            <P></P></DIV>
+            <DIV align=left><TT><FONT face="Courier New" color=black 
+            size=3>rmiregistry 2005 &amp; </FONT></TT>
+            <P></P></DIV>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>The 
+            information about the port must also be given to the </FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>bind(&nbsp;)</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> command, as well as the IP address of the 
+            machine where the registry is located. But this brings up what can 
+            be a frustrating problem if you’re expecting to test RMI programs 
+            locally the way the network programs have been tested so far in this 
+            chapter. In the JDK 1.1.1 release, there are a couple of problems: 
+            </FONT><A href="http://www.codeguru.com/java/tij/tij0170.shtml#fn69" 
+            name=fnB69>[69]</A>
+            <P></P></DIV>
+            <DIV align=left><A name=Index2882></A>
+            <P></P></DIV>
+            <OL>
+              <LI><FONT face="Carmina Md BT" color=black size=3><A 
+              name=Index2883></A></FONT><FONT face="Carmina Md BT" color=black 
+              size=3><B>localhost </B></FONT><FONT face="Carmina Md BT" 
+              color=black size=3>does not work with RMI. Thus, to experiment 
+              with RMI on a single machine, you must provide the name of the 
+              machine. To find out the name of your machine under 32-bit 
+              Windows, go to the control panel and select “Network.” Select the 
+              “Identification” tab, and you’ll see your computer name. In my 
+              case, I called my computer “Colossus” (for all the hard disks I’ve 
+              had to put on to hold all the different development systems). It 
+              appears that capitalization is ignored. </FONT>
+              <LI><FONT face="Carmina Md BT" color=black size=3>RMI will not 
+              work unless your computer has an active <A name=Index2884></A><A 
+              name=Index2885></A>TCP/IP connection, even if all your components 
+              are just talking to each other on the local machine. This means 
+              that you must connect to your Internet service provider before 
+              trying to run the program or you’ll get some obscure exception 
+              messages. </FONT></LI></OL>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>Will 
+            all this in mind, the </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>bind(&nbsp;)</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> command becomes: </FONT>
+            <P></P></DIV>
+            <DIV align=left><TT><FONT face="Courier New" color=black 
+            size=3>Naming.bind("//colossus:2005/PerfectTime", pt); </FONT></TT>
+            <P></P></DIV>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>If you 
+            are using the default port 1099, you don’t need to specify a port, 
+            so you could say: </FONT>
+            <P></P></DIV>
+            <DIV align=left><TT><FONT face="Courier New" color=black 
+            size=3>Naming.bind("//colossus/PerfectTime", pt); </FONT></TT>
+            <P></P></DIV>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>In a 
+            future release of the JDK (after 1.1) when the </FONT><FONT 
+            face="Carmina Md BT" color=black size=3><B>localhost</B></FONT><FONT 
+            face="Carmina Md BT" color=black size=3> bug is fixed, you will be 
+            able to perform local testing by leaving off the IP address and 
+            using only the identifier: </FONT>
+            <P></P></DIV>
+            <DIV align=left><TT><FONT face="Courier New" color=black 
+            size=3>Naming.bind("PerfectTime", pt); </FONT></TT>
+            <P></P></DIV>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>The 
+            name for the service is arbitrary; it happens to be PerfectTime 
+            here, just like the name of the class, but you could call it 
+            anything you want. The important thing is that it’s a unique name in 
+            the registry that the client knows to look for to procure the remote 
+            object. If the name is already in the registry, you’ll get an <A 
+            name=Index2886></A><A name=Index2887></A></FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>AlreadyBoundException</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3>. To prevent this, you can always use <A 
+            name=Index2888></A><A name=Index2889></A><A 
+            name=Index2890></A></FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>rebind(&nbsp;)</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> instead of </FONT><FONT face="Carmina Md BT" 
+            color=black size=3><B>bind(&nbsp;)</B></FONT><FONT 
+            face="Carmina Md BT" color=black size=3>, since </FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>rebind(&nbsp;)</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> either adds a new entry or replaces the one 
+            that’s already there. </FONT>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>Even 
+            though </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>main(&nbsp;)</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> exits, your object has been created and 
+            registered so it’s kept alive by the registry, waiting for a client 
+            to come along and request it. As long as the </FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>rmiregistry</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> is running and you don’t call </FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>Naming.unbind(&nbsp;)</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> <A name=Index2891></A><A name=Index2892></A><A 
+            name=Index2893></A>on your name, the object will be there. For this 
+            reason, when you’re developing your code you need to shut down the 
+            </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>rmiregistry</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> and restart it when you compile a new version of 
+            your remote object. </FONT>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>You 
+            aren’t forced to start up </FONT><FONT face="Carmina Md BT" 
+            color=black size=3><B>rmiregistry</B></FONT><FONT 
+            face="Carmina Md BT" color=black size=3> as an external process. If 
+            you know that your application is the only one that’s going to use 
+            the registry, you can start it up inside your program with the line: 
+            </FONT>
+            <P></P></DIV>
+            <DIV align=left><TT><FONT face="Courier New" color=black 
+            size=3>LocateRegistry.createRegistry(2005);</FONT></TT>
+            <P></P></DIV>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>Like 
+            before, 2005 is the port number we happen to be using in this 
+            example. This is the equivalent of running </FONT><FONT 
+            face="Carmina Md BT" color=black size=3><B>rmiregistry 2005 
+            </B></FONT><FONT face="Carmina Md BT" color=black size=3>from a 
+            command line, but it can often be more convenient when you’re 
+            developing RMI code since it eliminates the extra steps of starting 
+            and stopping the registry. Once you’ve executed this code, you can 
+            </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>bind(&nbsp;)</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> using </FONT><FONT face="Carmina Md BT" 
+            color=black size=3><B>Naming</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> as before. </FONT><A name=_Toc408018788></A>
+            <P></P></DIV><A name=Heading546></A>
+            <H3 align=left>Creating stubs and skeletons </H3>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>If you 
+            compile and run </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>PerfectTime.java</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3>, it won’t work even if you have the </FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>rmiregistry</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> running correctly. That’s because the framework 
+            for RMI isn’t all there yet. You must first create the <A 
+            name=Index2894></A><A name=Index2895></A>stubs and <A 
+            name=Index2896></A><A name=Index2897></A>skeletons that provide the 
+            network connection operations and allow you to pretend that the 
+            remote object is just another local object on your machine. </FONT>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>What’s 
+            going on behind the scenes is complex. Any objects that you pass 
+            into or return from a remote object must </FONT><FONT 
+            face="Carmina Md BT" color=black size=3><B>implement <A 
+            name=Index2898></A><A 
+            name=Index2899></A>Serializable</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> (if you want to pass remote references instead 
+            of the entire objects, the object arguments can </FONT><FONT 
+            face="Carmina Md BT" color=black size=3><B>implement Remote 
+            </B></FONT><FONT face="Carmina Md BT" color=black size=3>), so you 
+            can imagine that the stubs and skeletons are automatically 
+            performing serialization and deserialization as they “marshal” all 
+            of the arguments across the network and return the result. 
+            Fortunately, you don’t have to know any of this, but you 
+            </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><I>do</I></FONT><FONT face="Carmina Md BT" color=black 
+            size=3> have to create the stubs and skeletons. This is a simple 
+            process: you invoke the <A name=Index2900></A><A 
+            name=Index2901></A></FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>rmic</B></FONT><FONT face="Carmina Md BT" color=black 
+            size=3> tool on your compiled code, and it creates the necessary 
+            files. So the only requirement is that another step be added to your 
+            compilation process. </FONT>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>The 
+            </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>rmic</B></FONT><FONT face="Carmina Md BT" color=black 
+            size=3> tool is particular about packages and <A 
+            name=Index2902></A><A name=Index2903></A>classpaths, however. 
+            </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>PerfectTime.java</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> is in the package </FONT><FONT 
+            face="Carmina Md BT" color=black size=3><B>c15.Ptime</B></FONT><FONT 
+            face="Carmina Md BT" color=black size=3>, and even if you invoke 
+            </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>rmic</B></FONT><FONT face="Carmina Md BT" color=black 
+            size=3> in the same directory in which </FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>PerfectTime.class</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> is located, </FONT><FONT face="Carmina Md BT" 
+            color=black size=3><B>rmic</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> won’t find the file, since it searches the 
+            classpath. So you must specify the location off the class path, like 
+            so: </FONT>
+            <P></P></DIV>
+            <DIV align=left><TT><FONT face="Courier New" color=black size=3>rmic 
+            c15.PTime.PerfectTime </FONT></TT>
+            <P></P></DIV>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>You 
+            don’t have to be in the directory containing </FONT><FONT 
+            face="Carmina Md BT" color=black 
+            size=3><B>PerfectTime.class</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> when you execute this command, but the results 
+            will be placed in the current directory. </FONT>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>When 
+            </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>rmic</B></FONT><FONT face="Carmina Md BT" color=black 
+            size=3> runs successfully, you’ll have two new classes in the 
+            directory: </FONT>
+            <P></P></DIV><FONT color=#990000><PRE>PerfectTime_Stub.<FONT color=#0000ff>class</FONT>
+PerfectTime_Skel.<FONT color=#0000ff>class</FONT></PRE></FONT>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black 
+            size=3>corresponding to the stub and skeleton. Now you’re ready to 
+            get the server and client to talk to each other. </FONT><A 
+            name=_Toc408018789></A>
+            <P></P></DIV><A name=Heading547></A>
+            <H3 align=left>Using the remote object </H3>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>The 
+            whole point of RMI is to make the use of remote objects simple. The 
+            only extra thing that you must do in your client program is to look 
+            up and fetch the remote interface from the server. From then on, 
+            it’s just regular Java programming: sending messages to objects. 
+            Here’s the program that uses </FONT><FONT face="Carmina Md BT" 
+            color=black size=3><B>PerfectTime</B></FONT><FONT 
+            face="Carmina Md BT" color=black size=3>:</FONT>
+            <P></P></DIV><FONT color=#990000><PRE><FONT color=#009900>//: DisplayPerfectTime.java</FONT>
+<FONT color=#009900>// Uses remote object PerfectTime</FONT>
+<FONT color=#0000ff>package</FONT> c15.ptime;
+<FONT color=#0000ff>import</FONT> java.rmi.*;
+<FONT color=#0000ff>import</FONT> java.rmi.registry.*;
+
+<FONT color=#0000ff>public</FONT> <FONT color=#0000ff>class</FONT> DisplayPerfectTime {
+  <FONT color=#0000ff>public</FONT> <FONT color=#0000ff>static</FONT> <FONT color=#0000ff>void</FONT> main(String[] args) {
+    System.setSecurityManager(
+      <FONT color=#0000ff>new</FONT> RMISecurityManager());
+    <FONT color=#0000ff>try</FONT> {
+      PerfectTimeI t = 
+        (PerfectTimeI)Naming.lookup(
+          "<FONT color=#009900>//colossus:2005/PerfectTime");</FONT>
+      <FONT color=#0000ff>for</FONT>(<FONT color=#0000ff>int</FONT> i = 0; i &lt; 10; i++)
+        System.out.println("Perfect time = " +
+          t.getPerfectTime());
+    } <FONT color=#0000ff>catch</FONT>(Exception e) {
+      e.printStackTrace();
+    }
+  }
+} <FONT color=#009900>///:~ </PRE></FONT></FONT>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>The ID 
+            string is the same as the one used to register the object with 
+            </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>Naming</B></FONT><FONT face="Carmina Md BT" color=black 
+            size=3>, and the first part represents the URL and port number. 
+            Since you’re using a URL, you can also specify a machine on the 
+            Internet. </FONT>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>What 
+            comes back from </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>Naming.lookup(&nbsp;)</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3> must be cast to the remote interface, 
+            </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><I>not</I></FONT><FONT face="Carmina Md BT" color=black 
+            size=3> to the class. If you use the class instead, you’ll get an 
+            exception. </FONT>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>You 
+            can see in the method call </FONT>
+            <P></P></DIV>
+            <DIV align=left><TT><FONT face="Courier New" color=black 
+            size=3>t.getPerfectTime(&nbsp;)</FONT></TT>
+            <P></P></DIV>
+            <DIV align=left>
+            <P></P></DIV>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>that 
+            once you have a handle to the remote object, programming with it is 
+            indistinguishable from programming with a local object (with one 
+            difference: remote methods throw <A name=Index2904></A><A 
+            name=Index2905></A></FONT><FONT face="Carmina Md BT" color=black 
+            size=3><B>RemoteException</B></FONT><FONT face="Carmina Md BT" 
+            color=black size=3>).</FONT><A name=_Toc408018790></A>
+            <P></P></DIV><A name=Heading548></A>
+            <H3 align=left>Alternatives to RMI </H3>
+            <DIV align=left><FONT face="Carmina Md BT" color=black size=3>RMI is 
+            just one way to create objects that can be distributed across a 
+            network. It has the advantage of being a “pure Java” solution, but 
+            if you have a lot of code written in some other language, it might 
+            not meet your needs. The two most compelling alternatives are 
+            Microsoft’s <A name=Index2906></A>DCOM (which, according to 
+            Microsoft’s plan, will eventually be hosted on platforms other than 
+            Windows) and <A name=Index2907></A><A name=Index2908></A>CORBA, 
+            which is supported in Java 1.1<A name=Index2909></A> and was 
+            designed from the start to be cross-platform. You can get an 
+            introduction to distributed objects in Java (albeit with a clear 
+            bias towards CORBA) in </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><I>Client/Server Programming with Java and CORBA 
+            </I></FONT><FONT face="Carmina Md BT" color=black size=3>by Orfali 
+            &amp; Harkey (John Wiley &amp; Sons, 1997). A more serious treatment 
+            of CORBA is given by </FONT><FONT face="Carmina Md BT" color=black 
+            size=3><I>Java Programming with CORBA </I></FONT><FONT 
+            face="Carmina Md BT" color=black size=3>by </FONT><FONT 
+            face="Carmina Md BT" color=black size=3><I></I></FONT><FONT 
+            face="Carmina Md BT" color=black size=3>Andreas Vogel </FONT>
+            <P><FONT face="Carmina Md BT" color=black size=3>and Keith Duddy 
+            (John Wiley &amp; Sons, 1997). </FONT><A name=_Toc375545499></A><A 
+            name=_Toc408018791></A>
+            <P></P></DIV>
+            <HR>
+
+            <DIV align=left><A 
+            href="http://www.codeguru.com/java/tij/tij0170.shtml#fnB69" 
+            name=fn69>[69]</A><FONT face="Carmina Md BT" color=black size=2> 
+            Many brain cells died in agony to discover this information. </FONT>
+            <P></P></DIV>
+            <DIV align=right><A 
+            href="http://www.codeguru.com/java/tij/tij_c.shtml">Contents</A> | 
+            <A href="http://www.codeguru.com/java/tij/tij0169.shtml">Prev</A> | 
+            <A href="http://www.codeguru.com/java/tij/tij0171.shtml">Next</A> 
+            </DIV><!--
+<P>
+<strong><a href="/cgi-bin/addpage/addpage.cgi?cfg=addjavalcomment&action=Comment">
+Add Comment</a></strong>
+<P>
+--></TD><!-- end main content column --><!-- begin spots column -->
+          <TD vAlign=top align=right>
+            <P><!-- Right side tower ad --><!-- ======= start MJX - 125x800 ======= -->
+            <SCRIPT language=JavaScript>
+<!--
+OAS_AD('125x800');
+//-->
+</SCRIPT>
+            <NOSCRIPT><A 
+            href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!125x800"><IMG 
+            src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - 125x800 ======= -->
+            <P><!-- Commerce bar -->
+            <TABLE cellPadding=3 width=140 border=0>
+              <TBODY>
+              <TR bgColor=black>
+                <TD><FONT face=Arial color=white size=1><B>
+                  <CENTER>internet.commerce</CENTER></B></FONT></TD></TR>
+              <TR bgColor=lightgrey>
+                <TD><FONT face=Arial size=1><!-- ======= start MJX - cp1 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp1');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp1"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp1 ======= --><!-- ======= start MJX - cp2 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp2');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp2"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp2 ======= --><!-- ======= start MJX - cp3 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp3');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp3"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp3 ======= --><!-- ======= start MJX - cp4 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp4');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp4"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp4 ======= --><!-- ======= start MJX - cp5 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp5');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp5"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp5 ======= --><!-- ======= start MJX - cp6 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp6');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp6"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp6 ======= --><!-- ======= start MJX - cp7 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp7');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp7"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp7 ======= --><!-- ======= start MJX - cp8 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp8');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp8"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp8 ======= --><!-- ======= start MJX - cp9 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp9');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp9"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp9 ======= --><!-- ======= start MJX - cp10 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp10');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp10"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp10 ======= --><!-- ======= start MJX - cp11 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp11');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp11"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp11 ======= --><!-- ======= start MJX - cp12 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp12');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp12"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp12 ======= --><!-- ======= start MJX - cp13 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp13');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp13"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp13 ======= --><!-- ======= start MJX - cp14 ======= -->
+                  <SCRIPT 
+                  language=JavaScript>
+<!--
+OAS_AD('cp14');
+//-->
+</SCRIPT>
+                  <NOSCRIPT><A 
+                  href="http://63.236.18.118/RealMedia/ads/click_nx.ads/intm/webdev/www.codeguru.com/java/index@house_ribbon,468x60-1,flex,125x800,imu-right,ciu,125x125-1,468x60-2,sitetext-1,cp1,cp10,cp11,cp12,cp13,cp14,cp2,cp3,cp4,cp5,cp6,cp7,cp8,cp9!cp14"><IMG 
+                  src="" border=0> </A></NOSCRIPT><!-- ======= end MJX - cp14 ======= --></FONT></TD></TR></TBODY></TABLE><!-- End of commerce bar --><BR></P></TD><!-- end spots column --></TR><!-- end main content column --><!-- begin lower ad and footer section -->
+        <TR>
+          <TD></TD>
+          <TD></TD>
+          <TD>
+            <P><!-- end see also/paid links table --></P></TD>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width=468 valign="bottom">
+              <TBODY>
+              <TR>
+                <TD noWrap><!-- begin footer information -->
+                  <CENTER><BR><!-- Google Analytics -->
+                  <SCRIPT 
+                  src="Java Programmer's SourceBook  Thinking in Java_files/ga.js" 
+                  type=text/javascript>
+</SCRIPT>
+
+                  <SCRIPT type=text/javascript>
+<!--     hide from no js browsers 
+delete Array.prototype.itemValidation;
+delete Array.prototype.isArray;
+var superTracker = _gat._getTracker("UA-2838492-1");
+superTracker._initData();
+superTracker._trackPageview();
+-->
+</SCRIPT>
+
+                  <SCRIPT type=text/javascript>
+  var site_name =  location.hostname;
+  if ( site_name.indexOf("www.") != 0 ) {
+    site_name  = "www."+site_name ;
+  }
+  document.write("<SCR" + "IPT LANGUAGE='JavaScript1.2' SRC='/icom_includes/footers/sites/"+ site_name +".js' TYPE='text/javascript'><\/SCR" + "IPT>");
+-->
+</SCRIPT>
+
+                  <SCRIPT type=text/javascript>
+<!--     hide from no js browsers 
+  pageTracker._initData();
+  pageTracker._trackPageview();
+  // -->
+</SCRIPT>
+<!-- End Google Analytics --><BR clear=all>
+                  <CENTER>
+                  <TABLE cellSpacing=0 cellPadding=5 border=0>
+                    <TBODY>
+                    <TR>
+                      <FORM action=http://search.internet.com/www.jupiterweb.com 
+                      method=post target=_top ,>
+                      <TD align=middle><FONT face="verdana, arial, helvetica" 
+                        size=-2><A id=aup 
+                        href="http://www.jupitermedia.com/corporate/privacy/aup.html">Acceptable 
+                        Use Policy</A><BR><BR><IMG height=17 
+                        alt=JupiterOnlineMedia hspace=0 
+                        src="Java Programmer's SourceBook  Thinking in Java_files/onlinemedia_footer.gif" 
+                        width=175 border=0> 
+                        <P align=center>
+                        <TABLE border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=foot_alt align=middle><A class=foot 
+                              href="http://www.internet.com/" target=_top><IMG 
+                              height=15 alt=internet.com hspace=0 
+                              src="Java Programmer's SourceBook  Thinking in Java_files/icom_foot.gif" 
+                              width=97 align=absMiddle border=0></A><IMG 
+                              height=25 alt="" hspace=10 
+                              src="Java Programmer's SourceBook  Thinking in Java_files/ruledivide_foot.gif" 
+                              width=1 align=absMiddle border=0><A 
+                              href="http://www.earthweb.com/" target=_top><IMG 
+                              height=12 alt=earthweb.com hspace=5 
+                              src="Java Programmer's SourceBook  Thinking in Java_files/earthweb_foot2.gif" 
+                              width=93 align=absMiddle border=0></A><IMG 
+                              height=25 alt="" hspace=10 
+                              src="Java Programmer's SourceBook  Thinking in Java_files/ruledivide_foot.gif" 
+                              width=1 align=absMiddle border=0><A 
+                              href="http://www.devx.com/" target=_top><IMG 
+                              height=30 alt=Devx.com hspace=0 
+                              src="Java Programmer's SourceBook  Thinking in Java_files/devx_foot2.gif" 
+                              width=35 align=absMiddle border=0></A><IMG 
+                              height=25 alt="" hspace=10 
+                              src="Java Programmer's SourceBook  Thinking in Java_files/ruledivide_foot.gif" 
+                              width=1 align=absMiddle border=0><A 
+                              href="http://www.mediabistro.com/" 
+                              target=_top><IMG height=48 alt=mediabistro.com 
+                              hspace=0 
+                              src="Java Programmer's SourceBook  Thinking in Java_files/mediabistro_foot.gif" 
+                              width=100 align=absMiddle border=0></A><IMG 
+                              height=25 alt="" hspace=10 
+                              src="Java Programmer's SourceBook  Thinking in Java_files/ruledivide_foot.gif" 
+                              width=1 align=absMiddle border=0><A 
+                              href="http://www.graphics.com/" target=_top><IMG 
+                              height=18 alt=Graphics.com hspace=0 
+                              src="Java Programmer's SourceBook  Thinking in Java_files/grcom_foot.gif" 
+                              width=97 align=absMiddle 
+                          border=0></A></TD></TR></TBODY></TABLE>
+                        <P><FONT face="verdana, arial, helvetica" 
+                        size=-2><B>Search:</B> <INPUT type=hidden value=1 
+                        name=IC_Summary> <INPUT type=hidden value=0 
+                        name=IC_StartNumber> <INPUT type=hidden value=10 
+                        name=IC_BatchSize> <INPUT type=hidden value=50 
+                        name=IC_RelevanceThreshold> <INPUT type=hidden value=all 
+                        name=IC_QueryDatabase> <INPUT size=45 name=IC_QueryText> 
+                        <INPUT type=image height=20 width=41 
+                        src="Java Programmer's SourceBook  Thinking in Java_files/but_find.gif" 
+                        align=absMiddle value=Find border=0 name=SUBMIT> </FONT>
+                        <P><FONT face="verdana, arial, helvetica" size=-2><A 
+                        class=foot 
+                        href="http://www.jupitermedia.com/">Jupitermedia 
+                        Corporation</A> has two divisions: <A class=foot 
+                        href="http://www.jupiterimages.com/">Jupiterimages</A> 
+                        and <A class=foot 
+                        href="http://www.jupitermedia.com/onlinemedia.html">JupiterOnlineMedia</A>
+                        <P><FONT face="verdana, arial, helvetica" size=-2><A 
+                        class=foot href="http://www.jupitermedia.com/corporate/" 
+                        target=_top>Jupitermedia Corporate Info</A> 
+                        <P>
+                        <DIV class=foot><!--Copyright 2006-->
+                        <SCRIPT type=text/javascript>
+document.write(' Copyright ');
+var now = new Date();
+document.write(  + now.getFullYear());
+document.write(' Jupitermedia Corporation All Rights Reserved.');
+</SCRIPT>
+                        <NOSCRIPT>Copyright 2007 Jupitermedia Corporation All 
+                        Rights Reserved.</NOSCRIPT><BR><A class=foot 
+                        href="http://www.jupitermedia.com/corporate/legal.html" 
+                        target=_top>Legal Notices</A>, <A class=foot 
+                        href="http://www.jupitermedia.com/corporate/reprints.html#Licensing1" 
+                        target=_top>Licensing</A>, <A class=foot 
+                        href="http://www.jupitermedia.com/corporate/reprints.html#Reprints1" 
+                        target=_top>Reprints</A>, &amp; <A class=foot 
+                        href="http://www.jupitermedia.com/corporate/reprints.html#Permissions" 
+                        target=_top>Permissions</A>, <A class=foot 
+                        href="http://www.jupitermedia.com/corporate/privacy/privacypolicy.html" 
+                        target=_top>Privacy Policy</A>. </FONT>
+                        <P><FONT face="verdana, arial, helvetica" size=-2><A 
+                        class=foot href="http://www.webhost.thelist.com/" 
+                        target=_top>Web Hosting</A> | <A class=foot 
+                        href="http://e-newsletters.internet.com/">Newsletters</A> 
+                        | <A class=foot href="http://jobs.internet.com/" 
+                        target=_top>Tech Jobs</A> | <A class=foot 
+                        href="http://www.internetshopper.com/" 
+                        target=_top>Shopping</A> | <A class=foot 
+                        href="http://e-newsletters.internet.com/announcement_list.html" 
+                        target=_top>E-mail 
+                        Offers</A></P></DIV></FONT></FONT></FONT></TD></FORM></TR></TBODY></TABLE></CENTER></CENTER></TD></TR></TBODY></TABLE><!-- end footer information --></TD></TR></TBODY></TABLE><!-- end lower ad and footer section --></TD><!-- end main content column --></TR></TBODY></TABLE>
+<P></P></BODY></HTML>

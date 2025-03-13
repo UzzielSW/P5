@@ -1,0 +1,30 @@
+!1689;s
+J
+SAU0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+SCU0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+S+U0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+SJU0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012CLASSPATH+=%<TARGET_CLASSPATHS>%;\012Compile +Document\012CLASSPATH+=%<SRC_CLASSPATHS>%;\012All\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;\012Debug\012CLASSPATH=+%;%<INJECTION_CLASSPATHS>\012Compile\012NOT_FOUND_MESSAGE==Make sure you have the full Java SE, not just the JRE, installed.\\nJava is available from https://www.oracle.com/java/technologies .\012Document\012CLASSPATH=+%;%<TOOL_CLASSPATHS>\012
+SKU0CLASSPATH=+%;%<EXTENSION_CLASSPATHS>\012CLASSPATH+=%<JGRASP_CLASSPATHS>%;\012CLASSPATH+=.%;\012CLASSPATH+=%<TARGET_CLASSPATHS>%;\012Compile +Document\012CLASSPATH+=%<SRC_CLASSPATHS>%;\012All\012PATH+=%<JAVA_BIN_DIR>%;\012PATH+=%<JGRASP_PATHS>%;
+SXU0
+SOU0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012PATH+=%<JGRASP_PATHS>%;\012PATH=+%;%<JGRASP_C_PATHS>\012CYGWIN=nodosfilewarning\012GCC_COLORS=\012-Run\012ADD_EXE_PATH==Y\012
+SyU0JGRASP_MAIN_BOUNDS=%<CONTROL_SHELL_BOUNDS>\012PATH+=%<PYTHON_PATH>%;\012PATH+=%<JGRASP_PATHS>%;\012CYGWIN=nodosfilewarning\012GCC_COLORS=
+SPU0
+s#i0
+s#k0
+s#j0
+s#l0
+!4040;d
+[\012  grasp [\012   legendy -38.868421052631575\012   legendx -164.0\012   version 1\012   winflags 3\012   eheight 691\012   ewidth 683\012   height 691\012   width 683\012   wbp 0\012   initlayout 0\012   yoffs -102.36842105263162\012   xoffs 219.31578947368408\012   scale 1.0\012   args ""\012   otherflags 139\012   shallowjar 1\012   visflags 118423807\012  ]\012  directed 1\012  node [\012   ClassInfo [\012    fields "capacidad\\011I\\011\\01118\\011\\011\\011Buffer\011estaLleno\\011Z\\011\\0112\\011\\011\\011Buffer\011estaVacio\\011Z\\011\\0112\\011\\011\\011Buffer\011pila\\011[I\\011\\01118\\011\\011\\011Buffer\011puntero\\011I\\011\\0112\\011\\011\\011Buffer\011Buffer\\011()V\\011c\\0110\\011\\011\\011Buffer\011escribe\\011(I)V\\011\\01133\\011\\011\\011Buffer\011lee\\011()I\\011\\01133\\011\\011\\011Buffer"\012    condition 0\012    access2 0\012    access 32\012    classname "Buffer"\012    fromclassfiledate 1729325569621\012    fromclassfilename "%\011Buffer.class"\012    fromfilename "%\011Buffer.java"\012   ]\012   id 0\012   graphics [\012    center [\012     x -53.26315789473689\012     y -64.84210526315789\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "BufferTest\\011()V\\011c\\0111\\011\\011\\011BufferTest\011main\\011([Ljava/lang/String;)V\\011\\0119\\011\\011\\011BufferTest"\012    condition 0\012    access2 0\012    access 65569\012    classname "BufferTest"\012    fromclassfiledate 1729325569636\012    fromclassfilename "%\011BufferTest.class"\012    fromfilename "%\011BufferTest.java"\012   ]\012   id 1\012   graphics [\012    center [\012     x 55.052631578947384\012     y -64.84210526315789\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "buffer\\011LBuffer;\\011\\01118\\011\\011\\011Consumidor\011id\\011I\\011\\01118\\011\\011\\011Consumidor\011Consumidor\\011(LBuffer;I)V\\011c\\0111\\011\\011\\011Consumidor\011run\\011()V\\011\\0111\\011\\011\\011Consumidor"\012    condition 0\012    access2 0\012    access 32\012    classname "Consumidor"\012    fromclassfiledate 1729325569578\012    fromclassfilename "%\011Consumidor.class"\012    fromfilename "%\011Consumidor.java"\012   ]\012   id 2\012   graphics [\012    center [\012     x 51.36842105263155\012     y 64.00000000000003\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  node [\012   ClassInfo [\012    fields "buffer\\011LBuffer;\\011\\01118\\011\\011\\011Productor\011id\\011I\\011\\01118\\011\\011\\011Productor\011Productor\\011(LBuffer;I)V\\011c\\0111\\011\\011\\011Productor\011run\\011()V\\011\\0111\\011\\011\\011Productor"\012    condition 0\012    access2 0\012    access 32\012    classname "Productor"\012    fromclassfiledate 1729325569630\012    fromclassfilename "%\011Productor.class"\012    fromfilename "%\011Productor.java"\012   ]\012   id 3\012   graphics [\012    center [\012     x -55.052631578947384\012     y 64.84210526315789\012     z 0.0\012    ]\012   ]\012   vgj [\012    flags 0\012   ]\012  ]\012  edge [\012   ClassInfo [\012    dependencies "Buffer\\011()V\\011c\\011\\011\\011\\011Buffer"\012    type 3\012   ]\012   source 0\012   target 1\012  ]\012  edge [\012   ClassInfo [\012    dependencies "lee\\011()I\\011\\011\\011\\011\\011Buffer"\012    type 3\012   ]\012   source 0\012   target 2\012  ]\012  edge [\012   ClassInfo [\012    dependencies "Consumidor\\011(LBuffer;I)V\\011c\\011\\011\\011\\011Consumidor\011start\\011()V\\011\\011\\011\\011\\011Consumidor"\012    type 3\012   ]\012   source 2\012   target 1\012  ]\012  edge [\012   ClassInfo [\012    dependencies "Productor\\011(LBuffer;I)V\\011c\\011\\011\\011\\011Productor\011start\\011()V\\011\\011\\011\\011\\011Productor"\012    type 3\012   ]\012   source 3\012   target 1\012  ]\012  edge [\012   ClassInfo [\012    dependencies "escribe\\011(I)V\\011\\011\\011\\011\\011Buffer"\012    type 3\012   ]\012   source 0\012   target 3\012  ]\012 ]!111;u
+a0	b4	c255	f%\011BufferConsola.jar	g%\011BufferConsola.zip	hManifest-Version\0111.0\011Main-Class\011BufferTest!31;a
+a%\011BufferConsola_doc	b	c1	d0!96;g
+%\011Consumidor.java
+%\011Productor.java
+%\011BufferTest.java
+%\011MANIFEST.MF
+%\011Buffer.java
+!96;f
+%\011Consumidor.java
+%\011Productor.java
+%\011BufferTest.java
+%\011MANIFEST.MF
+%\011Buffer.java

@@ -1,0 +1,9 @@
+Correct Output
+Val1 = 5 Val2 = 2               Val1 = 7 Val2 = 4
+Val1 = 7 Val2 = 4               Val1 = 5 Val2 = 2
+
+InCorrect Output
+Val1 = 5 Val2 = 4               Val1 = 7 Val2 = 2
+Val1 = 7 Val2 = 4               Val1 = 5 Val2 = 2
+
+

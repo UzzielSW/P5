@@ -1,0 +1,266 @@
+/**
+ * @(#)Contador.java
+ *
+ * @Modificado por Prof. Alvaro Pino N.
+ * @ version 2 2019/09/5
+ * @Edgardo Martínez
+ * @version 1.40 2016/8/6
+ */
+
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+
+import javax.swing.*;
+
+@SuppressWarnings("serial")
+class NumeroNegativoException extends Exception { NumeroNegativoException(){ } }
+
+public class Contador extends JFrame implements ActionListener,  Runnable{
+	private static final long serialVersionUID = 1L;
+	public boolean keepGoing;
+	public JButton go;
+	public Button suspenderBoton = new Button("Suspender");
+    public Button reanudarBoton = new Button("Reanudar");
+    public Button stopBoton = new Button("Stop");
+	public JTextField camp;
+	public JTextArea area;
+	public int time;
+	public long end;
+	public JScrollPane scrone;
+	public JPanel down,center;
+	public JLabel warning;
+	
+	public boolean suspendido = false;
+	private boolean stop = false;
+	public  Thread runThread;
+	public Thread hiloX;
+	
+
+	
+  //---------------------------------------------------------------CONSTRUCTOR
+	public Contador(){
+		time=0;
+		
+		center=new JPanel (new BorderLayout());
+		down=new JPanel (new GridLayout(1,5));
+		go = new JButton("GO!");	
+		camp= new JTextField();
+		area= new JTextArea();
+		scrone=new JScrollPane(area);
+		warning=new JLabel("Escribir el tiempo en milisegundos.");
+	}
+	
+	public synchronized void apagar() {
+
+                 runThread = null;
+             //    hilox = null;
+                 System.gc();
+
+         }
+
+         public synchronized void iniciar() {
+
+                 stop = true;
+
+         }
+	
+  //----------------------------------------------------------METODO PARA LANZAR INTERFAZ
+	public void lanzador(){
+		area.setEditable(false);
+		area.setBackground(Color.WHITE);
+		center.add(warning,BorderLayout.SOUTH);
+		center.add(scrone,BorderLayout.CENTER);
+		down.add(camp);
+		down.add(go);
+		down.add(suspenderBoton);
+		down.add(reanudarBoton);
+		down.add(stopBoton);
+		
+		this.add(center,BorderLayout.CENTER);
+		this.add(down, BorderLayout.SOUTH);
+		
+		go.addActionListener(this);
+	//	suspenderBoton.addActionListener(this);
+		
+		suspenderBoton.addActionListener(
+
+                          new ActionListener() {
+
+                          public void actionPerformed(ActionEvent e) {
+
+                                    suspender();
+
+                          }
+
+                 });
+
+                // add(suspenderBoton);
+
+          reanudarBoton.addActionListener(
+
+         new ActionListener() {
+
+         public void actionPerformed(ActionEvent e) {
+
+                                    reanudar();
+
+                          }
+
+                 });
+	//	reanudarBoton.addActionListener(this);
+	//	stopBoton.addActionListener(this);
+		
+		stopBoton.addActionListener(
+
+                          new ActionListener() {
+
+                          public void actionPerformed(ActionEvent e) {
+
+                                    apagar();
+
+                          }
+
+                 });
+		
+		suspenderBoton.setEnabled(false);
+		reanudarBoton.setEnabled(false);
+		stopBoton.setEnabled(false);
+		this.setTitle("Contador");
+		this.setSize(400,400);
+		this.setVisible(true);
+		this.setResizable(false);
+		this.setLocationRelativeTo(null);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+	
+  //=-------------------------------------------------------------------------METODO RUN
+    public void run(){
+    	
+    		long t= System.currentTimeMillis();
+    	    
+    	   runThread = Thread.currentThread();
+    		go.setEnabled(false);
+    		suspenderBoton.setEnabled(true);
+		reanudarBoton.setEnabled(true);
+		stopBoton.setEnabled(true);
+    		 
+    		area.setText(""); 
+    		
+    		 end = t+time; 
+    		long end1=0;
+    		long end2=0;
+    		int next=1;
+    		
+    		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    		while(keepGoing) 
+    		{
+    			
+    			 //leemos...
+                     if( System.currentTimeMillis()  <= end)
+                     {
+                     area.setText(area.getText()+next+"\n");
+    				scrone.getVerticalScrollBar().setValue(scrone.getVerticalScrollBar().getMaximum());	
+                     }
+                     else {
+
+                     	    apagar();
+                            break;
+                          }
+    				
+    			 
+    		    next++;
+    		    try { 
+    		    
+    		    runThread = Thread.currentThread();
+    		    
+    		    Thread.sleep(1000); 
+    		    
+    		    synchronized(this) {
+
+                 while(suspendido)
+                 {
+              end1 = System.currentTimeMillis();	
+                   wait();
+              end2 = System.currentTimeMillis();		 
+              	 
+                 }
+               end = t+time + end2-end1; 
+                 
+                 
+                 
+
+    		    }
+    		    
+    		    } catch (InterruptedException e) 
+    		    { e.printStackTrace(); }
+    		    finally{
+    		    	runThread = null;
+    		    }
+    	         }
+    		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    		
+   		  if (time>0){
+    			
+    if (JOptionPane.showConfirmDialog(this,"¿Desea continuar?", "Mensaje",JOptionPane.YES_NO_OPTION) == JOptionPane.NO_OPTION)
+    			  {
+    				  JOptionPane.showMessageDialog(null, "Main() ha terminado");    
+    				  System.exit(0);  
+    			  }
+    			  else{
+    				  area.setText("");
+    				  camp.setText("");
+    			  }
+    			 }
+    
+    		  go.setEnabled(true);
+    		  suspenderBoton.setEnabled(false);
+		      reanudarBoton.setEnabled(false);
+		      stopBoton.setEnabled(false);  
+    				
+    }//FIN RUN
+    //----------------------------------------------------------------------EVENTOS
+   	public void actionPerformed(ActionEvent e) {
+   	
+		time=0;
+		String cad=camp.getText(); 
+		try{
+	      time = Integer.parseInt(cad);
+	      if (time <= 0){ throw new NumeroNegativoException(); }
+		}
+		catch(java.lang.NumberFormatException e1){
+			JOptionPane.showMessageDialog(null, "Campo no puede estar vacio o contener letas");} 
+		catch (NumeroNegativoException e1) {
+			JOptionPane.showMessageDialog(null, "No se permite menores o iguales que cero"); }
+	 
+	 hiloX = new Thread(this);
+
+		hiloX.start();
+   	}
+   	
+   	public synchronized  void suspender() {
+
+          suspendido = true;
+           
+           }
+
+    public synchronized void reanudar() {
+
+           suspendido = false;
+
+           notify();
+
+          }
+  
+}///////FIN CLASE\\\\\\\\
+
+class Maine {
+	
+	public static void main(String []args){
+		Contador obj= new Contador();
+		obj.lanzador();
+	}
+
+}

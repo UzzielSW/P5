@@ -1,0 +1,3 @@
+Version: 3.0
+Main-Class: Fabrica
+Created-By: Herminio Vargas (8-772-644)

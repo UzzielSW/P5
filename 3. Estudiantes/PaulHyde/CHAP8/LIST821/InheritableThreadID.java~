@@ -1,0 +1,5 @@
+public class InheritableThreadID extends Objects {
+	public static final int UNIQUE = 101;
+	public static final int INHERIT = 102;
+	public static final int SYFFIX = 103;
+	

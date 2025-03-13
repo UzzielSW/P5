@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>ATMBank</label>
+	</settings>
+	<users>
+		<user>
+			<path>ATMBank.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>ATMBank.jcp</path>
+		</project>
+	</projects>
+</workspace>

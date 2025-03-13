@@ -1,0 +1,183 @@
+Productor Consumidor en Java
+
+1. Objetivos
+Ilustrar el uso de RMI como ejemplo de implementación de 
+llamadas a procedimientos remotos.
+
+2. Requisitos
+Estudio de las llamadas a procedimiento remotos y su implementación en Java.
+También es aconsejable habler realizado las práctica ???? de Hebras en Java,
+y de sincronización en Java (práctica ???).
+
+3. Especificación
+Examine las clases e interfaz ServidorFicheros.java, 
+ServidorFicherosImpl.java y ClienteServidorFicheros.java:  
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.io.File;
+
+public interface ServidorFicheros extends Remote {
+   public File open(String nombreFichero) throws
+   RemoteException;
+   public byte[] read(File in, int numBytes) throws
+   RemoteException;
+}
+
+-----------------------------------------------------------------------
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.rmi.*;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.Map;
+import java.util.HashMap;
+
+public class ServidorFicherosImpl extends UnicastRemoteObject
+  implements ServidorFicheros {
+
+   private java.util.Map<File,FileInputStream> ficheros;
+   protected String nombre;
+
+   public ServidorFicherosImpl(String s) throws RemoteException{
+      super();
+      nombre = s;
+      ficheros = new HashMap<File,FileInputStream>();
+   }
+
+   public synchronized File open(String nombreFichero) {
+     System.out.println("open "+nombreFichero);
+     try {
+       File key=new File(nombreFichero);
+       FileInputStream input=new FileInputStream(key);
+       ficheros.put(key,input);
+       return key;
+     } catch (Exception e) {
+       System.err.println("Error haciendo open de : "+nombreFichero);
+       e.printStackTrace();
+       return null;
+     }
+   }
+
+   public synchronized byte[] read(File in, int numBytes) {
+     System.out.println("read");
+     if (in == null) {
+       System.err.println("Error haciendo read sobre un fichero no inicializado");
+       return null;
+     }
+     try {
+       byte[] buf=new byte[numBytes];
+       FileInputStream input=ficheros.get(in);
+       if (input == null) {
+         System.err.println("Error haciendo read de : "+in.getName());
+         return null;
+       }
+       input.read(buf);
+       return buf;
+     } catch (Exception e) {
+       System.err.println("Error haciendo read de : "+in.getName());
+       e.printStackTrace();
+       return null;
+     }
+   }
+
+   public static void main(String argv[]) {
+      if(System.getSecurityManager() == null) {
+         System.setSecurityManager(new RMISecurityManager());
+      }
+      try {
+         ServidorFicheros fi = new ServidorFicherosImpl("ServidorFicheros");
+         Naming.rebind("//127.0.0.1/ServidorFicheros", fi);
+      } catch(Exception e) {
+         System.out.println("ServidorFicheros: "+e.getMessage());
+         e.printStackTrace();
+      }
+   }
+}
+
+-----------------------------------------------------------------------
+
+import java.io.*; 
+import java.rmi.*;
+
+public class ClienteServidorFicheros {
+   public static void main(String argv[]) {
+      if(argv.length != 2) {
+        System.out.println("Usar ClienteServidorFicheros: nombreFichero nombreMaquina");
+        System.exit(0);
+      }
+      try {
+         String nombre = "//" + argv[1] + "/ServidorFicheros";
+         ServidorFicheros fs = (ServidorFicheros) Naming.lookup(nombre);
+	 File fi=fs.open(argv[0]);
+	 for (int i=0; i < 5; i++) {
+           byte[] datos=fs.read(fi,10);
+	   System.out.println("datos de "+argv[0]+" "+(new String(datos)));
+	   Thread.sleep(2000);
+	 }
+      } catch(Exception e) {
+         System.err.println("FileServer exception: "+ e.getMessage());
+         e.printStackTrace();
+      }
+   }
+}
+
+Compílelos (es necesario compilar primero el interfaz y luego las clases).
+Hay dos métodos main (uno en ServidorFicherosImpl y otro en
+ClienteServidorFicheros). Para poder ejecutar es necesario crear los
+stubs. Eso lo haremos, después de compilar, con:
+
+prompt% rmic ServidorFiecherosImpl
+
+rmic es un programa que se encuentra en el directorio bin de la 
+instalación de Java. Este programa generará ServidorFicherosImpl_Stub.class. 
+
+Para ejecutar debemos ejecutar (en la misma máquina donde ejecutaremos 
+ServidorFicherosImpl):
+
+prompt% rmiregistry
+
+Para evitar problemas de seguridad con el manager de seguridad de RMI,
+debemos ejecutar el servidor RMI con las siguientes opciones
+de seguridad (contenidas en el fichero permisosServer.txt):
+
+grant {
+permission java.security.AllPermission "", "";
+};
+
+La ejecución del servidor y el cliente se hace en máquinas virtuales java
+diferentes, y si es posible, en máquinas físicas diferentes conectadas:
+
+prompt% java -Djava.security.policy=permisosServer.txt ServidorFicherosImpl
+
+En otro interprete de comandos:
+
+prompt% java ClienteServidorFicheros nombreFihero nombreMaquina
+
+Donde nombreFichero es un fichero del sistema de ficheros de la máquina
+donde ejecuta el servidor (ServidorFicherosImpl), y nombreMaquina es 
+la máquina donde se ejecuta rmiregistry (en este programa la misma 
+que donde ejecuta el servidor).
+
+Para ejecutar el cliente, en el mismo directorio (o accesible con classpath)
+debe estar el stub (ServidorFicherosImpl_Stub.class).
+
+Ejecutar el mismo programa con dos clientes, y el servidor, 
+iniciado en un interprete de comandos diferentes cada uno de los tres, 
+y si es posible en máquinas diferentes. Los clientes accederán a 
+ficheros remotos diferentes.
+
+4. Ficheros ofrecidos
+
+permisosServer.txt ServidorFicheros.java, 
+ServidorFicherosImpl.java y ClienteServidorFicheros.java: 
+
+4.5.5. Resultados pedidos
+
+Salida de la ejecución del programa con explicación de lo que sucede.
+
+Lo mismo con dos clientes ejecutados en máquinas java diferentes, 
+que acceden a fiheros diferentes. 
+
+Una versión modificada del programa que incluya un núevo método
+close en el interfaz ServidorFicheros.

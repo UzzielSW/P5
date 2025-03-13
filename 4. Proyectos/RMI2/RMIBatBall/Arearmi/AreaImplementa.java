@@ -1,0 +1,30 @@
+/**
+ * @(#)Ball.java
+ *
+ *
+ * @author Marco Boger
+ * Modificado por Prof. Alvaro Pino N.
+ * @version 1.00 2008/11/19
+ *
+ * Clase que implementa la interfaz en donde se define
+ * el metodo remot0
+ */
+import java.rmi.*;
+import java.rmi.server.*;
+
+
+public class AreaImplementa extends UnicastRemoteObject 
+             implements InterfaceArea{
+
+    public AreaImplementa() throws RemoteException {
+    	super();
+    }
+    
+    public void calcArea(double radio)  {
+    	
+    	double area = Math.PI*radio*radio;
+    	System.out.println("Area: " + area);
+    }
+    
+  
+}

@@ -1,0 +1,876 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0036)http://web.dit.upm.es/~aalonso/lprs/ -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><HTML><HEAD><META 
+content="IE=5.0000" http-equiv="X-UA-Compatible">
+   
+<META http-equiv="Content-Type" content="text/html; charset=windows-1252">   
+<TITLE>Laboratorio de programación de sistemas Enunciados de problemas de  
+concurrencia</TITLE> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.18098"></HEAD> 
+<BODY bgcolor="#ffffff">© DIT-UPM 2001-2012<BR>© El uso de este documento se 
+rige por la licencia <SPAN class="emphasis"><I 
+class="EMPHASIS">Reconocimiento-CompartirIgual 3.0</I></SPAN> de Creative 
+Commons. Para ver una copia de la licencia, visite <A href="http://creativecommons.org/licenses/by-sa/3.0" 
+target="_top">http://creativecommons.org/licenses/by-sa/3.0</A> o pídala por 
+correo a Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, 
+USA. 
+<P></P>
+<CENTER>
+<H1>Laboratorio de programación de sistemas<BR>Enunciados de problemas de 
+concurrencia</H1></CENTER>
+<H3 class="Heading1">1. Problema de los escritores/lectores</H3>
+<DIV class="Body">Un conjundo de procesos comparten datos. Una parte de estos 
+procesos (lectores) sólo leen los datos, mientras que el resto (escritores) leen 
+y escriben. Varios lectores pueden acceder simultáneamente a los datos
+ compartidos. Se debe evitar que accedan simultáneamente un proceso escritor y
+ cualquier otro proceso. 
+<P>Soluciones:  <A href="http://web.dit.upm.es/~aalonso/lprs/semaforos/lectores-escritores.txt">Semáforos</A>, 
+ <A 
+href="http://web.dit.upm.es/~aalonso/lprs/ada/lectores-escritores.ads">Objeto 
+protegido</A>,  <A href="http://web.dit.upm.es/~aalonso/lprs/java/lector_escritor">Java</A> 
+</P></DIV>
+<H3 class="Heading1">2. Problema del productor/consumidor</H3>
+<DIV class="Body_Bullet">Se dispone de un conjunto de tampones (buffers), cada 
+uno con capacidad para almacenar un dato. Los procesos que acceden 
+concurrentemente a los tampones son de dos tipos:</DIV>
+<UL>
+  <LI class="Bulleted">Consumidores: Extraen el dato de un tampón y le    
+  consumen.</LI>
+  <LI class="Bulleted">Productores: Producen un dato y lo almacenan en un    
+  tampón.</LI></UL>
+<P>Soluciones:  <A href="http://web.dit.upm.es/~aalonso/lprs/semaforos/productor_consumidor.txt">Semáforos</A>, 
+ <A href="http://web.dit.upm.es/~aalonso/lprs/java/ProdCons">java</A> </P>
+<H3 class="Heading1">3. Problema de los filósofos</H3>
+<DIV class="Body">Se dispone de cinco procesos filósofos que dedican su tiempo 
+en pensar y comer, alternativamente. Los filósofos están sentados en una mesa 
+circular con cinco sillas, cada una de un filósofo. En el centro de la mesa hay 
+un cuenco de arroz. En la mesa hay cinco palillos, uno a cada lado de cada 
+filósofos. Para comer, un filósofo necesita usar los dos palillos que tiene a 
+cada lado. Si otro filósofo ha cogido uno de los palillos, deberá esperar a que 
+lo deje en la mesa. 
+<P>Soluciones:  <A href="http://web.dit.upm.es/~aalonso/lprs/semaforos/filosofos.txt">Semáforos</A>, 
+ <A href="http://web.dit.upm.es/~aalonso/lprs/ada/filosofos.ads">Objeto 
+protegido</A>,  <!-- <a href="java/filosofos">java</a> --> </P>
+<P><A href="http://web.dit.upm.es/~aalonso/lprs/nota_filosofos"></A></P></DIV>
+<H3 class="Heading1">4. Gestión de un recurso con prioridades</H3>
+<DIV class="Body">Se dispone de un recurso compartido por un conjunto de 
+procesos. Los procesos pueden solicitar el recurso con diferente urgencia: alta,
+ media y baja.  Mientras que el recurso está ocupado, los procesos que lo 
+soliciten deben esperar hasta que éste se libere. Si el recurso está libre y no 
+hay procesos esperando, se concede al primer proceso que lo solicite. Cuando el 
+recurso se libere, si hay procesos esperando se concederá a uno de los procesos 
+en espera con la prioridad más urgente.</DIV>
+<DIV class="Body">Se pide diseñar un monitor con operaciones para liberar y 
+solicitar el recurso con diferentes prioridades y que se comporte según se ha 
+descrito previamente. 
+<P>Soluciones:  <A href="http://web.dit.upm.es/~aalonso/lprs/semaforos/gestor_recurso_prioridad.txt">Semáforos</A>, 
+ <A 
+href="http://web.dit.upm.es/~aalonso/lprs/ada/gestor_recurso_prioridad.ads">Objeto 
+protegido</A>,  <A href="http://web.dit.upm.es/~aalonso/lprs/java/gestorPrioridad">java</A> 
+</P>
+<H3 class="Heading1">5. Problema de los caníbales</H3>
+<DIV class="Body">Una tribu de N caníbales come de una gran marmita común que 
+tiene una capacidad de M raciones de estofado de misionero. Cuando un caníbal 
+quiere comer, se sirve él mismo de la marmita, a menos que esté vacía. Si la 
+marmita está vacía, el caníbal despierta al cocinero y espera a que el cocinero 
+haya rellenado la marmita. Cuando lo ha hecho, y antes de dejar comer a otro
+ caníbal, come él mismo. Después de alguna otra actividad distinta, vuelve a
+ querer comer. El cocinero, por su parte, vuelve a dormir cuando ha rellenado la 
+marmita.</DIV>
+<DIV class="Body">Se pide desarrollar un monitor (MARMITA) con dos 
+procedimientos, uno para que coma un proceso caníbal (COMER) y otro para 
+rellenar la marmita (RELLENAR). La solución debe evitar interbloqueos y debe 
+despertar al cocinero sólo cuando la marmita esté vacía.</DIV>
+<P>Soluciones:  <A href="http://web.dit.upm.es/~aalonso/lprs/semaforos/canibal.txt">Semáforos</A>, 
+ <A href="http://web.dit.upm.es/~aalonso/lprs/ada/canibal.ads">Objeto 
+protegido</A>,  <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/canibal">java</A> </P>
+<H3 class="Heading1">6. Problema del barbero durmiente</H3>
+<DIV class="Body">Una barbería está compuesta de una sala de espera, con n 
+sillas, y la habitación del barbero con la silla correspondiente. Si no hay
+ clientes, el barbero se duerme. Si un cliente entra en la sala de espera y 
+todas las sillas están ocupadas, entonces abandona la barbaría. Si el barbero 
+está ocupado y hay sillas disponibles, entonces el cliente se sienta a esperar 
+en una de las sillas. Si el barbero está dormido, el cliente le despierta. 
+Escribir un programa concurrente que coordine a los procesos barbero y clientes. 
+<P>Soluciones:  <A 
+href="http://web.dit.upm.es/~aalonso/lprs/ada/barberia.ads">Objeto 
+protegido</A>,  <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/barbero">java</A>, <A href="http://web.dit.upm.es/~aalonso/lprs/java/barberoOrden">java 
+(clientes ordenados)</A>, </P></DIV>
+<H3 class="Heading1">7. Problema de los cigarros y los fumadores</H3>
+<DIV class="Body">Se tiene un sistema con tres procesos fumadores y un progeso 
+agente. Cada fumador está continuamente liando un cigarrillo y después se lo 
+fuma. Para liar y fumar un cigarrillo, el fumador necesita tres ingredientes: 
+tabaco, papel y cerillas. Uno de los procesos fumadores tiene tabaco, otro papel 
+y el tercero cerillas. El agente tiene una cantidad infinita de los tres
+ materiales. El agente deja dos de los ingredientes en una mesa. El fumador que
+ tiene el ingrediente que falta lía y se fuma un cigarrillo, avisándole al
+ agente cuando termina. Entonces, el agente pone otros dos de los tres
+ ingredientes en la mesa y el ciclo se repite. Escribir un programa que
+ sincronice al agente y a los fumadores.</DIV></DIV>
+<H3 class="Heading1">8. Bloqueos en grupo con semáforos</H3>
+<DIV class="Body">Se tiene un sistema concurrente compuesto por un conjunto de 
+procesos y se quiere implementar únicamente con semáforos un mecanismo de 
+sincronización tal que los procesos se puedan bloquear en un semáforo (llamado 
+Join) en grupos de seis. Los cinco primeros procesos que lo intenten quedarán 
+bloqueados. Cuando un sexto proceso trate de bloquearse, tanto éste como los 
+cinco anteriores que estaban detenidos ven continuada su ejecución. Es 
+importante, en todo caso, que ninguno de los cinco procesos que estaban ya 
+esperando, se vea adelantado por otro nuevo que se le cuele justo en ese 
+momento.</DIV>
+<P>Soluciones: <A href="http://web.dit.upm.es/~aalonso/lprs/semaforos/join_8.txt">Semáforos</A>, 
+ <A href="http://web.dit.upm.es/~aalonso/lprs/java/join">java</A></P>
+<H3 class="Heading1">9. Gestion de recursos</H3>
+<DIV class="Body">Se tiene un sistema concurrente en el que un conjunto de 
+procesos realizan por petición tres tipos de servicios (S1, S2, S3).  El sistema 
+dispone de tres recursos (R1, R2, R3), que necesitan los procesos para ejecutar 
+los servicios, según la relación siguiente: 
+<UL>
+  <LI>Para ejecutar S1 se necesita R1 y R2.</LI>
+  <LI>Para ejecutar S2 se necesita R2 y R3.</LI>
+  <LI>Para ejecutar S3 se necesita R3 y R1.</LI></UL>
+<P>Cuando se solicita un servicio a un proceso, en primer lugar, éste solicita
+ todos los recursos necesarios y cuando los tiene asignados, ejecuta el
+ servicio. Cuando deja de necesitar alguno de los recursos, lo libera. No vuelve
+ a aceptar una petición de servicio (y por tanto solicitar nuevos recursos)
+ hasta que no haya terminado el previo y, por tanto, haya liberado todos los
+ recursos asignados.</P>
+<P>Se pide diseñar un monitor o un objeto protegido para gestionar los recursos, 
+que proporcione sólo las dos operaciones siguientes:</P>
+<UL>
+  <LI><EM>Solicitar_Recursos(S : T_Servicio)</EM>: Esta operación permite a un   
+   proceso solicitar los recursos necesarios para realizar un servicio. Si no    
+  está disponible alguno de los recursos necesarios, se bloquea al proceso    
+  solicitante hasta que los dos estén disponibles.</LI>
+  <LI><EM>Liberar_Recurso(R  :  T_Recurso)</EM>:  Esta operación  libera   uno   
+   de los recursos necesarios para realizar  un  servicio. Se debe comprobar    
+  si esta acción puede desbloquear a algún proceso.</LI></UL></DIV>
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/ada/recursos.ads">Objeto 
+protegido</A>,   <A href="http://web.dit.upm.es/~aalonso/lprs/java/gestorRecursos">java</A> 
+</P>
+<H3>10. Examen de Junio de 2000</H3>
+<P>Escribir el (seudo) código de un objeto protegido de Ada que implemente un 
+semáforo con contador iniciado a uno y dotado de una operación adicional para 
+consultar el valor del contador. Su esbozo es:<BR>protected type Semáforo is<BR> 
+.... Subir;<BR> .... Bajar;<BR> .... Valor_Contador;<BR>....<BR>end 
+Semáforo;<BR><BR>protected body Semáforo is<BR> ....<BR>end Semáforo;<BR></P>
+<P>Soluciones: <A href="http://web.dit.upm.es/~aalonso/lprs/ada/semaforo_contador.ads">Objeto 
+protegido</A></P>
+<H3>11. Examen de Septiembre de 2000</H3>
+<P>Un conjunto de procesos lectores y escritores acceden a datos comunes. Para
+ proteger los datos, se quiere implementar un monitor con el esquema de
+ especificación siguiente:<BR>protected Acceso_Datos is<BR>. . .  
+Inicio_Lectura;<BR>. . .  Fin_Lectura;<BR>. . .  Inicio_Escritura;<BR>. . .  
+Fin_Escritura;<BR>private<BR>. . . .<BR>end Acceso_Datos;<BR></P>
+<P>Los procesos escritores llaman al subprograma Inicio_Escritura antes de
+ acceder a los datos y llaman a Fin_Escritura al terminar el acceso. Los
+ procesos lectores se comportan de forma análoga. El acceso a los datos se hace
+ siempre fuera del objeto protegido.</P>
+<P>El objeto protegido debe seguir las siguientes reglas de acceso:</P>
+<UL>
+  <LI>No puede haber procesos escritores accediendo simultáneamente a los    
+  datos.</LI>
+  <LI>No puede haber procesos escritores y procesos lectores accediendo    
+  simultáneamente a los datos.</LI>
+  <LI>Puede haber varios procesos lectores accediendo simultáneamente a los    
+  datos.</LI>
+  <LI>Los procesos lectores tienen prioridad en el acceso sobre los    
+  escritores, excepto en el caso de que haya cinco o más procesos escritores    
+  bloqueados en el objeto protegido.</LI></UL>
+<P>Se pide completar la especificación del monitor Acceso_Datos y escribir el
+ cuerpo correspondiente, para que se comporte según se ha descrito
+ previamente.</P>
+<P>Soluciones: <A href="http://web.dit.upm.es/~aalonso/lprs/ada/acceso_datos.ads">Objeto 
+protegido</A>, <A href="http://web.dit.upm.es/~aalonso/lprs/java/sept2000/accesoDatos.java">Java</A> 
+</P>
+<H3>12. Examen de Junio de 2001</H3>En una carretera de dos carriles que 
+discurre de Norte a Sur (y de Sur a Norte) hay un puente estrecho de un solo 
+carril. Por ese puente solo pueden circular vehículos en un solo sentido al 
+mismo tiempo, con la regla de que, estando los vehículos circulando en un 
+sentido, cuando haya N o más vehículos (N es un parámetro del problema) 
+esperando a cruzar en sentido contrario, se impide que entren nuevos vehículos 
+al puente en el sentido actual de la marcha, para permitir cambiar ésta cuanto 
+antes. En el caso de que haya N o más vehículos esperando a cruzar en cada uno 
+de los dos sentidos, se debe dar prioridad a los vehículos que suben, es decir, 
+que van de Sur a Norte. <BR>Se pide escribir un objeto protegido dotado de 
+cuatro operaciones (Entrar_subiendo, Salir_subiendo, Entrar_bajando, 
+Salir_bajando) que implemente el protocolo anterior. <BR>Nota: Dentro de un 
+objeto protegido con punto de entrada de nombre E, la expresión E’Count devuelve 
+el úumero de procesos actualmente bloqueados esperando a ejecutar el código del 
+punto de entrada E. 
+<P>Soluciones:  <A 
+href="http://web.dit.upm.es/~aalonso/lprs/ada/junio_2001.ads">Objeto 
+protegido</A>,  <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/junio2001">Java</A> </P>
+<H3>13. Examen de Septiembre de 2001</H3>
+<P>Un robot explorador tiene un sensor de temperatura y otro de presión. Para 
+cada sensor hay un proceso que lee la temperatura y otro que lee la presión. Un 
+tercer proceso realiza determinados cálculos con un par de valores de presión y 
+temperatura. Existen un par de variables donde se almacenan los valores de 
+presión (VP) y temperatura (VT), según se muestra en la figura. </P><IMG src="Laboratorio%20de%20programación%20de%20sistemas%20Enunciados%20de%20problemas%20de%20concurrencia_archivos/sensores.jpg"> 
+<P>Se pide escribir el código de los procesos lectores (basta con escribir el de 
+uno de ellos) y del proceso de cálculo, de forma que: </P>
+<UL>
+  <LI>Se usen sólo semáforos para sincronizar estos procesos.</LI>
+  <LI>El proceso de cálculo sólo ejecute cuando esté disponible un valor de cada 
+  tipo.</LI>
+  <LI>Los datos sólo se procesan una vez.</LI>
+  <LI>Los pares de datos que se procesan están relacionados por el instante de 
+  tiempo en que se toman. Si cuando un proceso lector va a proporcionar un dato 
+  nuevo al proceso de cálculo detecta que el par anterior no ha sido procesado, 
+  deberá anular los valores correspondientes al mismo y escribir el que acaba de 
+  leer en la variable adecuada.</LI></UL>
+<P>Soluciones: <A href="http://web.dit.upm.es/~aalonso/lprs/semaforos/sep_2001.txt">Semáforos</A>, 
+<A href="http://web.dit.upm.es/~aalonso/lprs/java/sept2001">java</A></P>
+<H3>14. Examen de Junio de 2002</H3>Se tiene un sistema con un gran número de 
+procesos que quieren usar un determinado recurso, e interesa que puedan usarlo 
+simultáneamente el máximo número de ellos. Por ejemplo, si 100 procesos quieren 
+usarlo, deben de poder hacerlo los 100 simultáneamente. <BR>Ahora bien, también 
+es necesario impedir (por razones "supersticiosas") que alguna vez estén trece 
+procesos exactamente usando el recurso al mismo tiempo. <BR>Más concretamente, 
+si estando 12 procesos usándolo, un decimotercero desea hacerlo, éste se 
+esperará hasta que llegue un decimocuarto, y entonces entrarán los dos juntos a 
+la región crítica para usar el recurso. Pero en todo caso, si al querer entrar 
+se detecta que existe otro que quiere salir, pero que está esperando para no 
+dejar exactamente 13 dentro, el que entra hará que salga al mismo tiempo que él 
+entra, el que está esperando a salir. <BR>Y simétricamente cuando quiera salir 
+un proceso y haya otro esperando a entrar, así como cuando habiendo uno que 
+quiera salir (sin otro esperando a entrar) quedarían 13 en la región crítica en 
+caso de hacerlo (en este caso se ha de esperar también). <BR>Se pide escribir 
+(con seudocódigo), utilizando semáforos como mecanismo de sincronización, el 
+código que han de ejecutar los procesos tanto al entrar (prólogo) como al salir 
+(epílogo) de esta región crítica especial. 
+<P>Soluciones: <A href="http://web.dit.upm.es/~aalonso/lprs/semaforos/junio_2002.txt">Semáforos</A></P>
+<H3>15. Examen de Septiembre de 2002</H3>Un gestor de mensajes está compuesto 
+por un proceso frontal y N procesos trabajadores. El proceso frontal recibe los 
+mensajes, los descodifica y realiza las acciones necesarias para que los 
+procesos trabajadores los traten. Según la clase de mensaje, serán necesarios
+ entre uno y tres procesos trabajadores para su tratamiento. La interacción 
+entre los procesos se lleva a cabo mediante el objeto protegido 
+<I>Intermediario</I>. El pseudocódigo de estos procesos se muestra a 
+continuación:<BR><BR><U><B>Proceso Frontal<BR><BR></B></U><B>task</B> Frontal 
+<B>is</B><BR>&nbsp;&nbsp;&nbsp; Tipo_Clase_Mensaje is (Clase 1, Clase 2, Clase 
+3);<BR>&nbsp;&nbsp;&nbsp; M &nbsp; &nbsp;: Tipo_Mensaje;<BR>&nbsp;&nbsp;&nbsp; 
+MD &nbsp;: Tipo_Mensaje_Decodificado;<BR>&nbsp;&nbsp;&nbsp; CM &nbsp;: 
+Tipo_Clase_Mensaje;<BR><B>begin</B><BR>&nbsp;&nbsp;&nbsp; <B>loop</B><BR>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Recibir_Mensaje (M);<BR>&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp; Decodificar_Mensaje (M, MD, CM);<BR>&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp; Intermediario.Entregar_MD (MD, CM);<BR>&nbsp;&nbsp;&nbsp; 
+<B>end loop</B>;<BR><B>end</B> frontal;<BR><U><B><BR>Proceso trabajador</B></U>  
+<BR><BR><B>task</B> trabajador <B>is</B>  <BR>&nbsp;&nbsp;&nbsp; Un_MD: 
+Tipo_Mensaje_Decodificado;  <BR><B>begin</B>  <BR>&nbsp;&nbsp;&nbsp; 
+<B>loop</B><BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+Intermediario.Recoger_MD(Un_MD);<BR>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+Procesar_MD (Un_MD);  <BR>&nbsp;&nbsp;&nbsp; <B>end loop</B>;  <BR><B>end</B> 
+trabajador;  <BR><BR>Se pide desarrollar un objeto protegido que sincronice la 
+operación de estos procesos. Su  especificación incompleta es la siguiente: 
+<BR><BR><B>protected</B> Intermediario <B>is</B><BR>&nbsp;&nbsp;&nbsp; . . . . . 
+Entregar_MD (MD : Tipo Mensaje Decodificado;  <BR>&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp; CD : Tipo Clase Mensaje);  <BR>  &nbsp;&nbsp;&nbsp; . . . . . Recoger_MD 
+(MD : <B>out</B> Tipo Mensaje Decodificado);<BR><B>private</B>  <BR>
+&nbsp;&nbsp;&nbsp; El_Mensaje_MD : Tipo Mensaje_Decodificado;  <BR>
+&nbsp;&nbsp;&nbsp; . . . . .  <BR><B>end</B> Intermediario;  <BR><BR>El objeto 
+protegido sólo dispone de capacidad para almacenar un mensaje, para ahorrar 
+memoria, y se debe comportar como sigue:<BR>
+<UL>
+  <LI>   Cuando se entrega un mensaje descodificado, se deben activar  tantos 
+  procesos como indique su clase (Clase_1, un proceso; Clase_2  dos procesos, 
+  ...). A todos los procesos se les entrega el mismo  mensaje.</LI>
+  <LI>   Si hay procesos trabajadores esperando, se les entrega el   mensaje y 
+  se les desbloquea inmediatamente. Si no hay, se les   entrega el mensaje 
+  cuando lleguen y no se les bloquea.</LI>
+  <LI>  Todos los mensajes deben ser tratados y no se puede perder 
+ninguno.</LI></UL>
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/ada/sep_2002.ads">Objeto 
+protegido</A>,  <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/sept2002">java</A></P>
+<H3>16. Rendezvous</H3>Escribir el código de un objeto protegido o un monitor, 
+de nombre <I>Rendezvous</I>, que tenga un solo procedimiento de entrada, 
+<I>Join</I>. La función de este procedimiento es sincronizar permanentemente a 
+los procesos que le llaman, en grupos de trece. Es decir, este procedimiento 
+detiene a los doce primeros procesos de una secuencia que le llaman, hasta que 
+le llame el décimotercero. En ese momento, tanto este décimotercer proceso como 
+los doce anteriores que estaban detenidos esperándole, ven continuada su 
+ejecución. Es importante, en todo caso, que ninguno de los doce procesos que 
+estaban ya esperando, se vea adelantado por otro nuevo que se le "cuele" justo
+ en ese momento. 
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/ada/rendezvous.ads">Objeto 
+protegido</A></P>
+<H3>17. Examen Junio 2003</H3>Se tiene un sistema de tratamiento de información 
+compuesto por tres procesos. Cada uno de ellos lee un dato de una entrada 
+diferente. Para poder procesar estos datos correctamente, es necesario calcular 
+previamente un parámetro estadístico de los datos leídos por los procesos en la 
+misma iteración. La solución a implementar consiste en usar un objeto protegido
+ (Gestor Estadístico) que tiene una operación Entregar_Dato, y cuyo esquema  es 
+el siguiente:<BR><BR><B>protected</B> Gestor_Estadistico <B>is</B> <BR>
+&nbsp;&nbsp;&nbsp;. . . Entregar_Dato (Dato_Entrada : <B>in</B> float; 
+ Parametro E : <B>out</B> float);<BR><B>private</B><BR>&nbsp;&nbsp;&nbsp; . . . 
+.<BR><B>end</B> Gestor_Estadistico;<BR><BR>Antes de calcular el parámetro 
+estadístico, se debe disponer de los datos  de los procesos leídos en la misma 
+iteración. Los procesos deben esperar en el objeto protegido hasta que se 
+calcule el parámetro estadístico. El cálculo de este parámetro se realiza 
+llamando a una función interna del objeto protegido que no hay que implementar. 
+Esta función recibe como entrada los tres datos de los procesos y devuelve el 
+parámetro estadístico. Su perfil es:<BR><BR><B>function</B> Calcular_Estadistico 
+(Dato 1 : Float; Dato 2 : Float; Dato 3 : Float) <B>return</B> Float;<BR><BR>El 
+esquema de los procesos es:<BR><BR><B>task body</B> Tratamiento Datos 
+<B>is</B><BR>&nbsp;&nbsp;&nbsp;<B>begin loop</B><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. . .<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Leer Dato(Dato Entrada);<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gestor Estadistico.Entregar Dato(Dato 
+Entrada, Parametro E);<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Procesar Dato(Dato 
+Entrada, Parametro E);<BR>&nbsp;&nbsp;&nbsp;<B>end loop</B>;<BR><B>end</B> 
+Tratamiento_Datos;<BR><BR>Se pide desarrollar el objeto protegido Gestor 
+Estadístico descrito previamente.<BR>
+<P>Soluciones: <A href="http://web.dit.upm.es/~aalonso/lprs/ada/gestor_estadistico.ads">Objeto 
+protegido</A>, <A href="http://web.dit.upm.es/~aalonso/lprs/java/junio2003/GestorEstadistico.java">java</A></P>
+<H3>18. Examen Septiembre 2004</H3>Se tiene un sistema con dos tipos de 
+procesos: tipo A y tipo B . Se quiere serializar la ejecución de estos procesos, 
+de forma que se permita la ejecución de un proceso de tipo A y a continuación 
+dos procesos de tipo B. Este patrón se deberá repetir continuamente. Para tal 
+fin, se debe desarrollar un objeto protegido o monitor con dos operaciones: 
+Acceder_Tipo_A y Acceder_Tipo_B. Los procesos saldrán del objeto protegido o 
+monitor de acuerdo con el esquema descrito previamente. Si hay varios procesos 
+de un tipo bloqueados, es indiferente cuál de ellos se desbloquea.<BR>
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/ada/acceder.ads">Objeto protegido</A>, 
+<A href="http://web.dit.upm.es/~aalonso/lprs/java/sept2004">java</A></P>
+<H3>19. Examen Junio 2005</H3>
+<P>Se tiene un sistema tolerante a fallos compuesto por tres procesos 
+redundantes, con identificadores: p1, p2, p3, que realizan la misma operación. 
+Un proceso controlador se encarga de comprobar que los resultados que producen
+ coinciden. Este proceso debe detectar si alguno de ellos ha fallado y, en
+ consecuencia, ha producido un resultado diferente al de los otros. </P>
+<P>Un objeto protegido (Valida Datos) se encarga de sincronizar a los procesos
+ redundantes y al controlador. Cuando un proceso x produce un resultado, lo
+ escribe en el objeto protegido mediante la operación "Insertar_Dato_x". El
+ proceso controlador comprueba si los resultados son correctos, mediante la
+ operación Comprobar Datos, en la que debe esperar a que los tres procesos hayan 
+escrito el valor. Si se produce un error, esta operación indica esta situación y 
+el identificador del proceso erróneo. Entonces, el proceso controlador aborta a 
+este proceso y crea un sustituto con el mismo identificador. Estas dos 
+operaciones se realizan fuera del objeto protegido  y no es necesario 
+programarlas. </P>
+<P>Se pide desarrollar el objeto protegido descrito, cuya especificación 
+ parcial es: </P><B>type</B> T_Proceso <B>is</B> (p1, p2, 
+p3);<BR><B>protected</B> Valida_Datos <B>is</B><BR>. . . Insertar_Dato_1 (Valor 
+: <B>in</B> Integer);<BR>. . . Insertar_Dato_2 (Valor : <B>in</B> Integer);<BR>. 
+. . Insertar_Dato_3 (Valor : <B>in</B> Integer);<BR>. . . Comprobar_Datos (Error 
+: <B>out</B>                       Boolean; Proceso : <B>out</B> 
+T_Proceso);<BR><B>private</B><BR>. . .<BR><B>end</B>;<BR>
+<P>Notas: 
+<UL>
+  <LI>Se supone que no puede fallar más de un proceso en cada iteración. </LI>
+  <LI>Dado el comportamiento descrito del proceso controlador, siempre habrá 
+  tres procesos redundantes activos con los identificadores descritos 
+  previamente. </LI></UL>
+<P></P>Soluciones: <A href="http://web.dit.upm.es/~aalonso/lprs/ada/jun_2005.ads">Objeto 
+protegido</A> <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/validaDatos">java</A>
+<P></P>
+<H3>20. Examen Septiembre 2005</H3>
+<P>Un aparcamiento de coches tiene una salida y dos entradas (Norte y Sur). Los 
+coches pueden entrar si hay plazas libres. Si está lleno, no podrá entrar un 
+coche hasta que otro haya salido. En este caso, si hay coches esperando en las 
+dos entradas, hay que alternar la entrada seleccionada. </P>
+<P>Se debe desarrollar un objeto protegido que implemente este protocolo de 
+gestión. Se supone que los coches se modelan mediante procesos. El objeto 
+protegido proporciona tres operaciones: <nl></nl>
+<LI>"Entrar_Aparcamiento_Norte", "Entrar_Aparcamiento_Sur": los procesos llaman 
+a esta operación cuando quieren entrar por la entrada Norte o Sur 
+repectivamente. Cuando el aparcamiento está lleno, los procesos se deben quedar 
+bloqueados en el objeto protegido hasta que se les permita entrar. </LI>
+<LI>"Salir_Aparcamiento": los procesos llaman a esta operación cuando quieren 
+salir del aparcamiento. </LI>
+<P>El perfil del objeto protegido es:  </P>&nbsp;-- Capacidad del 
+aparcamiento<BR> &nbsp;Capacidad : <B>constant</B> Integer := 50;<BR>  
+&nbsp;<B>type</B> Tipo_Entrada is (Norte, Sur); <BR><BR>
+&nbsp;&nbsp;<B>protected</B> Gestor_Aparcamiento <B>is</B> <BR> 
+&nbsp;&nbsp;&nbsp;&nbsp;. . . Entrar_Aparcamiento_Norte; <BR> 
+&nbsp;&nbsp;&nbsp;&nbsp;. . . Entrar_Aparcamiento_Sur; <BR> 
+&nbsp;&nbsp;&nbsp;&nbsp;. . . Salir_Aparcamiento; <BR> 
+&nbsp;&nbsp;<B>private</B> <BR> &nbsp;&nbsp;&nbsp;&nbsp;. . . <BR> 
+&nbsp;<B>end</B> Gestor_Aparcamiento;<BR>
+<P>Nota: Dentro de un objeto protegido con punto de entrada de nombre E, la 
+expresión E'Count devuelve el número de procesos actualmente bloqueados 
+esperando a ejecutar el código del punto de entrada E. </P>
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/ada/sept_2005.ads">Objeto 
+protegido</A>, <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/sept2005">java</A></P>
+<H3>21. Examen Junio 2006 </H3>
+<P>Se quiere desarrollar un sistema de seguridad que impida que un puente cargue 
+más de 15.000 Kg y no haya simultáneamente más de 10 vehículos atravesándolo. 
+</P>
+<P>Cuando un vehículo quiere entrar en el puente, ejecuta el método
+ entrarPuente. Cuando abandona el puente, ejecuta el método salirPuente. Ambos
+ métodos tienen como argumento el peso del vehículo correspondiente. El primer
+ método, además, tiene un argumento booleano que indica si el vehículo es una
+ ambulancia. El perfil de estas operaciones:  <nl></nl>
+<LI>                                       ... void entrarPuente(int Peso, 
+boolean esAmbulancia)  </LI>
+<LI>... void salirPuente(int Peso)  </LI>
+<P>Un vehículo no recibirá permiso para entrar en el puente si dadas sus
+ características o el estado del mismo, se incumplen los requisitos de
+ seguridad. Además, las ambulancias tienen prioridad para acceder al puente
+ respecto al resto de los vehículos. </P>
+<P>Se debe desarrollar un monitor que proporcione las dos operaciones previas 
+ según se han descrito y que garantice exclusión mutua en el acceso a los datos
+ compartidos. </P>
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/junio2006">java</A></P>
+<H3>22. Examen Septiembre 2006 </H3>
+<P>Una oficina dispone de dos ventanillas y un sólo administrativo para atender 
+a los ciudadanos. Cuando un ciudadano llega, espera en una de las ventanillas,
+ hasta que le atiende (desbloquea) el administrativo.  El administrativo atiende
+ a un ciudadano y descansa. Si no hay ciudadanos esperando, espera a que llegue
+ alguno y le desbloquee. El administrativo atiende primero a un ciudadano de la
+ ventanilla en la que hay más esperando. Si hay igual número de ciudadanos, 
+puede elegir cualquier ventanilla para atender. </P>
+<P>Se pide desarrollar un monitor en Java u objeto protegido que sincronice a 
+los procesos ciudadano y al  administrativo, según la especificación anterior, 
+con las siguientes operaciones: </P><nl>
+<LI>EsperarVentanilla1: esta operación la ejecuta un proceso ciudadano cuando 
+quiere esperar en  la ventanilla 1.  </LI>
+<LI>EsperarVentanilla2: esta operación la ejecuta un proceso ciudadano cuando 
+quiere esperar en  la ventanilla 2.  </LI>
+<LI>AtenderCiudadano: esta operación la ejecuta el proceso administrativo cuando 
+va a atender a  un ciudadanos.  </LI></nl> 
+<P>No es necesario garantizar que el orden en que se atiende a los ciudadanos 
+coincide con el orden en que  llegan.  </P>
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/sept2006">java</A></P>
+<H3>23. Examen junio 2007 </H3>
+<P>Un sistema de fabricación tiene una línea de producción de piezas rojas y 
+otra de piezas azules, que almacena en dos cestos, uno para cada color, de 
+capacidad limitada. Además, hay un sistema de gestión automático de pedidos se 
+encarga de extraer de los cestos el número de piezas de cada color solicitado, y 
+empaquetarlas.</P>
+<P>Un computador controla estos sistemas y un monitor (GestorDePiezas) gestiona 
+el núumero de piezas almacenadas en los cestos. Hay una hebra asociada a cada 
+línea de producción. Cuando se completa la producción de una pieza, se almacena 
+en el cesto correspondiente y se activa la hebra correspondiente que, entre 
+otras acciones, incrementa el número de piezas utilizando un método del 
+monitor.</P>
+<P>Cada vez que se recibe un pedido, se crea una hebra encargada de gestionarlo. 
+Una de las acciones que realiza es solicitar al monitor el número de piezas 
+especificado en el pedido.  Se pide programar el monitor GestorDePiezas que 
+proporcione los siguientes métodos:</P>
+<UL>
+  <LI>añadirRoja y añadirAzul: Estos métodos no tienen parámetros. Los llama la 
+  hebra correspondiente cuando se produce una pieza nueva de un color
+   determinado. </LI>
+  <LI>solicitarPiezas (int SolRojas, int SolAzules): Este método indica el
+   número de piezas de cada color de un pedido.</LI></UL>El comportamiento del 
+monitor debe cumplir los siguientes requisitos:  
+<UL>
+  <LI>Cuando se llama a uno de los métodos que notifican que se ha añadido una 
+  pieza, se incrementa el contador de número de piezas correspondiente. </LI>
+  <LI>Si después de añadir la pieza el cesto está lleno, entonces se bloquea a 
+  la hebra hasta que se libere espacio. La consecuencia de este bloqueo es que 
+  no se seguirán produciendo piezas de ese color.</LI>
+  <LI>Cuando se recibe un pedido, se comprueba si hay piezas suficientes en el 
+  cesto. Si hay piezas, se actualizan los datos del monitor y la hebra continúa 
+  con el procesamiento del pedido. </LI>
+  <LI>Si no hay piezas suficientes, se bloquea a la hebra solicitante hasta que 
+  las haya.  </LI>Si hay una hebra que ha solicitado un pedido esperando a que 
+  se complete, las hebras que lleguen con pedidos nuevos se deben bloquear hasta 
+  que se haya satisfecho aquél. Entonces, se procesará uno  nuevo (no es 
+  necesario mantener ningún orden en el procesamiento de estos pedidos nuevos). 
+</UL>(NOTA: La implementación de este monitor con objetos protegidos de Ada
+ requiere el uso de la sentencia requeue) 
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/junio2007">java</A></P>
+<H3>24. Examen septiembre 2007 </H3>
+<P>Se quiere desarrollar un sistema para controlar la temperatura y el número de 
+personas que se encuentran en una sala de un museo. En condiciones normales, se 
+permiten 50 personas en la sala. Si la temperatura sube por encima de un umbral 
+(tUmbral = 30), se limita el número de personas a 35. Si cuando se detecta este 
+suceso el número de personas en la sala es mayor que 35, no es necesario
+ desalojarlas.</P>
+<P>Una hebra de control (ControlTemperatura) se encarga de controlar un sistema 
+de refrigeración que reduce la temperatura de la sala. Esta hebra se activa 
+cuando se detecta una temperatura mayor que el umbral.</P>
+<P>Se pide desarrollar un monitor (GestorSala) que sincronice a las hebras que 
+representan personas y a la hebra ControlTemperatura, de acuerdo a las 
+especificaciones previas. El monitor debe proporcionar los siguientes 
+métodos:</P>
+<UL>
+  <LI>entrarSala: se invoca cuando una persona quiere entrar en la sala. Al  
+  principio de este método se debe comprobar si la temperatura excede  el umbral 
+  y activar la hebra de control, si fuera necesario.</LI>
+  <LI>salirSala: se invoca cuando una persona quiere salir de la sala. En  este 
+  método no es necesario comprobar el valor de la  temperatura.</LI>
+  <LI>esperarARefrigerar: la hebra ControlTemperatura} invoca este método  
+  cuando está lista para realizar su función. Debe esperar a que la  temperatura 
+  sobrepase el umbral.</LI>
+  <LI>finRefrigerar: la hebra ControlTemperatura invoca este método cuando    
+  consigue que la temperatura esté por debajo del umbral.</LI></UL>
+<P>La temperatura de la sala se puede consultar invocando al método
+ valorTemperatura proporcionado por el objeto sensorT que devuelve un valor 
+entero.</P>
+<P>No es necesario garantizar que el orden de acceso a la sala coincide con el 
+orden de llegada a la puerta de entrada.</P>
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/sept2007">java</A></P>
+<H3>25. Examen junio 2008 </H3>
+<P>Escriba un monitor Java que represente un <TT>reloj</TT> y tenga tres
+ entradas: una para indicar que ha pasado un segundo, otra para leer el reloj 
+(horas, minutos y segundos, sin condiciones de carrera), y otra para esperar al 
+siguiente cambio de hora, es decir, a que los minutos y los segundos pasen a 
+valer cero. También debe tener un método para esperar a que pase el n-simo 
+cambio de hora. El esquema de la clase es el siguiente:</P><TT>public class 
+Tiempo {<BR>  public int hora;       <BR>  public int minuto;     <BR>   public 
+int segundo;<BR>}<BR><BR>public class Reloj extends Tiempo{<BR>            ...  
+<BR>...  void otro_segundo() {      // Sucede un nuevo segundo<BR>            
+...<BR>...  Tiempo lee()               // Lee el reloj<BR>            ...<BR>... 
+ void espera_hora()         // Espera el siguiente cambio de hora<BR>            
+...<BR>...  void espera_horas(int n)   // Espera el n-simo cambio de hora<BR>    
+        ...<BR>}<BR></TT> 
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/junio2008">java</A></P>
+<H3>26. Examen septiembre 2008 </H3>
+<P>Se quiere desarrollar un monitor (<TT>GestorEvento</TT>) para gestionar un 
+evento. Se considera que un evento es un objeto que puede estar en dos estados: 
+activo e inactivo. Una hebra controladora se encarga de notificar cuando el 
+evento cambia de valor. Las hebras cuya operación depende del evento pueden 
+solicitar bloquearse hasta que se produzca un número determinado de transiciones 
+del evento de activo a inactivo. Se debe asegurar que no se notifica un cambio 
+de estado del evento hasta que las hebras bloqueadas hayan actualizado su
+ estado, de acuerdo al cambio anterior.</P>
+<P>Se proporciona el esquema del monitor: </P><TT>public class GestorEvento<BR>
+{<BR>   . . . . <BR>   . . . . cambiarAActivo() . . .<BR>   . . . . 
+cambiarAInactivo() . . .<BR>   . . . . esperar(int NumOcurrencias) . . .<BR>
+}<BR></TT> El comportamiento de los métodos debe ser el siguiente: 
+<UL>
+  <LI>El método <TT>cambiarAActivo()</TT> lo invoca la hebra controladora para 
+  notificar un cambio en el estado del evento de inactivo a activo. 
+  <LI>El método <TT>cambiarAInactivo()</TT> lo invoca la hebra controladora para 
+  notificar un cambio en el estado del evento de activo a inactivo. 
+  <LI>El método <TT>esperar()</TT> lo invoca una hebra para esperar hasta que 
+  ocurran un determinado número de transiciones (NumOcurrencias) del estado del
+   evento de activo a inactivo. </LI></UL>
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/sept2008">java</A></P>
+<H3>27. Examen junio 2009 </H3>
+<P>Se quiere desarrollar un monitor para ordenar el acceso de un conjunto de 
+hebras a un recurso compartido. El enfoque se basa en un número de orden que 
+debe solicitar la hebra antes de intentar acceder al recurso. El monitor debe 
+asegurar que siempre accederá la hebra con el menor número. Este es el mismo 
+esquema que se emplea en los mercados, para determinar el siguiente cliente al 
+que se debe atender entre los que esperan.</P>
+<P>El monitor proporciona tres operaciones: 
+<UL>
+  <LI><TT> long solictarTurno()</TT>: Mediante esta operación, una hebra  
+  obtiente un número de orden para acceder al recurso. 
+  <LI><TT> void accederRecurso(long turno)</TT>: La hebra intenta acceder  al 
+  recurso, proporcionando al monitor el número de orden obtenido  previamente. 
+  La hebra quedará bloqueada en el monitor hasta que sea  su turno, es decir, 
+  cuando su número sea el menor entre las que  esperan para acceder al recurso. 
+  <LI><TT> void liberarRecurso()</TT>: Mediante este método, la hebra  indica al 
+  monitor que ha terminado de utilizar el recurso y que, por  tanto, éste queda 
+  libre. </LI></UL>
+<P></P>
+<P>El esquema de los hebras que acceden al menciondo recurso es:<BR><TT>. . 
+.<BR>&nbsp;&nbsp;MonitorOrden UnMonitorOrden = new MonitorOrden();<BR>
+&nbsp;&nbsp;long NOrden = 0;<BR>. . .<BR>while (true) {<BR>&nbsp;&nbsp;  . . . 
+<BR>&nbsp;&nbsp;  NOrden = unMonitorOrden.solicitarTurno();<BR>&nbsp;&nbsp;  . . 
+.<BR>&nbsp;&nbsp;  unMonitorOrden.accederRecurso(NOrden);<BR>&nbsp;&nbsp;  // 
+Uso del recurso<BR> &nbsp;&nbsp;  . . .<BR>&nbsp;&nbsp;  
+unMonitorOrden.liberarRecurso();<BR>&nbsp;&nbsp;  . . .<BR>} </TT> 
+<P>Notas:  
+<UL>
+  <LI><TT> solitarTurno</TT> emplea internamente un método llamado <TT>  
+  númeroSiguiente()</TT> que devuelve un número entero mayor que el obtenido en 
+  la invocación previa del mismo. No es necesario implementar este método. 
+  <LI> No es necesario considerar el caso de una hebra que aún no ha  invocado 
+  <TT> accederRecurso</TT> cuando es su turno, de acuerdo al  número de orden 
+  asignado. </LI></UL>
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/junio2009/src">java</A></P>
+<H3>28. Examen septiembre 2009 </H3>
+<P>Se tiene un sistema compuesto por un conjunto inicial de N hebras, que con un 
+periodo constante leen datos de entrada desde sensores diferentes y realizan un 
+determinado cálculo con ellos. Se quiere desarrollar un monitor que permita 
+identificar a las hebras que funcionen incorrectamente. La detección se basa en 
+el cálculo de un valor promedio a partir de todos los resultados obtenidos por 
+las hebras activas en la misma iteración. Aquellas hebras cuyo valor calculado 
+difiera en más del 10 % del valor promedio, se consideran erróneas y deben 
+terminar su ejecución. Hay que tener en cuenta que cuando una hebra es errónea, 
+nunca volverá a invocar al monitor.</P>
+<P>Se pide desarrollar el monitor <TT>validarResultado</TT> para sincronizar la 
+ejecución de las hebras. Éste proporciona el método \texttt{esResultadoErroneo}, 
+que determina si el resultado es erróneo y, por tanto, la hebra correspondiente 
+también lo es. Este método debe asegurar que el valor promedio se calcule con 
+los valores proporcionados por las hebras activas (aquellas que no son
+ incorrectas) en la misma iteración.</P>
+<P>El esquema del monitor pedido es el siguiente:<BR></P><TT>public class 
+validarResultado {<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;        int nHebrasIniciales = 
+20;<BR>&nbsp;&nbsp;&nbsp;&nbsp;        int [] valores = new 
+int[nHebrasIniciales];<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           . . . . 
+.<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;private int calcularPromedio (int[] losValores) 
+{<BR>&nbsp;&nbsp;&nbsp;&nbsp;// No es necesario implementar este método<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;              . . . . .<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;}<BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;. . . . boolean 
+esResultadoErroneo (int valor) . . .  {<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;. 
+. . . . 	<BR>&nbsp;&nbsp;&nbsp;&nbsp;}<BR>}<BR></TT> 
+<P>A continuación se proporciona un esquema de las hebras, con objeto de
+ comprender más fácilmente su comportamiento. No es necesario proporcionar el 
+código de las mismas.</P><TT>public class hebraCalculadora extends Thread{<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;  . . .<BR>&nbsp;&nbsp;   public void run() {<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;      int valor = 0;<BR>&nbsp;&nbsp;&nbsp;&nbsp;        
+. . .<BR>&nbsp;&nbsp;&nbsp;&nbsp;      do {<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            
+esperarInicioSiguienteIteracion()<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        
+    datos = leerDatos()<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            valor 
+= calcularValor(datos);}<BR>&nbsp;&nbsp;&nbsp;&nbsp;            
+while(!monitorValidarResultado.esResultadoErroneo(valor))<BR>&nbsp;&nbsp;        
+ }<BR>}<BR></TT> 
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/sept2009">java</A></P>
+<H3>29. Examen junio 2010 </H3>
+<P>Un sistema está compuesto por un conjunto de hebras que toman medidas de una 
+magnitud física. Estas medidas solo son útiles durante un intervalo de tiempo 
+que llamaremos ciclo, durante el cuál cada hebra toma una sola medida. Otra 
+hebra, llamada gestora, determina cuando empieza y termina un ciclo. La hebra 
+que durante un ciclo haya tomado el valor más alto, deberá hacer una serie de 
+operaciones adicionales (fuera del monitor).</P>
+<P>Se pide desarrollar un monitor que seleccione la hebra con la medida mayor 
+durante un ciclo. Cuando las hebras leen un valor, invocan el método 
+<TT>notificarValor</TT>. El monitor debe proporcionar los siguientes 
+métodos:</P>
+<UL>
+  <LI><TT>inicioCiclo</TT> : La hebra gestora invoca este método para  indicar 
+  el inicio de un ciclo. A partir del momento en que se  notifica el ciclo, se 
+  debe considerar los valores de las hebras, para  la selección del mayor.  Si 
+  cuando se notifica el inicio de un ciclo hay hebras en el monitor  del ciclo 
+  anterior, se debe bloquear a la hebra gestora hasta que  abandonen del 
+  monitor. 
+  <LI><TT>finCiclo</TT> : La hebra gestora invoca este método para indicar  el 
+  final de un ciclo. Como consecuencia, hay que desbloquear a la  hebra que haya 
+  leido el valor mayor. 
+  <LI><TT>notificarValor</TT> : Una hebra invoca este método para  notificar el 
+  valor leido. Si no ha comenzado un ciclo, el valor  proporcionado no se 
+  considerará. Si ha comenzado un ciclo, se debe  comprobar si el valor 
+  proporcionado es el mayor. Si es así, se debe  bloquear a la hebra hasta el 
+  final del ciclo y permitir continuar a  la hebra que tuviera el mayor valor 
+  con anterioridad. Este método  sólo devuelve <TT>true</TT>  a la hebra que 
+  haya proporcionado  el valor más alto en un ciclo. En el resto de los casos, 
+  se debe  retornar el valor <TT>false</TT> , bien por que se esté fuera de  un 
+  ciclo o por que la hebra no haya leido el valor mayor. </LI></UL>
+<P>Supóngase que las hebras en un ciclo nunca leen exactamente el mismo valor. 
+El monitor a desarrollar debe seguir el siguiente esquema:</P><TT>
+&nbsp;&nbsp;public class gestorHebras {<BR>&nbsp;&nbsp;&nbsp;&nbsp;. . . .<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;. . . . void inicioCiclo () . . .<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;. . . . void finCiclo() . . . <BR>&nbsp;&nbsp;. . . . 
+boolean notificarValor (int elValor) . . .<BR>&nbsp;&nbsp;}<BR></TT> 
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/junio2010/src">java</A></P>
+<H3>30. Examen setiembre 2010 </H3>
+<P>En una mina se quiere controlar el nivel de agua que se acumula mediante una 
+bomba de achique. Una hebra accede a un sensor para conocer cuál es el nivel de 
+agua en la mina. Si es mayor que un valor umbral (<TT>UmbralSuperiorAgua</TT>) 
+se debe activar el motor. Cuando el nivel sea menor que un valor umbral 
+(<TT>UmbralInferiorAgua</TT>), se deberá detener.</P>
+<P>El estado del motor también depende del volumen de gas metano que se acumula 
+en la mina. Una hebra accede a un sensor para conocer el volumen de metano de la 
+mina. Si el volumen de gas es mayor que un umbral (<TT> 
+UmbralSuperiorMetano</TT>), no se podrá tener el motor funcionado, 
+independientemente del nivel de agua, ya que sería peligroso.</P>
+<P>El motor lo controla una hebra, a la que se le indica si hay que enceder o 
+apagar el mismo.</P>
+<P>Se debe desarrollar el monitor <TT>GestorMina</TT> de acuerdo con el 
+comportamiento descrito previamente y con los siguientes métodos:</P>
+<UL>
+  <LI><TT> ... void notificarNivelMetano(int nivelMetano)...</TT>: La hebra 
+  correspondiente notifica al monitor la última lectura del volumen de mentano 
+  en la mina. 
+  <LI><TT> ... void notificarNivelAgua(int nivelAgua)...</TT>: La hebra
+   correspondiente notifica al monitor la última lectura del nivel de agua. 
+  <LI><TT> ... EstadoMotor obtenerAcciónMotor() ...</TT>: La hebra
+   correspondiente accede al monitor para saber cuál debe ser el estado del 
+  motor. Esta hebra se debe bloquear en el monitor hasta que el estado del motor 
+  deba cambiar. </LI></UL>
+<P> Nota: Declaración de <TT> EstadoMotor</TT>: <TT>public enum EstadoMotor 
+{motorParado, motorFuncionando}</TT></P>
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/sept2010/src">java</A></P>
+<H3>31. Examen junio 2011 </H3>
+<P>Se quiere desarrollar un monitor para ordenar el acceso de un conjunto de 
+hebras a un recurso compartido. El enFoque se basa en un número de orden que 
+debe solicitar la hebra antes de intentar acceder al recurso. El monitor 
+mantiene una variable (<TT>siguienteHebra</TT>) con el valor del número de la 
+siguiente hebra que debe entrar. Éste es un esquema similar al que se emplea en 
+los mercados, para determinar el siguiente cliente al que se debe atender.</P>
+<P>Cuando la hebra quiere acceder al recurso, llama al método pertinente, en el 
+que se quedará bloqueada hasta que llegue su turno. En estas condiciones, es 
+posible que ocurra un bloqueo indefinido si una de las hebras que ha solicitado 
+un número nunca intenta acceder al recurso. </P>
+<P>Para evitar esta situación, se emplea un temporizador, que se activa cuando: 
+a) finaliza una operación y hay hebras bloqueadas; b) expira el temporizador y 
+hay hebras bloqueadas; c) una hebra entra en el monitor, no es su turno y no hay 
+otras hebras esperando.</P>
+<P>El temporizador se cancela cuando la hebra a la que corresponde el turno 
+accede al recurso.</P>
+<P>Si el temporizador expira, se incrementa el valor de la variable de turno del 
+monitor (<TT>siguienteHebra</TT>). La hebra a la que se le ha pasado el turno no 
+podrá acceder al recurso con ese número.</P>
+<P>Se pide desarrollar el monitor <TT>GestorTurno</TT> (se muestra un esquema 
+del mismo) de forma que gestione el turno de acceso de un conjunto de hebras a 
+un recurso compartido, según la descripción previa. El monitor debe proporcionar 
+los siguientes métodos:</P>
+<UL>
+  <LI><TT>long solicitarTurno()</TT>: Mediante esta operación, una hebra  
+  obtiente un número de orden para acceder al recurso. 
+  <LI><TT>void accederRecurso(long turno)</TT>: La hebra intenta acceder al  
+  recurso, proporcionando al monitor el número de orden obtenido  previamente. 
+  La hebra quedará bloqueada en el monitor hasta que sea  su turno, es decir, 
+  cuando su número coincida con el número de turno  que mantiene el monitor. 
+  <LI><TT>void liberarRecurso()</TT>: Mediante este método, la hebra indica al  
+  monitor que ha terminado de utilizar el recurso y que, por tanto,  éste queda 
+  libre. 
+  <LI><TT>void notificarExpiracion()</TT>: El objeto de la clase <TT>    
+  Temporizador</TT> llama a este método automaticamente cuando expira el  
+  temporizador que hemos armado. </LI></UL><TT>public class GestorTurno {<BR>
+&nbsp;&nbsp;    private Temporizador temp   = new Temporizador (this);<BR>
+&nbsp;&nbsp;    private long valorArmadoTemporizador   = 5000; 
+//Milisegundos<BR>&nbsp;&nbsp;    private long ultimaHebra               = 
+0;<BR>&nbsp;&nbsp;    private long siguienteHebra            = 0;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;       . . . . .<BR>&nbsp;&nbsp;    .... long 
+solicitarTurno() {		<BR>&nbsp;&nbsp;&nbsp;&nbsp;		ultimaHebra ++; return 
+ultimaHebra;}<BR>&nbsp;&nbsp;    .... void accederRecurso(int miTurno) { . . . . 
+}<BR>&nbsp;&nbsp;    .... void liberarRecurso() { . . . . }<BR>&nbsp;&nbsp;    
+.... void notificarExpiracion () { . . . . }<BR>}<BR></TT> 
+<P>Se supone que las hebras nunca llaman a <TT>accederRecurso</TT> sin haber 
+llamado antes a <TT>solicitarTurno</TT>. Además, siempre realizan la llamada con 
+el turno que han recibido. Sin embargo, puede haber hebras que soliciten turno y 
+nunca accedan al recurso.</P>
+<P>A continuación se muestra un esquema de la clase <TT>Temporizador</TT>,
+ únicamente para saber la interfaz de la misma. No hay que desarrollarla. 
+</P><TT>public class Temporizador {<BR>&nbsp;&nbsp;   public Temporizador 
+(GestorTurno objeto) { .... }<BR>&nbsp;&nbsp;   public void 
+armarTemporizador(long millis) { .... }<BR>&nbsp;&nbsp;   public void 
+cancelarTemporizador () { .... }<BR>}<BR></TT> 
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/junio2011">java</A></P>
+<H3>32. Examen setiembre 2011 </H3>
+<P>Se quiere desarrollar un sistema de gestión de subastas. Una sesión de
+ subasta está compuesta por un conjunto de lotes. Los lotes se identifican 
+mediante un número natural y se les asignan números consecutivos. Al iniciar la 
+subasta de un lote, se fija un precio. La subasta del lote se completa cuando se 
+produce una puja por esta cantidad o cuando el gestor decide finalizarla. La 
+oferta con mayor valor obtendrá el lote.</P>
+<P>Para realizar este sistema se quiere desarrollar un monitor
+ (<TT>GestorSubasta</TT>) que sincronice a la hebra gestora y a un conjunto de 
+hebras compradoras. La hebra gestora inicia y puede finalizar la subasta de un 
+lote. Las hebras compradoras pueden realizar ofertas por un lote. El monitor 
+proporciona las siguientes operaciones:</P>
+<UL>
+  <LI><TT> ... void IniciarSubastaLote(int precio)</TT>: Se inicia el
+   procedimiento de subasta de un lote. Cuando se inicia una nueva subasta, el 
+  monitor incrementa automaticamente el número del lote. 
+  <LI><TT> ... void FinalizarSubastaLote()</TT>: Se termina la subasta de un 
+  lote. A partir de este momento, no se admitirán nuevas pujas para este lote. 
+  El lote se asigna a la hebra compradora que haya ofrecido el valor mayor. 
+  <LI><TT> ... boolean PujarLote(int lote, int oferta)</TT>: Este método lo 
+  invocan las hebras compradoras para pujar por un artículo. Las ofertas sobre 
+  lotes cuya subasta haya finalizado, se desechan de inmediato y se retorna el 
+  valor <TT>false</TT>. Si el número de lote en la invocación es mayor que el 
+  lote actual, se debe bloquear a la hebra hasta que se inicie la subasta del 
+  lote indicado en la invocación.<BR>El monitor mantiene bloqueada a la primera 
+  hebra que haya realizado la mayor oferta al lote actual. Las hebras que hayan 
+  realizado una oferta menor o igual a la máxima, deben salir del monitor y 
+  retornar el valor <TT>false</TT>. Cuando se finaliza la subasta, la hebra que 
+  haya realizado en primer lugar la puja más alta se desbloquea y recibe el
+   valor <TT>true</TT>. </LI></UL>
+<P>Soluciones: <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/sept2011/src">java</A></P>
+<H3>32. Examen junio 2012 </H3>
+<P>Los aviones al despegar generan turbulencias, por lo que entre dos despegues 
+consecutivos tiene que transcurrir un intervalo de tiempo mínimo. Se tiene un 
+aeropuerto del que despegan aviones normales y aviones VIP. Los aviones VIP 
+tienen preferencia, pero no pueden despegar dos aviones VIP consecutivamente 
+mientras haya aviones de otro tipo esperando. El intervalo de despegue entre dos 
+aviones es de dos minutos.</P>
+<P>Se pide desarrollar un monitor ({\tt\small GestorDespegue}) que gestione el 
+despegue de los aviones según la especificación previa. Un avión que solicita 
+despegar debe permanecer bloqueado en el monitor hasta que tenga permiso. El 
+monitor debe proporcionar los siguientes métodos:</P>
+<UL>
+  <LI><TT>void despegarAvion()</TT>: Este método lo invoca un avión cuando
+   quiere despegar. 
+  <LI><TT> void despegarAvionVIP()</TT>: Este método lo invoca un avión VIP
+   cuando quiere despegar. 
+  <LI><TT>void finTemporizador()</TT>: Este método se invoca para indicar que el 
+  intervalo de tiempo de espera entre dos aviones ha concluido. </LI></UL>
+<P>Para gestionar este intervalo de tiempo, se dispone de una clase <TT> 
+Temporizador</TT>, con el interfaz que se muestra a continuación. El método <TT> 
+armarTemporizador</TT> arma un temporizador. Cuando expira, se invoca al método 
+<TT>finTemporizador</TT> del objeto de la clase <TT> GestorDespegue </TT> que se 
+pasa en el constructor. No es necesario desarrollar esta clase.</P><TT>public 
+class Temporizador {<BR>   public Temporizador(GestorDespegue unGestor) {. . 
+.}<BR>   public void armarTemporizador(int numeroMinutos) {. . .}<BR>	} </TT> 
+<P>Soluciones <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/junio2012">java</A></P>
+<H3>33. Examen setiembre 2012 </H3>Se tiene un edificio con 20 plantas y cuatro 
+ascensores. En cada planta hay un pulsador para solictar un ascensor. Cuando una
+ persona solicita un ascensor desde una planta, el ascensor libre más cercano 
+será el que deba acudir a la llamada. Si todos los ascensores están ocupados, la 
+petición queda bloqueada hasta que quede uno libre. Los ascensores se 
+identifican con valores enteros en el rango 0..3. Se pide desarrollar un monitor 
+(<TT> GestorAscensores</TT>) que gestione las solicitudes de un ascensor desde 
+los pulsadores de las plantas y que proporcione las siguientes operaciones. 
+<UL>
+  <LI><TT> void solicitarAcensor(int piso)</TT>: las personas invocan este
+   método para solicitar un ascensor desde la planta identificada por el
+   parámetro. La hebra llamante queda bloqueada hasta que haya un ascensor libre 
+  que satisfaga su petición. 
+  <LI><TT> int notificarAscensorLibre(int ascensor, int piso)</TT>: Un ascensor 
+  invoca este método cuando está libre. Los parámetros indican el identificador 
+  del ascensor y el piso en el que se encuentra. La hebra correspondiente queda 
+  bloqueada en el monitor hasta que sea solicitado. Este método retorna el 
+  entero que identifica la planta a la que el ascensor debe desplazarse. 
+</LI></UL>Notas: 
+<UL>
+  <LI>No es necesario tratar las peticiones en el orden en el que llegan. 
+  <LI>Supóngase que nunca hay más de una petición desde la misma planta. 
+  <LI>Nótese que el monitor solicitado gestiona las peticiones de ascensores
+   desde el exterior de los mismos y no trata las órdenes a los ascensores desde 
+  los botones interiores, que serían gestionadas por otros componentes de 
+  software </LI></UL>
+<P>Soluciones <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/sept2012">java</A></P>
+<H3>34. Examen diciembre 2012 </H3>Un sistema está compuesto por un conjunto de 
+hebras cliente, que tienen trabajos pendientes, y hebras trabajadoras, que 
+llevan a cabo estos trabajos. Las hebras trabajadoras tienen asignada una 
+prioridad, que está asociada a la rapidez con la que completan sus encargos. Los
+ trabajos son objetos de la clase <TT> Actividad</TT>. Se pide desarrollar el 
+monitor <TT> GestorActividades</TT>, con los siguientes métodos: 
+<UL>
+  <LI><TT> ... Actividad solicitarActividad(int prioridad)</TT>:  Este método lo 
+  ejecutan las hebras trabajadoras que quieren  solicitar una actividad. Si no 
+  hay actividades pendientes, deben  esperar hasta que las haya. En el monitor, 
+  no deben esperar más de  tres hebras. A las hebras que invoquen este método 
+  cuando se cumpla  esta condición se les debe retornar el valor <TT> null</TT>. 
+   La hebra trabajadora a la que se le asigna una actividad debe ser la  más 
+  prioritaria entre las que están esperando. 
+  <LI><TT> ... void proporcionarActividad(Actividad  actividad)</TT>: Este 
+  método lo invocan las hebras cliente cuando tienen  una actividad pendiente. 
+  Si no hay hebras trabajadoras  en el monitor, la hebra cliente debe esperar 
+  hasta que llegue alguna  y se le asigne una actividad. </LI></UL> No es 
+necesario implementar la clase <TT> Actividad</TT>. Supóngase que en la clase 
+<TT> GestorActividades</TT> están definidos los siguientes métodos privados: 
+<UL>
+  <LI><TT> private int incluirHebra(int prioridad, int[] colaHebras)</TT>: Este 
+  método incluye un valor entero en una posición vacía de un array de enteros y 
+  retorna la posición en la que lo ha añadido. 
+  <LI><TT> private int obtenerPosicionMax(int[] colaHebras)}:</TT> Retorna la 
+  posición del valor mayor almacenado en el array. </LI></UL>
+<P>Soluciones <A 
+href="http://web.dit.upm.es/~aalonso/lprs/java/dic2012">java</A></P></BODY></HTML>

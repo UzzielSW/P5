@@ -1,0 +1,52 @@
+
+
+package clases;
+
+public class getData
+{
+	public String n,a,c,p;
+	
+	public double m;
+	
+	double d,r;
+	
+	/////////////////////////////////////////////////////////////////////////
+	
+	public void getSesionData(String n,String p)
+	{
+		this.n = n;
+		
+		this.p = p;
+	}
+	
+	////////////////////////////////////////////////////////////////////////
+	
+	public void getPersonalData(String n,String a,String c,String p,double m)
+	{
+		this.n = n;
+		
+		this.a = a;
+		
+		this.c = c;
+		
+		this.p = p;
+		
+		this.m = m;
+	}
+	
+	/////////////////////////////////////////////////////////////////////////
+	
+	public void getDeposit(double d)
+	{
+		this.d = d;
+	}
+	
+	/////////////////////////////////////////////////////////////////////////
+	
+	public void getWithdraw(double r)
+	{
+		this.r = r;
+	}
+	
+	/////////////////////////////////////////////////////////////////////////
+}

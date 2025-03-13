@@ -1,0 +1,51 @@
+/**
+ * @(#)Procedural.java
+ *
+ *
+ * @author Prof. Alvaro Pino N.
+ * @version 1.00 2007/1/6
+ */
+
+public class Procedural {
+	
+	private int myNum;
+	
+        
+    /**
+     * Creates a new instance of <code>Procedural</code>.
+     */
+    public Procedural(int myNum) {
+    	this.myNum = myNum;
+    }
+    
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        Procedural a = new Procedural(1);
+        Procedural b = new Procedural(2);
+        
+        a.run();
+        b.run();
+        try{
+        	Thread.sleep((int) (Math.random() * 100));
+        	System.out.println("in main");
+        	Thread.sleep((int) (Math.random() * 100));
+        	System.out.println("in main");
+        }catch(InterruptedException e){
+        }
+    }
+    
+    public void run() {
+    	try{
+    		Thread.sleep((int) (Math.random() * 100));
+        	System.out.println("in run, myNum = " + myNum);
+        	Thread.sleep((int) (Math.random() * 100));
+        	System.out.println("in run, myNum = " + myNum);
+    	}catch(InterruptedException e){
+        }
+    }
+ }
+

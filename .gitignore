@@ -1,0 +1,7 @@
+*.class
+# *.jar
+.vscode
+# *.txt
+# *.MF
+*.ini
+*.rar
